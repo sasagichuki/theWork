@@ -1,0 +1,13 @@
+body{
+	background: #FFF;
+}
+.navbar-fixed-top{
+	background: #000;
+	padding: 2em 1em;
+}
+.navbar-nav{
+	float: right; 
+}
+.navbar-nav li a{
+	color: white;
+}
