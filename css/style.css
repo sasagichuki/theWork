@@ -1,3 +1,4 @@
+
 body{
 	/*background: #000;*/
 	font-family: ;
@@ -91,14 +92,15 @@ body{
 
 #performance h1{ 
 	color:  green;
-	font-size: 3.8em;
+	font-size: 5em;
 	font-weight: bold;
-	text-align: center;
+	text-align: left;
 	padding: 2px;
-	margin-bottom: 3em;
+	margin-bottom: 1em;
 }
 
 #performance-paragraph p{
+	font-family: Open sans 'Comfortaa';
 	font-size: 17px;
 	text-align: left;
 	padding: 4px 6%;
