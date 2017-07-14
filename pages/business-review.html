@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Safaricom | Annual Report</title>
+  <meta charset="UTF-8" />
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <link rel="icon" type="image/x-icon" href="../img/safaricom.ico">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" type="text/css" href="../css/wall.css">
+
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0,initial-scale=1.0">
+</head>
+<body>
+  <!-- start my header-->
+<header id="header">
+<div class="row">
+
+<nav class="navbar navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="col-md-4">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+
+      <a class="navbar-brand" href="#">
+      <div id="brand">
+      <img src="../img/logo.png" class="img-responsive">
+      </div>
+      </a>
+    </div>
+</div>
+
+<div class="col-md-4 col-sm-3 col-xm-4">
+<div id="heading">
+<h1>Annual Report</h1>
+</div>
+</div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="col-md-4">
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">HIGHLIGHTS<span class="sr-only">(current)</span></a></li>
+        <li><a href="#">STRATEGIC REVIEW</a></li>
+        <li><a href="pages/business-review.html">BUSINESS REVIEW</a></li>
+        <li><a href="#">FINACIAL REVIEW</a></li>
+      </ul>
+
+    </div><!-- /.navbar-collapse -->
+  </div>
+
+  </div><!-- /.container-fluid -->
+</nav>
+
+</div><!--row header-->
+  <div role="main" class="viewport">
+    <div class="demo">
+      <div class="GITheWall">
+        <ul>
+          <li data-contenttype="ajax" data-href="wall-content/what-we-do.html">
+            <img src="../img/wall/box/what-we-do.jpg" class="img-responsive">
+          </li>
+          <li data-contenttype="ajax" data-href="wall-content/what-we-offer.html">
+            <img src="../img/wall/box/what-we-offer.jpg" class="img-responsive">
+          </li>
+          <li data-contenttype="ajax" data-href="wall-content/leadership.html">
+            <img src="../img/wall/box/leadership.jpg" class="img-responsive">
+          </li>
+          <li data-contenttype="ajax" data-href="wall-content/corporate-governance.html">
+            <img src="../img/wall/box/corporate-governance.jpg" class="img-responsive">
+          </li>
+          <li data-contenttype="ajax" data-href="wall-content/risk-management.html">
+            <img src="../img/wall/box/risk-management.jpg" class="img-responsive">
+          </li>
+          <li data-contenttype="ajax" data-href="wall-content/brand-assets.html">
+            <img src="../img/wall/box/brand-assets.jpg" class="img-responsive">
+          </li>
+          <li data-contenttype="ajax" data-href="wall-content/our-people.html">
+            <img src="../img/wall/box/our-people.jpg" class="img-responsive">
+          </li>
+          <li data-contenttype="ajax" data-href="wall-content/true-value.html">
+            <img src="../img/wall/box/true-value.jpg" class="img-responsive">
+          </li>
+          <li data-contenttype="ajax" data-href="wall-content/sustainability.html">
+            <img src="../img/wall/box/sustainability.jpg" class="img-responsive">
+          </li>
+
+
+        </ul>
+      </div>
+    </div>
+
+  </div>
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="../js/wall.js"></script>
+  <script>
+
+    var wall = $('.GITheWall').GITheWall({
+        nextButtonClass: 'fa fa-arrow-right',
+        prevButtonClass: 'fa fa-arrow-left',
+        closeButtonClass: 'fa fa-times'
+    });
+
+    girlboyImg = new Image();
+    girlboyImg.src = "../img/wall/pages/what-we-do.jpg";
+
+  </script>
+</body>
+</html>
