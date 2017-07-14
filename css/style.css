@@ -287,21 +287,23 @@ hr{
 	padding: 2% 5%;
 }
 
-.sideBar li p a{
+.sideBar ul li a{
+	list-style-type: none;
+}
+.sideBar li a{
 	display: block;
 	padding: 1.5em 1.5em;
 	text-decoration: none;
 	background: #000;
-	border-radius: 0 20px 20px 0;
 	color: white;
 	font-size: 18px;
 	border: solid 1px green;
 }
-.sideBar li p a:hover{
+.sideBar li a:hover{
 	color: green;
 	border: solid 1px green;
 }
-.sideBar li p a.active{
+.sideBar li a.active{
 	color: green;
 }
 /* side nav */
@@ -320,8 +322,8 @@ hr{
 
 .customers p{
 	color: #000;
-	font-size: 16px;
+	font-size: 18px;
 	text-align: left;
-	padding: 2px 3em;
-	width: 100%;
+	padding: 1em 4em;
+	max-width: 100%;
 }
