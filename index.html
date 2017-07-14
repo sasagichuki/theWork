@@ -4,7 +4,8 @@
 	<title>safaricom | Annual Report</title>
 
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 	<!--bootstrap links-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<!-- optional theme-->
@@ -12,7 +13,7 @@
 
 	<link rel="shortcut icon" href="img/safaricom.ico" type="image/x-icon">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 </head>
@@ -65,121 +66,65 @@
 </header><!-- /header -->
 
 <!--banner image-->
-<section id="bannerArea">
-<div class="row">
-<div class="col-md-12 col-lg-12 col-sm-8">
-	<div id="myCarousel" class="carousel slide" data-ride="carousel">
 
+	<div id="slider" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#slider" data-slide-to="0" class="active"></li>
+    <li data-target="#slider" data-slide-to="1"></li>
+    <li data-target="#slider" data-slide-to="2"></li>
+    <li data-target="#slider" data-slide-to="3"></li>
   </ol>
-
+ 
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
+		<div class="item active">
+			<img src="img/landing-page.jpg" alt="Small girl image" style="height: 900px; width: 100%;" class="img-responsive">
+				<div class="carousel-caption">
+					<h1>WHERE WE<br> WILL GO NEXT</h1>
 
-<!--ITEM 1-->
-    <div class="item active">
-      <img src="img/landing-page.jpg" style="height: 835px; width: 100%;" alt="" class="img-responsive">
-
-
-<div class="container">
-<div class="row"><!--inner row /holds the bannertext-->
-<div class="col-md-12 col-sm-8 col-xm-6">
-	<div class="slide-text">
-		<h1>WHERE WE WILL GO NEXT</h1>
-
-		<!--this is my paragraph-->
-		<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-
-	</div>
-</div>
-</div><!--inner row-->
-</div>
-    </div><!--item-->
-
-<!--ITEM 2-->
+					<p style="text-align:center">The Lorem Ipsum is a model text of the typographic and printing industry.<br> The Lorem Ipsum has been the standard text used by these industries since the year 1500 when one mixed the characters of a text to create.</p>
+				</div>
+		</div>
     <div class="item">
-      <img src="img/landing-page.jpg" style="height: 835px; width: 100%;" alt="" clas="img-responsive">
+      <img src="img/ceo.jpg" alt="Safaricom C.E.O (Bob Collymore)" style="height: 900px; width: 100%;" class="img-responsive">
+      <div class="carousel-caption">
+      	<h1>NCHI YETU,<br> STORI YETU</h1>
 
-<div class="container">
-<div class="row"><!--inner row /holds the bannertext-->
-<div class="col-md-12 col-sm-8 col-xm-6">
-	<div class="slide-text">
-		<h1>NCHI YETU, STORI YETU</h1>
+      	<p>The Lorem Ipsum is a model text of the typographic and printing industry. The Lorem Ipsum has been the standard text used by these industries since the year 1500 when one mixed the characters of a text to create a book specimen. This text not only survived 5 centuries, but also the leap into electronic typography, remaining essentially unchanged. The Lorem Ipsum is a model text of the typographic and printing industry. This text not only survived 5 centuries, but also the leap into electronic typography, remaining essentially unchanged.</p>
 
-		<!--this is my paragraph-->
-		<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-
-	</div>
-</div>
-</div><!--inner row-->
-</div><!--container-->
-
-    </div><!--item-->
-
-<!--ITEM 3-->
+			<div class="ceoLinks">
+      	<a href="#" title="">Read More</a>
+      </div>
+      </div>
+    </div>
     <div class="item">
-      <img src="img/landing-page.jpg" style="height: 835px; width: 100%;" alt="" clas="img-responsive">
+      <img src="img/chairman.jpg" alt="The chairman (Nicholas Nganga)" style="height: 900px; width: 100%;" class="img-responsive">
+      <div class="carousel-caption">
+      	<h1>CHAIRMAN'S<br> STATEMENT</h1>
 
-<div class="container">
-<div class="row"><!--inner row /holds the bannertext-->
-<div class="col-md-12 col-sm-8 col-xm-6">
-	<div class="slide-text">
-		<h1>CHAIRMAN'S STATEMENT</h1>
+      	<p>The Lorem Ipsum is a model text of the typographic and printing industry. The Lorem Ipsum has been the standard text used by these industries since the year 1500 when one mixed the characters of a text to create a book specimen. This text not only survived 5 centuries, but also the leap into electronic typography, remaining essentially unchanged. The Lorem Ipsum is a model text of the typographic and printing industry. This text not only survived 5 centuries, but also the leap into electronic typography, remaining essentially unchanged.</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/cfo.jpg" alt="Chief Financial Officer (Sateesh Kamath)" style="height: 900px; width: 100%;" class="img-responsive">
+      <div class="carousel-caption">
+      	<h1>A YEAR OF STRONG FINANCIAL PERFORMANCE</h1>
 
-		<!--this is my paragraph-->
-		<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-
-	</div>
-</div>
-</div><!--inner row-->
-</div>
-
-    </div><!--item-->
-
-<!--ITEM 4-->
-		<div class="item">
-      <img src="img/landing-page.jpg" style="height: 835px; width: 100%;" alt="" clas="img-responsive">
-
-<div class="container">
-<div class="row"><!--inner row /holds the bannertext-->
-<div class="col-md-12 col-sm-8 col-xm-6">
-	<div class="slide-text">
-		<h1>A YEAR OF STRONG FINANCIAL PERFORMANCE</h1>
-
-		<!--this is my paragraph-->
-		<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-
-	</div>
-</div>
-</div><!--inner row-->
-</div>
-
-    </div><!--item-->
-
-  </div><!--inner carousel-->
-
-
-
-		<!-- Left and right controls -->
-  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      	<p>The Lorem Ipsum is a model text of the typographic and printing industry. The Lorem Ipsum has been the standard text used by these industries since the year 1500 when one mixed the characters of a text to create a book specimen. This text not only survived 5 centuries, but also the leap into electronic typography, remaining essentially unchanged.The Lorem Ipsum is a model text of the typographic and printing industry. This text not only survived 5 centuries, but also the leap into electronic typography, remaining essentially unchanged.</p>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- Controls -->
+  <a class="left carousel-control" href="#slider" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left"></span>
-    <span class="sr-only">Previous</span>
   </a>
-  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+  <a class="right carousel-control" href="#slider" role="button" data-slide="next">
     <span class="glyphicon glyphicon-chevron-right"></span>
-    <span class="sr-only">Next</span>
   </a>
+</div> <!-- Carousel -->
 
-	</div><!--myCarousel-->
-
-	</div><!--column-->
-</div><!--row-->
-</section>
 
 
 <!--START OF MY HIGHLIGHTS SECTION-->
@@ -285,6 +230,17 @@
 
 <!--scripts-->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!--jQuery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 
+<!--carouel slider script-->
+<script>
+
+	$('.carousel').carousel({
+				interval: 3000
+	})
+
+</script>
 </body>
 </html>

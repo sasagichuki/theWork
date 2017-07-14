@@ -4,7 +4,27 @@ body{
 	font-family: ;
 	margin-top: 6.2%;
 }
+.carousel-caption h1{
+	font-size: 8em;
+	font-weight: bolder;
+	line-height: 85px;
+}
+.carousel-caption p{
+	text-align: left;
+	font-size: 18px;
+	font-family: century gothic;
+}
 
+.ceoLinks{
+	background: green;
+	float: left;
+}
+.ceoLinks a{
+	color: #FFF;
+	padding: 5em;
+	text-decoration: none;
+}
+/* carousel slider */
 .navbar-fixed-top{
 	background: #FFF;
 	padding: 1em 1em;
@@ -49,7 +69,7 @@ body{
 	position: absolute;
 	top: 0;
 }*/
-/* this is my side text */
+/* this is my side text 
 .slide-text h1{
 	color: #FFF;
 	font-size: 10em;
@@ -74,7 +94,7 @@ body{
 	padding-left: 8em;
 	padding-right: 8em;
 
-}
+}*/
 
 /*.slide-text h1{
 	color: #FFF;
