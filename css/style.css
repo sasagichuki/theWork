@@ -9,7 +9,7 @@ body{
 	padding: 1em 1em;
 }
 .navbar-nav{
-	float: right; 
+	float: right;
 }
 .navbar-nav li a{
 	color: #000;
@@ -23,7 +23,7 @@ body{
 	color: green;
 	font-size: 3em;
 }
-/* this is my glyphicon 
+/* this is my glyphicon
 -----------------------------------
 #play-btn{
 	font-size: 3em;
@@ -89,7 +89,7 @@ body{
 	margin-top: 5em;
 }
 
-#performance h1{ 
+#performance h1{
 	color:  green;
 	font-size: 3.8em;
 	font-weight: bold;
@@ -159,10 +159,10 @@ body{
 	font-weight: bold;
 	font-size: 4em;
 	padding: 0px 6px 4px 0;
-} 
+}
 
 .downloadMbs{
-	padding-left: 8em; 
+	padding-left: 8em;
 	margin-bottom: 3em;
 }
 .download-mbs p{
@@ -174,11 +174,11 @@ body{
 }
 
 #newspaper{
-	padding-bottom: 3%; 
+	padding-bottom: 3%;
 }
 /* start of overlayPart -------*/
 .myImage-One{
-	
+
 }
 
 .myImage-One a:hover{
@@ -187,14 +187,15 @@ body{
 }
 
 #girl-boy{
-	padding: 2em 2em 2em 2em;
+	/*padding: 2em 2em 2em 2em;*/
 }
 
 /* side nav */
-.sidebar-nav li{
-	/*background: green;*/
+/*.sidebar-nav li{
+	background: green;
 	padding: 2% 0;
 	text-align: left;
+	height: auto !important;
 }
 
 .sidebar-nav li a{
@@ -203,7 +204,7 @@ body{
 	padding: 2% 2%;
 	background: gray;
 	color: #FFF;
-}
+}*/
 /* side nav */
 
 .customers{
