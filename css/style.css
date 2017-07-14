@@ -185,8 +185,9 @@ body{
 	color: green;
 	font-size: 3em;
 	font-family: arial;
+	font-style: italic;
 	line-height: 40px;
-	max-width: 38%;
+	max-width: 36%;
 	padding: 5px 3px 4px 15px;
 }
 
@@ -197,13 +198,13 @@ body{
 	line-height: 65px;
 	font-weight: bolder;
 	text-align: left;
-	padding: 1.5em 3em 4px 0.5em;
+	padding: 1.5em 3em 4px 2.3em;
 }
 
 .ceo p{
 	color: #000;
 	font-size: 18px;
-	padding: 5px 4em 4px 2em;
+	padding: 5px 0.5em 4px 9em;
 	max-width: 78%;
 	height: 23em;
 	overflow: scroll;
@@ -215,6 +216,7 @@ body{
 	color: green;
 	font-size: 3em;
 	font-family: arial;
+	font-style: italic;
 	line-height: 40px;
 	max-width: 37%;
 }
@@ -226,13 +228,13 @@ body{
 	line-height: 65px;
 	font-weight: bolder;
 	text-align: left;
-	padding: 1.5em 3em 4px 1.2em;
+	padding: 1.5em 3em 4px 2.3em;
 }
 
 .chairman p{
 	color: #000;
 	font-size: 18px;
-	padding: 5px 4em 4px 2em;
+	padding: 5px 0.5em 4px 9em;
 	max-width: 78%;
 	height: 23em;
 	overflow: scroll;
@@ -255,13 +257,13 @@ body{
 	line-height: 65px;
 	font-weight: bolder;
 	text-align: left;
-	padding: 1.5em 3em 4px 1.2em;
+	padding: 1.5em 3em 4px 2.3em;
 }
 
 .executive p{
 	color: #000;
 	font-size: 18px;
-	padding: 5px 4em 4px 5em;
+	padding: 5px 0.5em 4px 9em;
 	max-width: 78%;
 	height: 23em;
 	overflow: scroll;
@@ -269,17 +271,11 @@ body{
 
 hr{
 	background: green;
-	width: 50%;
+	width: 60%;
 	height: 2px;
 }
 /* start of overlayPart -------*/
 .myImage-One{
-	
-}
-
-.myImage-One a:hover{
-	background: green;
-
 }
 
 #girl-boy{
@@ -287,18 +283,26 @@ hr{
 }
 
 /* side nav */
-.sidebar-nav li{
-	/*background: green;*/
-	padding: 2% 0;
-	text-align: left;
+.sideBar{
+	padding: 2% 5%;
 }
 
-.sidebar-nav li a{
+.sideBar li p a{
 	display: block;
+	padding: 1.5em 1.5em;
 	text-decoration: none;
-	padding: 2% 2%;
-	background: gray;
-	color: #FFF;
+	background: #000;
+	border-radius: 0 20px 20px 0;
+	color: white;
+	font-size: 18px;
+	border: solid 1px green;
+}
+.sideBar li p a:hover{
+	color: green;
+	border: solid 1px green;
+}
+.sideBar li p a.active{
+	color: green;
 }
 /* side nav */
 
