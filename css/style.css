@@ -4,8 +4,11 @@ body{
 	font-family: ;
 	margin-top: 6.2%;
 }
+.carousel-caption{
+	margin-bottom: 15em;
+}
 .carousel-caption h1{
-	font-size: 8em;
+	font-size: 7em;
 	font-weight: bolder;
 	line-height: 85px;
 }
@@ -15,14 +18,67 @@ body{
 	font-family: century gothic;
 }
 
+/* SMALL GIRL */
+.girl{
+	margin-bottom: 30em;
+}
+/* BOB */
+.bob{
+	margin-left: 17em;
+	/*padding: 2em;*/
+}
+.bobHead{
+	margin-left: 1.8em;
+	/*padding: 2em;*/
+}
 .ceoLinks{
-	background: green;
-	float: left;
+	padding: 3em;
 }
 .ceoLinks a{
 	color: #FFF;
-	padding: 5em;
+	font-size: 18px;
 	text-decoration: none;
+	text-align: left;
+}
+.read{
+	background: green;
+	padding: 10px 2em;
+	margin-right: 2em;
+}
+.video{
+	background: #000;
+	padding: 10px 2em;
+	border: solid 2px green;
+}
+
+/* CHAIRMAN */
+.chairman{
+	margin-right: 17em;
+	/*padding: 2em;*/
+}
+.chairHead{
+	margin-left: 1.8em;
+	/*padding: 2em;*/
+}
+.chairmanLinks{
+	padding: 3em;
+}
+.chairmanLinks a{
+	color: #FFF;
+	font-size: 18px;
+	text-decoration: none;
+	text-align: left;
+}
+
+/* EXECUTIVE */
+.sateesh{
+	margin-left: 17em;
+	/*padding: 2em;*/
+	text-align: left: ;
+}
+.exeHead{
+	margin-left: 1.8em;
+	/*padding: 2em;*/
 }
 /* carousel slider */
 .navbar-fixed-top{
