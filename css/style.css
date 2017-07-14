@@ -178,6 +178,100 @@ body{
 #newspaper{
 	padding-bottom: 3%; 
 }
+
+/* the BIG DEAL*/
+
+.ceo h2{
+	color: green;
+	font-size: 3em;
+	font-family: arial;
+	line-height: 40px;
+	max-width: 38%;
+	padding: 5px 3px 4px 15px;
+}
+
+.ceo h1{
+	color: green;
+	font-size: 5em;
+	font-family: arial;
+	line-height: 65px;
+	font-weight: bolder;
+	text-align: left;
+	padding: 1.5em 3em 4px 0.5em;
+}
+
+.ceo p{
+	color: #000;
+	font-size: 18px;
+	padding: 5px 4em 4px 2em;
+	max-width: 78%;
+	height: 23em;
+	overflow: scroll;
+}
+
+
+
+.chairman h2{
+	color: green;
+	font-size: 3em;
+	font-family: arial;
+	line-height: 40px;
+	max-width: 37%;
+}
+
+.chairman h1{
+	color: green;
+	font-size: 5em;
+	font-family: arial;
+	line-height: 65px;
+	font-weight: bolder;
+	text-align: left;
+	padding: 1.5em 3em 4px 1.2em;
+}
+
+.chairman p{
+	color: #000;
+	font-size: 18px;
+	padding: 5px 4em 4px 2em;
+	max-width: 78%;
+	height: 23em;
+	overflow: scroll;
+}
+
+
+.executive h2{
+	color: green;
+	font-size: 3em;
+	font-family: arial;
+	font-style: italic;
+	line-height: 40px;
+	max-width: 36%;
+}
+
+.executive h1{
+	color: green;
+	font-size: 5em;
+	font-family: arial;
+	line-height: 65px;
+	font-weight: bolder;
+	text-align: left;
+	padding: 1.5em 3em 4px 1.2em;
+}
+
+.executive p{
+	color: #000;
+	font-size: 18px;
+	padding: 5px 4em 4px 5em;
+	max-width: 78%;
+	height: 23em;
+	overflow: scroll;
+}
+
+hr{
+	background: green;
+	width: 50%;
+	height: 2px;
+}
 /* start of overlayPart -------*/
 .myImage-One{
 	
