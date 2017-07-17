@@ -1,9 +1,15 @@
 
 body{
-	/*background: #000;*/
+	background: #000;
 	font-family: ;
 	margin-top: 6.2%;
 }
+.site_wrapper{
+	padding: 0;
+}
+/* HUMBURGER MENU */
+
+/* /HUMBURGER MENU END */
 #heading h1{
 	text-align: center;
 	color: #000;
@@ -24,6 +30,10 @@ body{
 	font-family: century gothic;
 }
 /* HIGHLIGHTS TEXT SLIDE */
+#img{
+	height: 0;
+	width: 100%;
+}
 #mySlide_Text{
 	/*top: 10em;*/
 }
@@ -119,20 +129,6 @@ body{
 	text-align: left;
 }
 /* carousel slider */
-.navbar-fixed-top{
-	background: #FFF;
-	padding: 1em 1em;
-}
-.navbar-nav{
-	float: right;
-}
-.navbar-nav li a{
-	color: #000;
-}
-#brand h1{
-	text-align: center;
-	color: #FFF;
-}
 /* this is my glyphicon
 -----------------------------------
 #play-btn{
@@ -478,4 +474,79 @@ hr{
 
 
 
-/* MY CSS SIDENAV /PASTED BUT WORKED ON*/
+/* THIS IS A TEST */
+#main{
+	background: #FFF;
+	padding: 5em;
+}
+#main h1{
+	color: green;
+	font-weight: 800;
+	font-size: 2em;
+	text-align: left;
+	font-family: verdana;
+}
+#main h2{
+	color: green;
+	font-weight: 800;
+	font-size: 2em;
+	text-align: center;
+	font-family: verdana;
+}
+#main h3{
+	color: green;
+	font-weight: 800;
+	font-size: 2em;
+	text-align: right;
+	font-family: verdana;
+}
+#main p{
+	font-family: century gothic;
+	font-weight: 400;
+	text-align: left;
+	line-height: 22px;
+}
+.sidenav{
+	height: 100%;
+	width: 0;/* INCREASE WITH JS */
+	position: fixed;/* stay stagnant */
+	z-index: 1;/* stay on top */
+	top: 0;
+	left: 0;
+	background: #111;
+	overflow: hidden;
+	padding: 12em;
+	transition: 0.5s;
+}
+.sidenav a{
+	text-decoration: none;
+	padding: 8px 8px 8px 32px;
+	display: block;
+	font-size: 22px;
+	color: #FFF;
+	transition: 0.3s;
+}
+.sidenav a:hover,
+.offcanvas a:focus{
+	color: green;
+}
+.sidenav .closebtn{
+	position: absolute;
+	font-size: 5em;
+	top: 0;
+	right: 25px;
+	margin-left: 50px;
+}
+#main{
+	transition: margin-left 5s;
+	/* padding: 20px; */
+}
+@media screen and(min-height: 450px;){
+		.sidenav{padding-top: 15px;}
+		.sidenav a{font-size: 18px;}
+}
+
+
+
+
+
