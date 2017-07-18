@@ -1,16 +1,21 @@
 
 body{
-	background: #000;
+	/* background: #000; */
 	font-family: ;
-	margin-top: 6.2%;
+	margin-top: 4.5%;
 }
 .site_wrapper{
 	padding: 0;
+}
+.navbar-fixed-top{
+	background: rgba(255, 255, 255, 0.4);
+	padding: 10px 0;
 }
 /* HUMBURGER MENU */
 
 /* /HUMBURGER MENU END */
 #heading h1{
+	font-family: ;
 	text-align: center;
 	color: #000;
 	font-weight: 800;
@@ -20,14 +25,70 @@ body{
 	margin-bottom: 15em;
 }
 .carousel-caption h1{
+	font-family: 'Montserrat', Open Sans;
 	font-size: 7em;
-	font-weight: bolder;
+	font-weight: 800;
 	line-height: 85px;
 }
 .carousel-caption p{
+	font-family: 'Montserrat', Open Sans;
+	font-weight:  100;
 	text-align: left;
 	font-size: 18px;
-	font-family: century gothic;
+	line-height: 22px;
+	/* font-family: century gothic; */
+}
+
+/* BANNER INDICATORS */
+.carousel-banner-indicators li{
+	display: inline-block;
+	position: absolute;
+	bottom: 85%;
+	z-index: 1;
+	left: ;
+	right: ;
+	width: 15px;
+   height: 15px;
+   margin: 10px;
+   text-indent: 0;
+   cursor: pointer;
+   border: solid 2px green;
+   /* border-radius: 50%;  */
+   background: #FFF;
+   /* box-shadow: inset 1px 5px 2px 0px transparent; */
+}
+.carousel-banner-indicators li{
+		width: 15px;
+    height: 15px;
+    margin: 10px;
+    background: transparent;
+}
+.carousel-indicators li{
+	display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: solid 2px green;
+    /* border-radius: 50%;  */
+    background: green;
+    /* box-shadow: inset 1px 5px 2px 0px transparent; */
+}
+.carousel-indicators .active {
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+    background: #FFF;
+}
+.carousel-control{
+	color: #FFF;
+	height: 55px;
+	top: 50%;
+	margin-left: 5%;
+}
+.left{
+	margin-left: 0;
 }
 /* HIGHLIGHTS TEXT SLIDE */
 #img{
@@ -39,19 +100,28 @@ body{
 }
 #glance h1{
 	color: green;
-	font-family: arial;
+	font-family: 'Montserrat', Open Sans;
 	text-align: left;
+	text-transform: lowercase;
 	font-weight: 800;
 	font-size: 4em;
 	padding: 0 3em 0 2em;
+	margin-top: 0;
 }
 .infoGraphs{
-	padding-top: 3em;
+	padding-top: 2em;
 }
 #perform p{
-	text-align: justify;
-	padding: 1em 3em;
+	font-family: 'Nunito', sans-serif;
+	text-align: left;
+	padding: 1em 3em 3em 3em;
+	line-height: 22px;
+	letter-spacing: 1px;
+	word-spacing: 0;
+	font-weight: 100;
+	font-size: 18px;
 }
+
 /* SMALL GIRL */
 .girl{
 	margin-bottom: 30em;
@@ -159,7 +229,7 @@ body{
 	color: #FFF;
 	font-size: 10em;
 	font-weight: bolder;
-	/*padding: 1% 2em;*/
+	/*padding: 1% 2em;
 	position: absolute;
 	line-height: 0.8em;
 	text-align: center;
@@ -170,7 +240,7 @@ body{
 	color: #FFF;
 	font-family: century gothic;
 	font-size: 18px;
-	/*padding: 1% 22em;*/
+	/*padding: 1% 22em;
 	position: absolute;
 	text-align: center;
 	line-height: 22px;
@@ -235,9 +305,11 @@ body{
 .supakids-text h1{
 	color: #FFF;
 	text-align: left;
-	font-weight: bolder;
+	font-weight: 800;
+	font-family: 'Montserrat', Open Sans;
+	line-height: 80px;
 	font-size: 7em;
-	margin: 1.2em 0;
+	margin: 2em 0;
 }
 
 .smaLinks a{
@@ -261,9 +333,11 @@ body{
 }
 
 .downloads h3{
+	font-family: 'Montserrat', Open Sans;
+	line-height: 52px;
 	color: green;
 	text-align: left;
-	font-weight: bold;
+	font-weight: 600;
 	font-size: 4em;
 	padding: 0px 6px 4px 0;
 }
@@ -273,15 +347,24 @@ body{
 	margin-bottom: 3em;
 }
 .download-mbs p{
+	font-family: 'Montserrat', Open sans;
+	font-weight: 400;
+	text-transform: uppercase;
+	line-height: 22px;
 	color: #000;
-	font-weight: bold;
-	font-size: 1.5em;
+	font-size: 22px;
 	text-align: left;
 	padding: 2px 5%;
 }
-
+#mbs{
+	text-transform: lowercase;
+	line-height: 40px;
+	font-weight: 100;
+	font-size: 16px;
+}
 #newspaper{
-	padding-bottom: 3%;
+	/* padding-bottom: 3%; */
+	width: 100%;
 }
 
 /* the BIG DEAL*/
@@ -405,38 +488,6 @@ hr{
 .sideBar{
 	padding: 2% 5%;
 }
-/*.sidebar-nav li{
-	background: green;
-	padding: 2% 0;
-	text-align: left;
-	height: auto !important;
-}
-
-.sideBar ul li a{
-	list-style-type: none;
-}
-.sideBar li a{
-	display: block;
-	padding: 1.5em 1.5em;
-	text-decoration: none;
-	background: #000;
-	color: white;
-	font-size: 18px;
-	border: solid 1px green;
-}
-.sideBar li a:hover{
-	color: green;
-	border: solid 1px green;
-}
-.sideBar li a.active{
-	color: green;
-}
-
-	padding: 2% 2%;
-	background: gray;
-	color: #FFF;
-}*/
-
 /* side nav */
 
 .backgrounGray{
@@ -474,77 +525,46 @@ hr{
 
 
 
-/* THIS IS A TEST */
-#main{
-	background: #FFF;
-	padding: 5em;
-}
-#main h1{
-	color: green;
-	font-weight: 800;
-	font-size: 2em;
-	text-align: left;
-	font-family: verdana;
-}
-#main h2{
-	color: green;
-	font-weight: 800;
-	font-size: 2em;
-	text-align: center;
-	font-family: verdana;
-}
-#main h3{
-	color: green;
-	font-weight: 800;
-	font-size: 2em;
-	text-align: right;
-	font-family: verdana;
-}
-#main p{
-	font-family: century gothic;
-	font-weight: 400;
-	text-align: left;
-	line-height: 22px;
-}
-.sidenav{
-	height: 100%;
-	width: 0;/* INCREASE WITH JS */
-	position: fixed;/* stay stagnant */
-	z-index: 1;/* stay on top */
-	top: 0;
-	left: 0;
+
+#mySidebar{
+	width: 250px;
 	background: #111;
-	overflow: hidden;
-	padding: 12em;
-	transition: 0.5s;
 }
-.sidenav a{
-	text-decoration: none;
-	padding: 8px 8px 8px 32px;
-	display: block;
-	font-size: 22px;
-	color: #FFF;
-	transition: 0.3s;
+.sidebar a{
+	color: black;
 }
-.sidenav a:hover,
-.offcanvas a:focus{
-	color: green;
+.closeBtn{
+	font-weight: 800;
+	font-size: 3em;
+	color: #000;
 }
-.sidenav .closebtn{
-	position: absolute;
-	font-size: 5em;
-	top: 0;
-	right: 25px;
-	margin-left: 50px;
+.content h1{
+	font-weight: 800;
+	line-height: 22px;
+	font-family: verdana;
 }
-#main{
-	transition: margin-left 5s;
-	/* padding: 20px; */
+.content p{
+	font-weight: 400;
+	line-height: 22px;
+	font-family: century gothic;
 }
-@media screen and(min-height: 450px;){
-		.sidenav{padding-top: 15px;}
-		.sidenav a{font-size: 18px;}
+
+.contentTwo h2{
+	font-weight: 800;
+	line-height: 22px;
+	font-family: century gothic;
 }
+.contentTwo p{
+	font-weight: 400;
+	line-height: 22px;
+	font-family: verdana;
+}
+.buttton{
+	color: black;
+}
+
+
+
 
 
 

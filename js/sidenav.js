@@ -1,17 +1,18 @@
-function openNav(){
-	document.getElementById("mySidenav").style.width="100%";
+function openNav() {
+    document.getElementById("mySidenav").style.width = "100%";
+    document.getElementById("mySidenav").style.display = "block";
+}
+function closeNav() {
+    document.getElementById("mySidenav").style.display = "none";
 }
 
-function closeNav(){
-	document.getElementById("mySidenav").style.width="0";
-}
-//PUsh content
-function openNav(){
-	document.getElementById('mySidenav').style.width="100%";
-	document.getElementById("main").style.width="100%";
-}
 
-function closeNav(){
-	document.getElementById('mySidenav').style.width="0";
-	document.getElementById("main").style.marginLeft="0";
-}
+
+function open(){
+        document.getElementById("mySidebar").style.width="100%";
+        document.getElementById("mySidebar").style.display="block";
+      }
+
+      function close(){
+        document.getElementById("mySidebar").style.display="none";
+      }
