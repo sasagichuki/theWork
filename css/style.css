@@ -8,7 +8,7 @@ body{
 	padding: 0;
 }
 .navbar-fixed-top{
-	background: rgba(255, 255, 255, 0.4);
+	background: rgba(255, 255, 255, 1.0);
 	padding: 10px 0;
 }
 /* HUMBURGER MENU */
@@ -40,28 +40,15 @@ body{
 }
 
 /* BANNER INDICATORS */
-.carousel-banner-indicators li{
-	display: inline-block;
-	position: absolute;
-	bottom: 85%;
-	z-index: 1;
-	left: ;
-	right: ;
-	width: 15px;
-   height: 15px;
-   margin: 10px;
-   text-indent: 0;
-   cursor: pointer;
-   border: solid 2px green;
-   /* border-radius: 50%;  */
-   background: #FFF;
-   /* box-shadow: inset 1px 5px 2px 0px transparent; */
-}
-.carousel-banner-indicators li{
-		width: 15px;
-    height: 15px;
-    margin: 10px;
-    background: transparent;
+.bannerInd li{
+			display: inline-block;
+			width: 15px;
+			height: 15px;
+			margin: 10px;
+			text-indent: 0;
+			background: transparent;
+			border: solid 2px green;
+
 }
 .carousel-indicators li{
 	display: inline-block;
@@ -85,11 +72,13 @@ body{
 	color: #FFF;
 	height: 55px;
 	top: 50%;
-	margin-left: 5%;
+	/* margin-left: 5%; */
 }
-.left{
-	margin-left: 0;
+.leftArrow,
+.rightArrow{
+	display: none;
 }
+
 /* HIGHLIGHTS TEXT SLIDE */
 #img{
 	height: 0;
@@ -126,13 +115,25 @@ body{
 .girl{
 	margin-bottom: 30em;
 }
+.girl h1{
+	font-size: 9em;
+	line-height: 0.8em;
+	width: 100%;
+}
 /* BOB */
+.bobCollymore{
+	margin-left: 10em;
+	position: absolute;
+	z-index: 1;
+	right: 0;
+	bottom: 0;
+}
 .bob{
-	margin-left: 17em;
+	margin-left: 22.2em;
 	/*padding: 2em;*/
 }
 .bobHead{
-	margin-left: 1.8em;
+	margin-left: 2em;
 	/*padding: 2em;*/
 }
 .ceoLinks{
@@ -149,13 +150,31 @@ body{
 	padding: 10px 2em;
 	margin-right: 2em;
 }
+
+#video-view h1{
+	font-size: 4em;
+	font-weight: 300;
+	font-family: 'Nunito', sans-serif;
+}
+.popup{
+	border: solid #FFF 2px;
+	padding: 10px 2em;
+}
 .video{
 	/*background: #000;*/
 	padding: 10px 2em;
 	border: solid 2px #FFF;
 }
 
-/* CHAIRMAN */
+
+/* CHAIRMAN AND THE EXECUTIVE */
+.board{
+	margin-left: 5em;
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	bottom: 0;
+}
 .chairman{
 	margin-right: 17em;
 	text-align: left;
@@ -177,7 +196,6 @@ body{
 	text-align: left;
 }
 
-/* EXECUTIVE */
 .sateesh{
 	margin-left: 0;
 	/*padding: 2em;*/
@@ -212,14 +230,16 @@ body{
 	position: relative;
 	top: 0;
 	right: ;
+	width: 100%;
 }
 #letSaf{
 	position: absolute;
-	height: 92em;
+	height: 93em;
 	top: 50em;
 	left: 0;
 	bottom: 0;
 }
+
 /*.letHook{
 	position: absolute;
 	top: 0;
@@ -299,7 +319,7 @@ body{
 .supakids-text{
 	margin-top: 2em;
 	padding: 0 4em;
-	margin-bottom: 7%;
+	margin-bottom: 5%;
 }
 
 .supakids-text h1{
@@ -307,13 +327,14 @@ body{
 	text-align: left;
 	font-weight: 800;
 	font-family: 'Montserrat', Open Sans;
-	line-height: 80px;
-	font-size: 7em;
-	margin: 2em 0;
+	line-height: 0.8em;
+	font-size: 9em;
+	margin: 1em 0;
+	width: 65%;
 }
 
 .smaLinks a{
-	margin-left: 2em;
+	margin-left: 10px;
 	margin-right: 0;
 	padding: 1em;
 	float: left;
@@ -328,8 +349,9 @@ body{
 
 .downloads{
 	margin-top: 6.6em;
-	padding-left: 12em;
-	padding-left: 12em;
+	padding-left: 8.5em;
+	padding-right: 1.5em;
+	padding-bottom: 2em;
 }
 
 .downloads h3{
@@ -523,7 +545,7 @@ hr{
 	height: 25em;
 }
 
-
+/* 
 
 
 #mySidebar{
@@ -560,11 +582,11 @@ hr{
 	font-family: verdana;
 }
 .buttton{
-	color: black;
+	color: black; 
 }
 
 
-
+*/
 
 
 
