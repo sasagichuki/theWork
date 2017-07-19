@@ -1,9 +1,11 @@
 $('.carousel').carousel({
-				interval: 3000
+				interval: 6000
 	})
 
 // mySlider_Text
 $('#mySlide_Text')#mySlide_Text({
-		interval: 4000
+		interval: 6000
 })
 
+// Video PopUp
+	// This is my slideshow 

@@ -14,19 +14,30 @@ body{
 /* HUMBURGER MENU */
 
 /* /HUMBURGER MENU END */
-#heading h1{
+/* #heading h1{
 	font-family: ;
 	text-align: center;
 	color: #000;
 	font-weight: 800;
 	font-size: 4em;
-}
+} */
+
+
+
+/* meeeeeeeeeeeeeeee */
+
+
+/* carousel-inner */
+/* slideshow-fade */
+
+
+
 .carousel-caption{
-	margin-bottom: 15em;
+	margin-bottom: 12em;
 }
 .carousel-caption h1{
 	font-family: 'Montserrat', Open Sans;
-	font-size: 7em;
+	font-size: 10rem;
 	font-weight: 800;
 	line-height: 85px;
 }
@@ -68,15 +79,17 @@ body{
     margin: 10px;
     background: #FFF;
 }
-.carousel-control{
+
+.control{
 	color: #FFF;
 	height: 55px;
-	top: 50%;
+	top: 60%;
+	background: green;
 	/* margin-left: 5%; */
 }
 .leftArrow,
 .rightArrow{
-	display: none;
+	/* display: none; */
 }
 
 /* HIGHLIGHTS TEXT SLIDE */
@@ -91,34 +104,50 @@ body{
 	color: green;
 	font-family: 'Montserrat', Open Sans;
 	text-align: left;
-	text-transform: lowercase;
-	font-weight: 800;
-	font-size: 4em;
+	/* text-transform: lowercase; */
+	font-weight: 700;
+	font-size: 5rem;
+	line-height: 68px;
 	padding: 0 3em 0 2em;
-	margin-top: 0;
+	margin-top: 2em;
+	min-width: 100%;
 }
 .infoGraphs{
 	padding-top: 2em;
 }
-#perform p{
+.one,
+.two,
+.three p{
+	/* background: black; */
 	font-family: 'Nunito', sans-serif;
 	text-align: left;
-	padding: 1em 3em 3em 3em;
+	padding: 3em 3em 4.5em 3em;
+	margin-right: 1.5em;
+	margin-left: 1.5em;
+	margin-top: 3em;
 	line-height: 22px;
 	letter-spacing: 1px;
 	word-spacing: 0;
 	font-weight: 100;
 	font-size: 18px;
+	/* max-width: 100%; */
 }
 
 /* SMALL GIRL */
 .girl{
 	margin-bottom: 30em;
+	margin-left: 5em;
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	bottom: 0;
 }
 .girl h1{
-	font-size: 9em;
+	text-align: left;
+	font-size: 11rem;
 	line-height: 0.8em;
-	width: 100%;
+	max-width: 100%;
+	font-weight: 800;
 }
 /* BOB */
 .bobCollymore{
@@ -160,6 +189,9 @@ body{
 	border: solid #FFF 2px;
 	padding: 10px 2em;
 }
+#video-view{
+	margin-top: 5em;
+}
 .video{
 	/*background: #000;*/
 	padding: 10px 2em;
@@ -176,7 +208,7 @@ body{
 	bottom: 0;
 }
 .chairman{
-	margin-right: 17em;
+	/* margin-right: 17em; */
 	text-align: left;
 	/*padding: 2em;*/
 }
@@ -230,12 +262,12 @@ body{
 	position: relative;
 	top: 0;
 	right: ;
-	width: 100%;
-}
+	max-width: 100%;
+	}
 #letSaf{
 	position: absolute;
-	height: 93em;
-	top: 50em;
+	min-height: 93em;
+	top: 180rem;
 	left: 0;
 	bottom: 0;
 }
@@ -281,7 +313,7 @@ body{
 
 }*/
 /* section two */
-#performance {
+/* #performance {
 	margin-top: 5em;
 }
 
@@ -301,25 +333,27 @@ body{
 	padding: 4px 6%;
 	}
 	#performance-paragraph{
-	/*background: green;*/
+	background: green;
 	overflow-x: scroll;
 	height: 400px;
-	/*max-width: 800px;*/
-	}
+	max-width: 800px;
+	} */
 
 
 .strong-kids{
 	background-image: url('../img/move-forward.jpg');
 	background-repeat: no-repeat;
-	width: 100%;
-	height: auto;
+	max-width: 100%;
+	/* height: auto; */
 }
 
 /* SUPAKIDS SECTION*/
 .supakids-text{
 	margin-top: 2em;
-	padding: 0 4em;
+	padding-left: 4em;
+	padding-right: 3em;
 	margin-bottom: 5%;
+	/* max-width: 100%; */
 }
 
 .supakids-text h1{
@@ -328,9 +362,10 @@ body{
 	font-weight: 800;
 	font-family: 'Montserrat', Open Sans;
 	line-height: 0.8em;
-	font-size: 9em;
-	margin: 1em 0;
-	width: 65%;
+	font-size: 10rem;
+	/* margin: 2.5em 3em 1em 0; */
+	margin-top: 3em;
+	max-width: 70%;
 }
 
 .smaLinks a{
@@ -339,54 +374,6 @@ body{
 	padding: 1em;
 	float: left;
 	padding-bottom: 10em;
-}
-
-/* DOWNLOAD A COPY SECTION */
-.downloadYouCopy{
-	background: transparent;
-	/*margin: 0 8em;*/
-}
-
-.downloads{
-	margin-top: 6.6em;
-	padding-left: 8.5em;
-	padding-right: 1.5em;
-	padding-bottom: 2em;
-}
-
-.downloads h3{
-	font-family: 'Montserrat', Open Sans;
-	line-height: 52px;
-	color: green;
-	text-align: left;
-	font-weight: 600;
-	font-size: 4em;
-	padding: 0px 6px 4px 0;
-}
-
-.downloadMbs{
-	padding-left: 8em;
-	margin-bottom: 3em;
-}
-.download-mbs p{
-	font-family: 'Montserrat', Open sans;
-	font-weight: 400;
-	text-transform: uppercase;
-	line-height: 22px;
-	color: #000;
-	font-size: 22px;
-	text-align: left;
-	padding: 2px 5%;
-}
-#mbs{
-	text-transform: lowercase;
-	line-height: 40px;
-	font-weight: 100;
-	font-size: 16px;
-}
-#newspaper{
-	/* padding-bottom: 3%; */
-	width: 100%;
 }
 
 /* the BIG DEAL*/
@@ -479,11 +466,8 @@ body{
 	overflow: scroll;
 }
 
-hr{
-	background: green;
-	width: 60%;
-	height: 2px;
-}
+
+/* FORGET ABOUT THIS OVERLAY */
 /* start of overlayPart -------*/
 .myImage-One{
 }
@@ -588,7 +572,106 @@ hr{
 
 */
 
+.downloadSection{
+	background: transparent;
+	padding-top: 10em;
+}
+.copyDownload{
 
+}
+.copyDownload h2{
+	color: green;
+	text-align: left;
+	font-family: 'Montserrat', Open Sans;
+	font-weight: 800;
+	font-size: 6rem;
+	line-height: 45px;
+	padding: 0 15px 0 1.3em;
+	margin: 0 10px;
+}
+.mbsOne,
+.mbTwo{
+	margin-top: 2em;
+}
 
+.mbsOne,
+.mbsTwo p{
+	color: #000 !important;
+	line-height: 32px;
+	font-family: 'Montserrat', Open Sans;
+	font-weight: 600;
+	font-size: 1.8rem;
+	text-align: left;
+	text-transform: uppercase;
+	padding-left: 6em;
+	/* padding-top: 3em; */
+	margin-top: 2em;
+}
+#bytes{
+	text-transform: lowercase;
+	color: #000;
+	font-weight: 100;
+}
+
+/* landing pages */
+.ceoText h2{
+	color: green !important;
+	font-family: 'Montserrat', Open Sans;
+	font-size: 3rem;
+	font-style: italic;
+	font-weight: 100;
+	line-height: 36px;
+	text-transform: uppercase;
+}
+#next{
+	font-weight: 800;
+	padding-left: 4em;
+}
+
+.ceoText h1{
+	color: green !important;
+	font-family: 'Montserrat', Open Sans;
+	font-weight: 800;
+	line-height: 60px;
+	font-size: 7rem;
+	padding-left: 18rem;
+}
+.ceoTalk p{
+	/* background: black; */
+	padding-left: 10rem;
+	padding-right: 18rem;
+	padding-bottom: 7rem;
+	padding-top: 5rem;
+	margin-right: 8rem;
+	margin-left: 8rem;
+	line-height: 22px;
+	font-size: 2rem;
+	font-weight: 200;
+	font-family: 'Nunito', sans-serif;
+	/* max-width: 100%; */
+}
+.arrow,
+.arrow2{
+	color: green;
+}
+#control{
+	color: #FFF;
+	height: 55px;
+	top: 40%;
+	font-weight: 100;
+	background: transparent;
+	/* display: none; */
+}
+hr{
+	background: green !important;
+	width: 15%;
+	height: 2px;
+	top: 8%;
+	left: 24%;
+	position: absolute;
+}
+.story{
+	margin-right: 15rem;
+}
 
 
