@@ -1,4 +1,7 @@
 
+@import url("./universals.css");
+
+
 body{
 	/* background: #000; */
 	font-family: ;
@@ -334,11 +337,6 @@ body{
 }
 
 .smaLinks a{
-	margin-left: 10px;
-	margin-right: 0;
-	padding: 1em;
-	float: left;
-	padding-bottom: 10em;
 }
 
 /* DOWNLOAD A COPY SECTION */
