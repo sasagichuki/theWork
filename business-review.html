@@ -1,70 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <title>Safaricom | Annual Report</title>
-  <meta charset="UTF-8" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Latest compiled and minified CSS -->
+  <!--bootstrap links-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-  <link rel="icon" type="image/x-icon" href="../img/safaricom.ico">
-  <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" type="text/css" href="../css/wall.css">
+  <!--  FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+  <!-- FONTS END HERE -->
 
-  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0,initial-scale=1.0">
+  <link rel="shortcut icon" href="img/safaricom.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/wall.css">
 </head>
 <body>
   <!-- start my header-->
   <header id="header">
-    <nav class="row navbar-fixed-top">
     <div class="container-fluid">
-      <div class="col-md-4">
-        <img src="img/logo.png" class="img-responsive">
+      <div class="row navbar-fixed-top">
+        <div class="col-md-4">
+          <a href='/'><img src="img/logo.png" class="img-responsive"></a>
+        </div>
+        <div class="col-md-8"></div>
       </div>
-      <div class="col-md-8">
-        <!-- MAIN NAVBAR -->
-
-        <!-- END OF COL-8 -->
     </div>
-    </nav>
   </header>
   <div role="main" class="viewport">
-    <div class="demo">
+    <div class="wall-wrapper">
       <div class="GITheWall">
         <ul>
           <li data-contenttype="ajax" data-href="pages/wall-content/what-we-do.html">
             <img src="../img/wall/box/what-we-do.jpg" class="img-responsive">
           </li>
 
-          <li data-contenttype="ajax" data-href="wall-content/what-we-offer.html">
+          <li data-contenttype="ajax" data-href="pages/wall-content/what-we-offer.html">
             <img src="../img/wall/box/what-we-offer.jpg" class="img-responsive">
           </li>
 
-          <li data-contenttype="ajax" data-href="wall-content/leadership.html">
+          <li data-contenttype="ajax" data-href="pages/wall-content/leadership.html">
             <img src="../img/wall/box/leadership.jpg" class="img-responsive">
           </li>
 
-          <li data-contenttype="ajax" data-href="wall-content/corporate-governance.html">
+          <li data-contenttype="ajax" data-href="pages/wall-content/corporate-governance.html">
             <img src="../img/wall/box/corporate-governance.jpg" class="img-responsive">
           </li>
 
-          <li data-contenttype="ajax" data-href="wall-content/risk-management.html">
+          <li data-contenttype="ajax" data-href="pages/wall-content/risk-management.html">
             <img src="../img/wall/box/risk-management.jpg" class="img-responsive">
           </li>
 
-          <li data-contenttype="ajax" data-href="wall-content/brand-assets.html">
+          <li data-contenttype="ajax" data-href="pages/wall-content/brand-assets.html">
             <img src="../img/wall/box/brand-assets.jpg" class="img-responsive">
           </li>
 
-          <li data-contenttype="ajax" data-href="wall-content/our-people.html">
+          <li data-contenttype="ajax" data-href="pages/wall-content/our-people.html">
             <img src="../img/wall/box/our-people.jpg" class="img-responsive">
           </li>
 
-          <li data-contenttype="ajax" data-href="wall-content/true-value.html">
+          <li data-contenttype="ajax" data-href="pages/wall-content/true-value.html">
             <img src="../img/wall/box/true-value.jpg" class="img-responsive">
           </li>
 
-          <li data-contenttype="ajax" data-href="wall-content/sustainability.html">
+          <li data-contenttype="ajax" data-href="pages/wall-content/sustainability.html">
             <img src="../img/wall/box/sustainability.jpg" class="img-responsive">
           </li>
         </ul>
@@ -72,18 +74,34 @@
     </div>
   </div>
   <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="http://code.jquery.com/bootstrap.js"></script>
   <script src="../js/wall.js"></script>
-  <script>
 
+  <script>
     var wall = $('.GITheWall').GITheWall({
         nextButtonClass: 'fa fa-arrow-right',
         prevButtonClass: 'fa fa-arrow-left',
         closeButtonClass: 'fa fa-times'
     });
 
-    girlboyImg = new Image();
-    girlboyImg.src = "/img/wall/pages/what-we-do.jpg";
 
+    var images = new Array()
+      function preload() {
+        for (i = 0; i < preload.arguments.length; i++) {
+          images[i] = new Image()
+          images[i].src = preload.arguments[i]
+        }
+      }
+      preload(
+        "/img/wall/pages/brand-assets.jpg",
+        "/img/wall/pages/corporate-governance.jpg",
+        "/img/wall/pages/our-people.jpg",
+        "/img/wall/pages/risk-management.jpg",
+        "/img/wall/pages/sustainability.jpg",
+        "/img/wall/pages/true-value.jpg",
+        "/img/wall/pages/what-we-do.jpg",
+        "/img/wall/pages/what-we-offer.jpg"
+      );
   </script>
 </body>
 </html>

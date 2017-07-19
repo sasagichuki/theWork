@@ -1,21 +1,67 @@
-<section id="overlayPart">
-<!-- the content-->
+<section>
+  <div class="container">
+
+    <!-- the content-->
     <div class="row">
       <div class="col-md-4 sideNav">
+        <ul class="sidebar-nav">
+          <li class="contain active" onclick="openContent(event, 'who-leads-us')">Who Leads Us</li>
+          <li class="contain" onclick="openContent(event, 'who-governs-us')">Who Governs Us</li>
+        </ul>
+      </div>
 
-      <ul class="sidebar-nav">
-        <li class="active contain"><a href="#">WHO LEADS US<span class="sr-only">(current)</span></a></li>
-        <li class="contain"><a href="#">WHO GOVERNS US</a></li>
-      </ul>
+      <div id="who-leads-us" class="col-md-8 tab-content">
+        <img src="../img/who-leads-us.png" class="img-responsive"></img>
+        <div class="row">
+          <div class="col-md-4">
+            <div class='row'>
+              <div class="col-md-12">
+                <img src="../img/wall/pages/leadership/who-leads-us/bob-collymore.jpg" class="img-responsive">
+              </div>
+            </div>
+            <div class='row'>
+              <div class="col-md-12">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class='row'>
+              <div class="col-md-12">
+                <img src="../img/wall/pages/leadership/who-leads-us/bob-collymore.jpg" class="img-responsive">
+              </div>
+            </div>
+            <div class='row'>
+              <div class="col-md-12">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class='row'>
+              <div class="col-md-12">
+                <img src="../img/wall/pages/leadership/who-leads-us/bob-collymore.jpg" class="img-responsive">
+              </div>
+            </div>
+            <div class='row'>
+              <div class="col-md-12">
+              </div>
+            </div>
+          </div>
+
+
+        </div>
 
       </div>
 
-      <div class="col-md-8 customers">
-        <h2>Customers</h2>
+      <div id="who-governs-us" class="col-md-8 tab-content" style="display: none;">
+        <h2>Data</h2>
 
-        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
-        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
+
       </div>
+
     </div>
   </div>
-</section><!-- end of overlayPart -->
+</section>
+
+<script src="../../js/open-content.js"></script>
