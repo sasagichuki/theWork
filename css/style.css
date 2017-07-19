@@ -61,7 +61,7 @@ body{
     text-indent: 0;
     cursor: pointer;
     border: solid 2px green;
-    /* border-radius: 50%;  */
+    border-radius: 0 !important;  
     background: green;
     /* box-shadow: inset 1px 5px 2px 0px transparent; */
 }
@@ -116,7 +116,7 @@ body{
 	text-transform: lowercase;
 	font-weight: 800;
 	font-size: 4em;
-	padding: 0 0.5em 0 1em;
+	padding: 1em 0.5em 1em 1em;
 	margin-top: 0;
 }
 .infoGraphs{
@@ -124,19 +124,19 @@ body{
 }
 
 #perform {
-	height: 33em;
-	max-height: 33em;
+	height: 25em;
+	max-height: 25em;
 	overflow-y: scroll;
 }
 #perform p{
-	font-family: 'Nunito', sans-serif;
-	text-align: left;
-	padding: 1em 3em 3em 3em;
-	line-height: 22px;
-	letter-spacing: 1px;
-	word-spacing: 0;
-	font-weight: 100;
-	font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    text-align: justify;
+    padding: 1em 3em 3em 3.5em;
+    line-height: 22px;
+    letter-spacing: 1px;
+    word-spacing: 0;
+    font-weight: 100;
+    font-size: 15px;
 }
 
 /* SMALL GIRL */

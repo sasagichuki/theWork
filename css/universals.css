@@ -21,14 +21,53 @@
     MEDIA QUERY
 -----------------------------------------*/
 
-@media screen and (max-width: 1024px) { 
+@media screen and (max-width: 1124px) { 
+	#perform {
+		height: 28em !important;
+		max-height: 28em !important;
+	}
+	#glance h1 {
+    font-size: 3em !important;
+    padding: 1em 0.5em 0 1em !important;
+	}
 
 }
 
 @media screen and (max-width: 870px) { 
+	.highLights {
+		height: 35em !important;
+    max-height: 35em !important;
+	}
+	#letSwim{
+		height: 35em !important;
+		max-height: 35em !important;
+	}
+	#perform {
+		height: 23em !important;
+		max-height: 23em !important;
+	}
+	#glance h1 {
+    font-size: 2.5em !important;
+    padding: 1em 0.5em 0 1.5em !important;
+	}
+}
+
+@media screen and (max-width: 770px) { 
+
+	.kids-swimming {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 624px) { 
+	.highLights {
+		height: 33em !important;
+    max-height: 33em !important;
+	}
+	#glance h1 {
+    font-size: 2em !important;
+    padding: 0.5em 0.5em 0 2em !important;
+	}
    
 }
 
