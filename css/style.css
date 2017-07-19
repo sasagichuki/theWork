@@ -5,7 +5,6 @@
 body{
 	/* background: #000; */
 	font-family: ;
-	margin-top: 4.5%;
 }
 .site_wrapper{
 	padding: 0;
@@ -13,138 +12,53 @@ body{
 .navbar-fixed-top{
 	background: rgba(255, 255, 255, 1.0);
 	padding: 10px 0;
+	position: inherit !important;
+}
+.fix-top{
+	position: fixed !important;
 }
 /* HUMBURGER MENU */
 
-/* /HUMBURGER MENU END */
-#heading h1{
-	font-family: ;
+/* STAGE ONE CAROUSEL */
+.slide-box {
+    color: white;
+    padding: 0 1em 1em 1em;
+    position: relative;
+}
+.gallery {
+    position: relative;
+	padding: 0;
+	margin: 0;
 	text-align: center;
-	color: #000;
-	font-weight: 800;
-	font-size: 4em;
-}
-.carousel-caption{
-	margin-bottom: 15em;
-}
-.carousel-caption h1{
-	font-family: 'Montserrat', Open Sans;
-	font-size: 7em;
-	font-weight: 800;
-	line-height: 85px;
-}
-.carousel-caption p{
-	font-family: 'Montserrat', Open Sans;
-	font-weight:  100;
-	text-align: left;
-	font-size: 18px;
-	line-height: 22px;
-	/* font-family: century gothic; */
 }
 
-/* BANNER INDICATORS */
-.bannerInd li{
-			display: inline-block;
-			width: 15px;
-			height: 15px;
-			margin: 10px;
-			text-indent: 0;
-			background: transparent;
-			border: solid 2px green;
-
-}
-.carousel-indicators li{
-	display: inline-block;
-    width: 15px;
-    height: 15px;
-    margin: 10px;
-    text-indent: 0;
-    cursor: pointer;
-    border: solid 2px green;
-    border-radius: 0 !important;  
-    background: green;
-    /* box-shadow: inset 1px 5px 2px 0px transparent; */
-}
-.carousel-indicators .active {
-    width: 15px;
-    height: 15px;
-    margin: 10px;
-    background: #FFF;
-}
-.carousel-control{
-	color: #FFF;
-	height: 55px;
-	top: 50%;
-	/* margin-left: 5%; */
-}
-.leftArrow,
-.rightArrow{
-	display: none;
-}
-
-/* HIGHLIGHTS TEXT SLIDE */
-.highLights {
-	height: 45em;
-	max-height: 45em;
-}
-#letSwim{
+.gallery-image{
+    cursor:pointer;
 	position: relative;
-	top: 0;
-	right: ;
-	width: 100%;
-	height: 45em;
-	max-height: 45em;
+	display: block;
+	padding: 0 !important;
 }
-#letSaf{
-	position: absolute;
-	height: 93em;
-	top: 50em;
-	left: 0;
-	bottom: 0;
+.gallery-image img {
+    width: 100%;
 }
-#img{
-	height: 0;
-	width: 100%;
-}
-#mySlide_Text{
-	/*top: 10em;*/
-}
-#glance h1{
-	color: green;
-	font-family: 'Montserrat', Open Sans;
-	text-align: left;
-	text-transform: lowercase;
-	font-weight: 800;
-	font-size: 4em;
-	padding: 1em 0.5em 1em 1em;
-	margin-top: 0;
-}
-.infoGraphs{
-	padding-top: 2em;
-}
-
-#perform {
-	height: 25em;
-	max-height: 25em;
-	overflow-y: scroll;
-}
-#perform p{
-    font-family: 'Nunito', sans-serif;
-    text-align: justify;
-    padding: 1em 3em 3em 3.5em;
-    line-height: 22px;
-    letter-spacing: 1px;
-    word-spacing: 0;
-    font-weight: 100;
-    font-size: 15px;
+.gallery-text{
+	color: #ffffff;
+    position: absolute;
+    top: 10%; right: 0;
+    bottom: 0; left: 0;
+    text-align: center;
+    opacity: 1;
+    -webkit-transition: opacity 0.6s;
+    -moz-transition: opacity 0.6s;
+    transition: opacity 0.6s;
+   vertical-align:middle;
 }
 
 /* SMALL GIRL */
 .girl{
-	margin-bottom: 30em;
 }
 .girl h1{
-	font-size: 9em;
+	font-size: 5em;
 	line-height: 0.8em;
 	width: 100%;
 }
@@ -244,6 +158,144 @@ body{
 	text-decoration: none;
 	text-align: left;
 }
+
+
+#heading h1{
+	font-family: ;
+	text-align: center;
+	color: #000;
+	font-weight: 800;
+	font-size: 4em;
+}
+.carousel-caption{
+	margin-bottom: 15em;
+}
+.carousel-caption h1{
+	font-family: 'Montserrat', Open Sans;
+	font-size: 7em;
+	font-weight: 800;
+	line-height: 85px;
+}
+.carousel-caption p{
+	font-family: 'Montserrat', Open Sans;
+	font-weight:  100;
+	text-align: left;
+	font-size: 18px;
+	line-height: 22px;
+	/* font-family: century gothic; */
+}
+
+/* BANNER INDICATORS */
+.bannerInd {
+	top: 10%;
+	left: 10%;
+}
+.bannerInd li{
+			display: inline-block;
+			width: 15px;
+			margin: 0 !important;
+			height: 15px;
+			text-indent: 0;
+			background: transparent;
+			border: solid 2px green;
+
+}
+.bannerInd .active {
+    width: 15px;
+    height: 15px;
+		margin: 0 !important;
+    background: #FFF;
+}
+.carousel-indicators li{
+	display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: solid 2px green;
+    border-radius: 0 !important;  
+    background: green;
+    /* box-shadow: inset 1px 5px 2px 0px transparent; */
+}
+.carousel-indicators .active {
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+    background: #FFF;
+}
+.carousel-control{
+	color: #FFF;
+	height: 55px;
+	top: 50%;
+	/* margin-left: 5%; */
+}
+.leftArrow,
+.rightArrow{
+	display: none;
+}
+
+
+/* HIGHLIGHTS TEXT SLIDE */
+.highLights {
+	height: 45em;
+	max-height: 45em;
+}
+#letSwim{
+	position: relative;
+	top: 0;
+	right: ;
+	width: 100%;
+	height: 45em;
+	max-height: 45em;
+}
+#letSaf{
+	position: absolute;
+	height: 93em;
+	top: 50em;
+	left: 0;
+	bottom: 0;
+}
+#img{
+	height: 0;
+	width: 100%;
+}
+#mySlide_Text{
+	/*top: 10em;*/
+}
+#glance h1{
+	color: green;
+	font-family: 'Montserrat', Open Sans;
+	text-align: left;
+	text-transform: lowercase;
+	font-weight: 800;
+	font-size: 4em;
+	padding: 1em 0.5em 1em 1em;
+	margin-top: 0;
+}
+.infoGraphs{
+	padding-top: 2em;
+}
+
+#perform {
+	height: 25em;
+	max-height: 25em;
+	overflow-y: scroll;
+}
+#perform p{
+    font-family: 'Nunito', sans-serif;
+    text-align: justify;
+    padding: 1em 3em 3em 3.5em;
+    line-height: 22px;
+    letter-spacing: 1px;
+    word-spacing: 0;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+
+
+
 /* carousel slider */
 /* this is my glyphicon
 -----------------------------------
@@ -311,52 +363,43 @@ body{
 }
 
 /* DOWNLOAD A COPY SECTION */
-.downloadYouCopy{
-	background: transparent;
-	/*margin: 0 8em;*/
-}
-
 .downloads{
-	margin-top: 6.6em;
-	padding-left: 8.5em;
-	padding-right: 1.5em;
-	padding-bottom: 2em;
+  background-position: 111%
+  padding: 50px 0;
+  width: 100%;
+  height: 40vh;
+  background: url(../img/hard-copy.png) no-repeat top right;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  -o-background-size: contain;
+  color: #999;
 }
 
-.downloads h3{
-	font-family: 'Montserrat', Open Sans;
-	line-height: 52px;
-	color: green;
-	text-align: left;
-	font-weight: 600;
-	font-size: 4em;
-	padding: 0px 6px 4px 0;
+.downloads h1{
+  color: green;
+  font-family: 'Gotham Black', arial;
+  font-size: 3.5em;
+  font-weight: 900;
+  margin-bottom: 1em;
 }
 
-.downloadMbs{
-	padding-left: 8em;
-	margin-bottom: 3em;
+.downloads a{
+  color: black;
+  font-family: 'Montserrat Black', arial;
+  text-transform: uppercase;
+  font-size: 1.1em;
 }
-.download-mbs p{
-	font-family: 'Montserrat', Open sans;
-	font-weight: 400;
-	text-transform: uppercase;
-	line-height: 22px;
-	color: #000;
-	font-size: 22px;
-	text-align: left;
-	padding: 2px 5%;
-}
-#mbs{
-	text-transform: lowercase;
-	line-height: 40px;
-	font-weight: 100;
-	font-size: 16px;
+
+.downloads-block{
+  margin-top: 4em;
 }
 #newspaper{
 	/* padding-bottom: 3%; */
 	width: 100%;
 }
+
+
 
 /* the BIG DEAL*/
 

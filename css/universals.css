@@ -33,6 +33,13 @@
 
 }
 
+@media screen and (max-width: 1024px) {
+
+	.downloads h1 {
+    font-size: 2em !important;
+	}
+}
+
 @media screen and (max-width: 870px) { 
 	.highLights {
 		height: 35em !important;
@@ -56,6 +63,12 @@
 
 	.kids-swimming {
 		display: none;
+	}
+	.downloads-text {
+		left: 4%;
+		width: 40%
+	} .downloads-img {
+		width: 60%;
 	}
 }
 
