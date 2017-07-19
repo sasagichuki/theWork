@@ -1,9 +1,9 @@
 $('.carousel').carousel({
-	interval: 9000
+	interval: 90000
 })
 
 // mySlider_Text
 $('#mySlide_Text')#mySlide_Text({
-	interval: 4000
+	interval: 90000
 })
 
