@@ -2,3 +2,37 @@
 .display-flex {
 	display: flex;
 }
+.padding-left-0 {
+	padding-left: 0;
+}
+.padding-right-0 {
+	padding-right: 0;
+}
+
+.height-40 {
+	height: 40em;
+	max-height: 40em;
+}
+.scroll-y {
+	overflow-y: scroll;
+}
+
+/*---------------------------------------
+    MEDIA QUERY
+-----------------------------------------*/
+
+@media screen and (max-width: 1024px) { 
+
+}
+
+@media screen and (max-width: 870px) { 
+}
+
+@media screen and (max-width: 624px) { 
+   
+}
+
+@media screen and (max-width: 400px) { 
+
+}
+

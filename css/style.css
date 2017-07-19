@@ -83,6 +83,25 @@ body{
 }
 
 /* HIGHLIGHTS TEXT SLIDE */
+.highLights {
+	height: 45em;
+	max-height: 45em;
+}
+#letSwim{
+	position: relative;
+	top: 0;
+	right: ;
+	width: 100%;
+	height: 45em;
+	max-height: 45em;
+}
+#letSaf{
+	position: absolute;
+	height: 93em;
+	top: 50em;
+	left: 0;
+	bottom: 0;
+}
 #img{
 	height: 0;
 	width: 100%;
@@ -97,11 +116,17 @@ body{
 	text-transform: lowercase;
 	font-weight: 800;
 	font-size: 4em;
-	padding: 0 3em 0 2em;
+	padding: 0 0.5em 0 1em;
 	margin-top: 0;
 }
 .infoGraphs{
 	padding-top: 2em;
+}
+
+#perform {
+	height: 33em;
+	max-height: 33em;
+	overflow-y: scroll;
 }
 #perform p{
 	font-family: 'Nunito', sans-serif;
@@ -228,61 +253,7 @@ body{
 }
 
 */
-/* Little kids swimming image positioning */
-#letSwim{
-	position: relative;
-	top: 0;
-	right: ;
-	width: 100%;
-}
-#letSaf{
-	position: absolute;
-	height: 93em;
-	top: 50em;
-	left: 0;
-	bottom: 0;
-}
 
-/*.letHook{
-	position: absolute;
-	top: 0;
-}*/
-/* this is my side text
-.slide-text h1{
-	color: #FFF;
-	font-size: 10em;
-	font-weight: bolder;
-	/*padding: 1% 2em;
-	position: absolute;
-	line-height: 0.8em;
-	text-align: center;
-	bottom: 3.8em;
-}
-
-.slide-text p{
-	color: #FFF;
-	font-family: century gothic;
-	font-size: 18px;
-	/*padding: 1% 22em;
-	position: absolute;
-	text-align: center;
-	line-height: 22px;
-	bottom: 25em;
-	max-width: 100%;
-	padding-left: 8em;
-	padding-right: 8em;
-
-}*/
-
-/*.slide-text h1{
-	color: #FFF;
-	font-size: 8em;
-	font-weight: bolder;
-	font-family: ;
-	padding-left: 5em;
-	padding-right: 5em;
-
-}*/
 /* section two */
 #performance {
 	margin-top: 5em;
@@ -321,7 +292,7 @@ body{
 /* SUPAKIDS SECTION*/
 .supakids-text{
 	margin-top: 2em;
-	padding: 0 4em;
+	padding: 0 1em;
 	margin-bottom: 5%;
 }
 
