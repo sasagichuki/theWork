@@ -13,52 +13,16 @@ $(document).ready(function() {
 	});
 
 	//Instantiate/Activate carousel
-	$("#slider").carousel({interval: 9000});
-	$("#mySlide_Text").carousel({interval: 9000});
-
-
   $('.text-slider').slick({
       dots: true,
       infinite: true,
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,
-      arrows: false,
-      autoplaySpeed: 7000,
+      arrows: true,
+      autoplaySpeed: 9000,
       centerMode: false,
-      centerPadding: '60px',
-      responsive: [{
-          breakpoint: 992,
-          settings: {
-              arrows:true,
-              centerMode: true,
-              centerPadding: '40px',
-              slidesToShow: 1
-          }
-
-      }, {
-          breakpoint: 800,
-          settings: {
-              arrows: true,
-              centerMode: true,
-              centerPadding: '60px',
-              slidesToShow: 1
-
-          }
-
-
-      }, {
-          breakpoint: 600,
-          settings: {
-              arrows: true,
-
-          }
-      }, {
-          breakpoint: 480,
-          settings: {
-              arrows: true,
-          }
-      }]
+      centerPadding: '60px'
   });
 
 
