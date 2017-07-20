@@ -76,16 +76,17 @@ body{
 .ceoLinks{
 	padding: 3em 3em 3em 0;
 }
-.ceoLinks a{
+.ceoLinks a.btn{
 	color: #FFF;
-	font-size: 18px;
+	font-size: 1.25em;
 	text-decoration: none;
-	text-align: left;
+	text-align: center;
+	border-radius: 0;
 }
 .read{
 	background: green;
-	padding: 10px 2em;
-	margin-right: 2em;
+  padding: 0.5em 1em;
+  border: solid green thin;
 }
 
 #video-view h1{
@@ -94,8 +95,8 @@ body{
 	font-family: 'Nunito', sans-serif;
 }
 .popup{
-	border: solid #FFF 2px;
-	padding: 10px 2em;
+	border: solid #FFF thin;
+  padding: 0.5em 1em;
 }
 .video{
 	/*background: #000;*/
