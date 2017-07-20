@@ -102,34 +102,34 @@ footer a {
   border: 1px solid black;
 }
 
-.demo {
+.wall-wrapper {
   position: relative;
   margin-bottom: 50px;
   *zoom: 1;
 }
-.demo:before, .demo:after {
+.wall-wrapper:before, .wall-wrapper:after {
   display: table;
   content: "";
   line-height: 0;
 }
-.demo:after {
+.wall-wrapper:after {
   clear: both;
 }
-.demo .GITheWall {
+.wall-wrapper .GITheWall {
   float: left;
 }
-.demo .ajax {
+.wall-wrapper .ajax {
   padding: 20px 0;
   color: white;
   min-height: 550px;
 }
-.demo .ajax .txt {
+.wall-wrapper .ajax .txt {
   font-size: 0.8em;
   float: left;
   padding: 0 5% 0 0;
   width: 45%;
 }
-.demo .ajax .img {
+.wall-wrapper .ajax .img {
   position: relative;
   width: 50%;
   height: 550px;
@@ -137,22 +137,22 @@ footer a {
   background-size: cover;
   background-position: center;
 }
-.demo ul {
-  text-align: center !important;
+.wall-wrapper ul {
+  text-align: center;
 }
-.demo ul li {
+.wall-wrapper ul li {
   cursor: pointer;
   color: white;
   background: #444;
   line-height: 3em;
   float: none;
   display: inline-block;
-  width: 350px;
-  height: 350px;
+  width: 25em;
 }
-.demo ul li img {
-  width: 350px;
-  height: 350px;
+
+.wall-wrapper ul li img {
+  width: 25em;
+  height: 25em;
   object-fit: cover;
 }
 
@@ -182,9 +182,20 @@ footer a {
   list-style: none;
   padding: 20px 0;
   margin: 0 auto;
-  text-align: left;
+  text-align: center;
   width: 90%;
 }
+
+.sideNav ul.sidebar-nav {
+  width: 100%;
+  text-align: inherit;
+}
+
+.sideNav ul.sidebar-nav li.contain{
+  padding-left: 10%;
+}
+
+
 .GITheWall ul li {
   display: inline-block;
   margin: 10px 5px 0 5px;
@@ -500,7 +511,7 @@ footer a {
 }
 
 /* Wall contents */
-.demo ul li.contain {
+.wall-wrapper ul li.contain {
   background-color: rgb(245, 245, 245);
   box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.21);
   width: 20em;
@@ -510,5 +521,19 @@ footer a {
 
 .myContent img{
   width: 100%;
+}
+
+.tab-content h2{
+  color: green;
+}
+
+.tab-content{
+  color: black;
+  float: left;
+  padding: 0px 12px;
+  width: 70%;
+  border-left: none;
+  height: 400px;
+  overflow-y: scroll;
 }
 
