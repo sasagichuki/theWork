@@ -54,14 +54,17 @@ body{
   transition: opacity 0.6s;
   vertical-align:middle;
 }
-
-/* SMALL GIRL */
-.girl{
-}
-.girl h1{
+.gallery-text h1{
 	font-size: 5em;
+	font-weight: 900;
 	line-height: 0.8em;
 	width: 100%;
+}	
+.gallery-text-right {
+	left: 50%;
+}
+.gallery-text-left {
+	left: 5%;
 }
 /* BOB */
 .bob-collymore{
@@ -163,7 +166,7 @@ body{
 /* BANNER INDICATORS */
 .bannerInd {
 	top: 10%;
-	left: 10%;
+	left: 8%;
 }
 .bannerInd li{
 			display: inline-block;

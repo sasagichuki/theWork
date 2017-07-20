@@ -44,6 +44,9 @@
 	.downloads h1 {
     font-size: 2em !important;
 	}
+	.gallery-text h1{
+		font-size: 4em !important;
+	}
 }
 
 @media screen and (max-width: 870px) { 
@@ -63,6 +66,16 @@
     font-size: 2.5em !important;
     padding: 1em 0.5em 0 1.5em !important;
 	}
+	.bannerInd {
+    left: 9% !important;
+	}
+	.gallery-text h1{
+		font-size: 3.5em !important;
+		line-height: 1em !important;
+	}
+	.gallery-text p{
+		font-size: 1.2em !important;
+	}
 }
 
 @media screen and (max-width: 770px) { 
@@ -79,6 +92,18 @@
 	} .downloads-img {
 		width: 60% !important;
 	}
+	.bannerInd {
+    left: 10% !important;
+	}
+	.gallery-text h1{
+		font-size: 3em !important;
+	}
+	.gallery-text p{
+		font-size: 1.2em !important;
+	}
+	.gallery-text-right {
+		left: 50% !important;
+	}
 }
 
 @media screen and (max-width: 624px) { 
@@ -90,10 +115,31 @@
     font-size: 2em !important;
     padding: 0.5em 0.5em 0 2em !important;
 	}
+	.bannerInd {
+    left: 11% !important;
+	}
+	.gallery-text h1{
+		font-size: 2em !important;
+	}
+	.gallery-text p{
+		font-size: 1em !important;
+	}
+	.gallery-text-right {
+		left: 45% !important;
+	}
    
 }
 
 @media screen and (max-width: 400px) { 
 
+	.bannerInd {
+    left: 15% !important;
+	}
+	.gallery-text h1{
+		font-size: 1.2em !important;
+	}
+	.gallery-text p{
+		font-size: 0.8em !important;
+	}
 }
 
