@@ -30,9 +30,7 @@ body{
   position: relative;
 	padding: 0;
 	margin: 0;
-
 }
-
 .gallery-image{
     cursor:pointer;
 	position: relative;
@@ -66,35 +64,27 @@ body{
 .gallery-text-left {
 	left: 5%;
 }
-/* BOB */
-.bob-collymore{
-	z-index: 1;
+.gallery-btn a.read{
+	background: green;
+  padding: 0.5em 1em;
+  border: solid green thin;
 }
-
-.ceoLinks{
-	/*padding: 3em 3em 3em 0;*/
-}
-.ceoLinks a.btn{
+.gallery-btn a.btn{
 	color: #FFF;
 	font-size: 1.25em;
 	text-decoration: none;
 	text-align: center;
 	border-radius: 0;
+	margin: 10px;
 }
-.read{
-	background: green;
+.gallery-btn a.popup{
+	border: solid #FFF thin;
   padding: 0.5em 1em;
-  border: solid green thin;
 }
-
 #video-view h1{
 	font-size: 4em;
 	font-weight: 300;
 	font-family: 'Nunito', sans-serif;
-}
-.popup{
-	border: solid #FFF thin;
-  padding: 0.5em 1em;
 }
 .video{
 	/*background: #000;*/

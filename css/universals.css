@@ -104,6 +104,9 @@
 	.gallery-text-right {
 		left: 50% !important;
 	}
+	.gallery-btn a.btn{
+		font-size: 1em !important;
+	}
 }
 
 @media screen and (max-width: 624px) { 
@@ -127,6 +130,9 @@
 	.gallery-text-right {
 		left: 45% !important;
 	}
+	.gallery-btn a.btn{
+		font-size: 0.8em !important;
+	}
    
 }
 
@@ -140,6 +146,9 @@
 	}
 	.gallery-text p{
 		font-size: 0.8em !important;
+	}
+	.gallery-btn a.btn{
+		font-size: 0.6em !important;
 	}
 }
 
