@@ -44,7 +44,7 @@
 	.downloads h1 {
     font-size: 2em !important;
 	}
-	.gallery-text h1{
+	.gallery-text h1, .supakids-text h1 {
 		font-size: 4em !important;
 	}
 }
@@ -69,7 +69,7 @@
 	.bannerInd {
     left: 9% !important;
 	}
-	.gallery-text h1{
+	.gallery-text h1, .supakids-text h1 {
 		font-size: 3.5em !important;
 		line-height: 1em !important;
 	}
@@ -95,10 +95,10 @@
 	.bannerInd {
     left: 10% !important;
 	}
-	.gallery-text h1{
+	.gallery-text h1, .supakids-text h1 {
 		font-size: 3em !important;
 	}
-	.gallery-text p{
+	.gallery-text p {
 		font-size: 1.2em !important;
 	}
 	.gallery-text-right {
@@ -121,11 +121,11 @@
 	.bannerInd {
     left: 11% !important;
 	}
-	.gallery-text h1{
+	.gallery-text h1, .supakids-text h1 {
 		font-size: 2em !important;
 	}
 	.gallery-text p{
-		font-size: 1em !important;
+		font-size: 0.9em !important;
 	}
 	.gallery-text-right {
 		left: 45% !important;
@@ -141,7 +141,7 @@
 	.bannerInd {
     left: 15% !important;
 	}
-	.gallery-text h1{
+	.gallery-text h1, .supakids-text h1 {
 		font-size: 1.2em !important;
 	}
 	.gallery-text p{

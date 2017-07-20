@@ -18,6 +18,9 @@ body{
 .fix-top{
 	position: fixed !important;
 }
+.logo {
+	height: 2em !important;
+}
 /* HUMBURGER MENU */
 
 /* STAGE ONE CAROUSEL */
@@ -181,9 +184,9 @@ body{
     margin: 10px;
     text-indent: 0;
     cursor: pointer;
-    border: solid 2px green;
+    border: solid 2px #ffffff;
     border-radius: 0 !important;
-    background: green;
+    background: transparent;
     /* box-shadow: inset 1px 5px 2px 0px transparent; */
 }
 .carousel-indicators .active {
@@ -304,11 +307,12 @@ body{
 	}
 
 
-.strong-kids{
-	background-image: url('../img/move-forward.jpg');
-	background-repeat: no-repeat;
-	width: 100%;
-	height: auto;
+.strong-kids{    
+	background-image: url(../img/move-forward.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-width: 100%;
+  height: auto;
 }
 
 /* SUPAKIDS SECTION*/
