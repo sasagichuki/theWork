@@ -85,6 +85,9 @@
 	.gallery-text h1, .supakids-text h1 {
 		font-size: 4em !important;
 	}
+	.gallery-text {
+		top: 12% !important;
+	}
 }
 
 @media screen and (max-width: 870px) { 
@@ -106,6 +109,9 @@
 	}
 	.bannerInd {
     left: 9% !important;
+	}
+	.gallery-text {
+		top: 10% !important;
 	}
 	.gallery-text h1, .supakids-text h1 {
 		font-size: 3.5em !important;
@@ -133,6 +139,9 @@
 	.bannerInd {
     left: 10% !important;
 	}
+	.gallery-text {
+		top: 9% !important;
+	}
 	.gallery-text h1, .supakids-text h1 {
 		font-size: 3em !important;
 	}
@@ -155,6 +164,9 @@
 	}
 	.bannerInd {
     left: 11% !important;
+	}
+	.gallery-text {
+		top: 6% !important;
 	}
 	.gallery-text h1, .supakids-text h1 {
 		font-size: 2em !important;
