@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 	<!--  FONTS -->
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
@@ -21,8 +22,7 @@
 	<!-- APP CSS -->
 	<link rel="shortcut icon" href="img/safaricom.ico" type="image/x-icon">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	
-
+	<link rel="stylesheet" type="text/css" href="css/full-screen-modal.css">
 </head>
 <body onscroll="fixTop()">
 
@@ -85,7 +85,7 @@
 		      		</div>
 		      	</div>
 		      	<div class="row gallery-btn display-flex">
-		      			<a href="#" class="read btn">Read More</a>
+		      			<a href="#" class="read btn full-screen-modal" data-target="#bobModal">Read More</a>
 		      			<a class="popup btn" href="#!" data-link="https://www.youtube.com/embed/sw2JI_FJSoM" data-title="Safaricom CEO speech">Watch Video</a>
 		      	</div>
 		      </div>
@@ -269,12 +269,40 @@
 		<!--jQuery-->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
-		<script src="js/external-js.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 		<script type="text/javascript" src="js/app.js"></script>
-
 	</div>
 	<!-- wrapper -->
+
+	<!-- FULLSCREEN MODAL CODE (.fullscreen) -->
+
+	<div class="modal fade fullscreen" id="bobModal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content" style="color:#fff;">
+				<div class="modal-body">
+					<button type="button" class="close btn btn-link" data-dismiss="modal" aria-hidden="true"><i class="fa fa-close fa-lg" style="color:#999;"></i></button>
+					<section>
+						<div class="row">
+							<div class="col-md-4 col-sm-4 col-xm-4">
+								<img src="../img/safaricom-chairman.jpg" class="img-responsive">
+							</div>
+
+							<div class="col-md-8 col-sm-4 col-xm-4 chairman">
+							<h2>WHERE WE WILL<br> <span style="text-align: right; font-weight: bolder; font-size: 1.3em; float: right; padding-top: 10px; padding-left:; line-height: 1em;">GO NEXT<hr></span></h2>
+							<h1>CHAIRMAN'S<br> STATEMENT</h1>
+
+								<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+								<br><br>
+								It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+								<br><br>
+								Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div><!-- /.modal-content -->
+		</div><!-- /.modal-dialog -->
+	</div><!-- /.fullscreen -->
 </body>
 </html>
