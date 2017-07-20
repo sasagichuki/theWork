@@ -22,6 +22,36 @@
 .scroll-y {
 	overflow-y: scroll;
 }
+.scroll-y {
+	overflow-y: scroll;
+}
+.scroll-y {
+	overflow-y: scroll;
+}
+.montserrat-black {
+	font-family: "Montserrat Black", sans-serif;
+}
+.montserrat-book {
+	font-family: "Montserrat Book", sans-serif;
+}
+.montserrat-regular {
+	font-family: "Montserrat Regular", sans-serif;
+}
+.montserrat-medium {
+	font-family: "Montserrat Medium", sans-serif;
+}
+.gotham-black {
+	font-family: "Gotham Black", sans-serif;
+}
+.gotham-book {
+	font-family: "Gotham Book", sans-serif;
+}
+.gotham-book-regular {
+	font-family: "Gotham Book Regular", sans-serif;
+}
+.gotham-narrow-book {
+	font-family: "Gotham Narrow Book", sans-serif;
+}
 
 /*---------------------------------------
     MEDIA QUERY

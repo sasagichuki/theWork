@@ -2,6 +2,33 @@
 @import url("./universals.css");
 @import url("./custom-carousel.css");
 
+/* MONTSERRAT FONTS*/
+@font-face {
+  font-family: Montserrat Regular;
+  src: url("../fonts/Montserrat-Regular.ttf");
+}
+@font-face {
+  font-family: Montserrat Bold;
+  src: url("../fonts/Montserrat-Bold.ttf");
+}
+
+/* GOTHAM FONTS*/
+@font-face {
+  font-family: Gotham Book;
+  src: url("../fonts/Gotham Book.otf") format("opentype");
+}
+@font-face {
+  font-family: Gotham Black;
+  src: url("../fonts/Gotham Black.otf") format("opentype");
+}
+@font-face {
+  font-family: Gotham Book Regular;
+  src: url("../fonts/Gotham Book Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: Gotham Narrow Book;
+  src: url("../fonts/Gotham Narrow Book.otf") format("opentype");
+}
 
 body{
 	/* background: #000; */
@@ -56,6 +83,7 @@ body{
   vertical-align:middle;
 }
 .gallery-text h1{
+	font-family: 'Montserrat Black', sans-serif;
 	font-size: 5em;
 	font-weight: 900;
 	line-height: 0.8em;
@@ -68,9 +96,9 @@ body{
 	left: 5%;
 }
 .gallery-btn a.read{
-	background: green;
+	background: #00b44e;
   padding: 0.5em 1em;
-  border: solid green thin;
+  border: solid #00b44e thin;
 }
 .gallery-btn a.btn{
 	color: #FFF;
@@ -168,7 +196,7 @@ body{
 			height: 15px;
 			text-indent: 0;
 			background: transparent;
-			border: solid 2px green;
+			border: solid 2px #00b44e;
 
 }
 .bannerInd .active {
@@ -236,8 +264,8 @@ body{
 	/*top: 10em;*/
 }
 #glance h1{
-	color: green;
-	font-family: 'Montserrat', Open Sans;
+	color: #00b44e;
+	font-family: 'Gotham Black', sans-serif;
 	text-align: left;
 	text-transform: lowercase;
 	font-weight: 800;
@@ -285,7 +313,7 @@ body{
 }
 
 #performance h1{
-	color:  green;
+	color:  #00b44e;
 	font-size: 5em;
 	font-weight: bold;
 	text-align: left;
@@ -300,7 +328,7 @@ body{
 	padding: 4px 6%;
 	}
 	#performance-paragraph{
-	/*background: green;*/
+	/*background: #00b44e;*/
 	overflow-x: scroll;
 	height: 400px;
 	/*max-width: 800px;*/
@@ -350,7 +378,7 @@ body{
 }
 
 .downloads h1{
-  color: green;
+  color: #00b44e;
   font-family: 'Gotham Black', arial;
   font-size: 3.5em;
   font-weight: 900;
@@ -377,7 +405,7 @@ body{
 /* the BIG DEAL*/
 
 .ceo h2{
-	color: green;
+	color: #00b44e;
 	font-size: 3em;
 	font-family: arial;
 	font-style: italic;
@@ -387,7 +415,7 @@ body{
 }
 
 .ceo h1{
-	color: green;
+	color: #00b44e;
 	font-size: 5em;
 	font-family: arial;
 	line-height: 65px;
@@ -407,7 +435,7 @@ body{
 
 
 .chairman h2{
-	color: green;
+	color: #00b44e;
 	font-size: 3em;
 	font-family: arial;
 	font-style: italic;
@@ -416,7 +444,7 @@ body{
 }
 
 .chairman h1{
-	color: green;
+	color: #00b44e;
 	font-size: 5em;
 	font-family: arial;
 	line-height: 65px;
@@ -436,7 +464,7 @@ body{
 
 
 .executive h2{
-	color: green;
+	color: #00b44e;
 	font-size: 3em;
 	font-family: arial;
 	font-style: italic;
@@ -445,7 +473,7 @@ body{
 }
 
 .executive h1{
-	color: green;
+	color: #00b44e;
 	font-size: 5em;
 	font-family: arial;
 	line-height: 65px;
@@ -464,7 +492,7 @@ body{
 }
 
 hr{
-	background: green;
+	background: #00b44e;
 	width: 60%;
 	height: 2px;
 }
@@ -511,7 +539,7 @@ hr{
 	margin: 4px 0;
 }
 .customers h2{
-	color: green;
+	color: #00b44e;
 	font-size: 3em;
 	font-weight: bold;
 	text-align: left;

@@ -53,7 +53,6 @@
 }
 
 .slick-track {
-		height: 20em;
 		position: relative;
 		left: 0;
 		top: 0;
@@ -110,7 +109,7 @@
 		line-height: 0;
 		font-size: 0;
 		cursor: pointer;
-		background: green;
+		background: #00b44e;
 		color: white;
 		top: 50%;
 		margin-top: -10px;
@@ -130,7 +129,7 @@
 		font-size: 20px;
 		line-height: 1;
 		color: white;
-		background: green;
+		background: #00b44e;
 		opacity: 0.85;
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
@@ -189,8 +188,8 @@
   margin: 0 !important;
   height: 15px !important;
   text-indent: 0 !important;
-  border: solid 2px green !important;
-  color: green !important;
+  border: solid 2px #00b44e !important;
+  color: #00b44e !important;
   -webkit-text-fill-color: white !important;
   background: white !important;
   font-size: 0;
@@ -205,10 +204,10 @@
   margin: 0 !important;
   height: 15px !important;
   text-indent: 0 !important;
-  border: solid 2px green !important;
-  color: green !important;
-  -webkit-text-fill-color: green !important;
-  background: green !important;
+  border: solid 2px #00b44e !important;
+  color: #00b44e !important;
+  -webkit-text-fill-color: #00b44e !important;
+  background: #00b44e !important;
   font-size: 0;
   line-height: 0;
   cursor: pointer;
@@ -236,3 +235,13 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
+
+
+/*Variations*/
+.text-slider .slick-track {
+	height: 20em;
+}
+.intro-slider {
+	margin-bottom: 0 !important;
+}
+

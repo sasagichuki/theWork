@@ -12,6 +12,11 @@ $(document).ready(function() {
 	    $iframe.wrap("<div class='class-video'>");
 	});
 
+  $('.full-screen-modal').click(function(){
+    $("#slider").carousel("pause");
+    $("#bobModal").modal();
+  });
+
 	//Instantiate/Activate carousel
   $('.text-slider').slick({
       dots: true,
@@ -25,9 +30,17 @@ $(document).ready(function() {
       centerPadding: '60px'
   });
 
-  $('.full-screen-modal').click(function(){
-    $("#slider").carousel("pause");
-    $("#bobModal").modal();
+  $('.intro-slider').slick({
+      dots: false,
+      fade: true,
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      arrows: false,
+      autoplaySpeed: 9000,
+      centerMode: false,
+      centerPadding: '60px'
   });
 
 
