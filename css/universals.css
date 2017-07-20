@@ -67,14 +67,17 @@
 
 @media screen and (max-width: 770px) { 
 
+	.infoGraphs{
+		width: 100% !important;
+	}
 	.kids-swimming {
-		display: none;
+		display: none !important;
 	}
 	.downloads-text {
-		left: 4%;
-		width: 40%
+		left: 4% !important;
+		width: 40 !important;
 	} .downloads-img {
-		width: 60%;
+		width: 60% !important;
 	}
 }
 
