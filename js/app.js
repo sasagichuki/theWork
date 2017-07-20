@@ -25,6 +25,11 @@ $(document).ready(function() {
       centerPadding: '60px'
   });
 
+  $('.full-screen-modal').click(function(){
+    $("#slider").carousel("pause");
+    $("#bobModal").modal();
+  });
+
 
 });
 
