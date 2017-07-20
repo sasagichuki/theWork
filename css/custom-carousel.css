@@ -53,6 +53,7 @@
 }
 
 .slick-track {
+		height: 20em;
 		position: relative;
 		left: 0;
 		top: 0;
@@ -109,8 +110,8 @@
 		line-height: 0;
 		font-size: 0;
 		cursor: pointer;
-		background: transparent;
-		color: transparent;
+		background: green;
+		color: white;
 		top: 50%;
 		margin-top: -10px;
 		padding: 0;
@@ -129,20 +130,21 @@
 		font-size: 20px;
 		line-height: 1;
 		color: white;
+		background: green;
 		opacity: 0.85;
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
 }
 
 .slick-prev {
-		left: -25px;
+		left: 20px;
 		&:before {
 				content: '\2190';
 		}
 }
 
 .slick-next {
-		right: -25px;
+		right: 20px;
 		&:before {
 				content: '\2192';
 		}

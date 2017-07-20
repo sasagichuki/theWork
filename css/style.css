@@ -214,16 +214,17 @@ body{
 
 /* HIGHLIGHTS TEXT SLIDE */
 .highLights {
-	height: 45em;
-	max-height: 45em;
+	height: 42em;
+	max-height: 42em;
+	display: flex;
 }
 #letSwim{
 	position: relative;
 	top: 0;
 	right: ;
 	width: 100%;
-	height: 45em;
-	max-height: 45em;
+	height: 42em;
+	max-height: 42em;
 }
 #letSaf{
 	position: absolute;
