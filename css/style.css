@@ -309,7 +309,7 @@ body{
 
 .strong-kids{    
 	background-image: url(../img/move-forward.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   min-width: 100%;
   height: auto;
