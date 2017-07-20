@@ -72,14 +72,7 @@ body{
 	right: 0;
 	bottom: 0;
 }
-.bob{
-	margin-left: 22.2em;
-	/*padding: 2em;*/
-}
-.bobHead{
-	margin-left: 2em;
-	/*padding: 2em;*/
-}
+
 .ceoLinks{
 	padding: 3em 3em 3em 0;
 }
@@ -120,7 +113,7 @@ body{
 	bottom: 0;
 }
 .chairman{
-	margin-right: 17em;
+	/*margin-right: 17em;*/
 	text-align: left;
 	/*padding: 2em;*/
 }
@@ -357,8 +350,7 @@ body{
 	font-family: 'Montserrat', Open Sans;
 	line-height: 0.8em;
 	font-size: 9em;
-	margin: 1em 0;
-	width: 65%;
+  margin: 0.5em 0;
 }
 
 .smaLinks a{
