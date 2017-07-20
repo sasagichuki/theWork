@@ -1,6 +1,5 @@
 $('.carousel').carousel({
-	// interval: 90000
-  pause: "click"
+	interval: 90000
 })
 
 // mySlider_Text

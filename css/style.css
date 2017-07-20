@@ -26,10 +26,10 @@ body{
     position: relative;
 }
 .gallery {
-    position: relative;
+  position: relative;
 	padding: 0;
 	margin: 0;
-	text-align: center;
+
 }
 
 .gallery-image{
@@ -45,15 +45,14 @@ body{
 }
 .gallery-text{
 	color: #ffffff;
-    position: absolute;
-    top: 10%; right: 0;
-    bottom: 0; left: 0;
-    text-align: center;
-    opacity: 1;
-    -webkit-transition: opacity 0.6s;
-    -moz-transition: opacity 0.6s;
-    transition: opacity 0.6s;
-   vertical-align:middle;
+  position: absolute;
+  top: 10%; right: 0;
+  bottom: 0; left: 0;
+  opacity: 1;
+  -webkit-transition: opacity 0.6s;
+  -moz-transition: opacity 0.6s;
+  transition: opacity 0.6s;
+  vertical-align:middle;
 }
 
 /* SMALL GIRL */
@@ -65,16 +64,12 @@ body{
 	width: 100%;
 }
 /* BOB */
-.bobCollymore{
-	margin-left: 10em;
-	position: absolute;
+.bob-collymore{
 	z-index: 1;
-	right: 0;
-	bottom: 0;
 }
 
 .ceoLinks{
-	padding: 3em 3em 3em 0;
+	/*padding: 3em 3em 3em 0;*/
 }
 .ceoLinks a.btn{
 	color: #FFF;
@@ -106,23 +101,7 @@ body{
 
 
 /* CHAIRMAN AND THE EXECUTIVE */
-.board{
-	margin-left: 5em;
-	position: absolute;
-	z-index: 1;
-	left: 0;
-	bottom: 0;
-}
-.chairman{
-	/*margin-right: 17em;*/
-	text-align: left;
-	/*padding: 2em;*/
-}
-.chairHead{
-	margin-left: 0;
-	text-align: justify;
-	/*padding: 2em;*/
-}
+
 .chairmanLinks{
 	padding: 3em 3em 3em 0;
 	float: left;
@@ -426,7 +405,6 @@ body{
 	height: 23em;
 	overflow: scroll;
 }
-
 
 
 .chairman h2{
