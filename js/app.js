@@ -19,18 +19,6 @@ $(document).ready(function() {
   });
 
 	//Instantiate/Activate carousel
-  $('.text-slider').slick({
-      dots: true,
-      infinite: true,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      autoplay: true,
-      arrows: true,
-      autoplaySpeed: 9000,
-      centerMode: false,
-      centerPadding: '60px'
-  });
-
   $('.intro-slider').slick({
       dots: false,
       fade: true,
@@ -42,6 +30,20 @@ $(document).ready(function() {
       autoplaySpeed: 9000,
       centerMode: false,
       centerPadding: '60px'
+  });
+
+  $('.text-slider').slick({
+      dots: true,
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      arrows: true,
+      autoplaySpeed: 9000,
+      centerMode: false,
+      centerPadding: '60px',
+      prevArrow: '<i class="fa fa-angle-left fa-3x slick-control prev" aria-hidden="true"></i>',
+      nextArrow: '<i class="fa fa-angle-right fa-3x slick-control next" aria-hidden="true"></i>'
   });
 
 
