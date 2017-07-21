@@ -72,13 +72,32 @@
 	}
 	#glance h1 {
     font-size: 3em !important;
-    padding: 1em 0.5em 0 1em !important;
+    padding: 3em 0.5em 0 1em !important;
 	}
 
 }
 
 @media screen and (max-width: 1024px) {
 
+	.highLights {
+		height: 38em !important;
+    max-height: 38em !important;
+	}
+	.safaricom-hook {
+		display: none;
+	}
+	#letSwim{
+		height: 38em !important;
+		max-height: 38em !important;
+	}
+	#perform {
+		height: 23em !important;
+		max-height: 23em !important;
+	}
+	#glance h1 {
+    font-size: 2.5em !important;
+    padding: 1em 0.5em 0 1.5em !important;
+	}
 	.downloads h1 {
     font-size: 2em !important;
 	}
