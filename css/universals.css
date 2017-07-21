@@ -81,6 +81,16 @@
     font-size: 3em !important;
     padding: 3em 0.5em 0 1em !important;
 	}
+	#glance h1 {
+    font-size: 2.5em !important;
+    padding: 1em 0.5em 0 1.5em !important;
+	}
+	.downloads h1 {
+    font-size: 2em !important;
+	}
+	.gallery-text h1, .supakids-text h1 {
+		font-size: 4em !important;
+	}
 
 }
 

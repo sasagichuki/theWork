@@ -66,9 +66,9 @@
   src: url("../fonts/Gotham Narrow Book.otf") format("opentype");
 }
 
-body{
-	/* background: #000; */
-	font-family: ;
+html, body, .site_wrapper {
+  max-width: 100%;
+  /*overflow-x: hidden;*/
 }
 .site_wrapper{
 	padding: 0;
