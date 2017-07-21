@@ -43,8 +43,7 @@ a {
   position: relative;
 }
 
-.wall-wrapper .row {
-  /*width: 80%;*/
+.wall-wrapper .opened .GI_TW_expander-inner .container-fluid .row.full-screen{
   margin: 0 -30px;
   *zoom: 1;
 }
