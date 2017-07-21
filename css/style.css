@@ -454,6 +454,7 @@ body{
 .downloads .downloads-block .downloads-img{
 	background: url("/img/newspaper.png") bottom right no-repeat;
   background-size: contain;
+  height: 75vh;
 }
 
 
