@@ -83,7 +83,7 @@
 	}
 	#glance h1 {
     font-size: 2.5em !important;
-    padding: 1em 0.5em 0 1.5em !important;
+    padding: 4em 0.5em 0 1.5em !important;
 	}
 	.downloads h1 {
     font-size: 2em !important;
@@ -194,7 +194,7 @@
 		left: 50% !important;
 	}
 	.video-icon h6 {
-		padding: 2% 2% 0 5% !important;
+		padding: 5% 2% 0 5% !important;
 	}
 }
 
@@ -221,6 +221,9 @@
 	}
 	.gallery-text-right {
 		left: 45% !important;
+	}
+	.video-icon h6 {
+		padding: 5% 2% 0 5% !important;
 	}
 
 }
