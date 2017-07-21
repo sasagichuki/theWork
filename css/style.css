@@ -76,7 +76,6 @@ html, body, .site_wrapper {
 .navbar-fixed-top{
 	background: rgba(255, 255, 255, 1.0);
 	padding: 10px 0;
-	position: inherit !important;
 }
 .fix-top{
 	position: fixed !important;
@@ -127,6 +126,7 @@ html, body, .site_wrapper {
   -moz-transition: opacity 0.6s;
   transition: opacity 0.6s;
   vertical-align:middle;
+  z-index: 3
 }
 .intro-slider-text.gallery-text h1{
 	font-family: 'Montserrat Black', sans-serif;
