@@ -402,7 +402,7 @@ body{
 /* SUPAKIDS SECTION*/
 .supakids-text{
 	margin-top: 2em;
-  margin: 12% 0 10% 10%;
+  margin: 12% 0 10% 12%;
 }
 
 .supakids-text h1{
@@ -415,7 +415,8 @@ body{
   margin: 0.5em 0;
 }
 
-.smaLinks a{
+.smaLinks {
+	width: 50%
 }
 
 /* DOWNLOAD A COPY SECTION */
@@ -424,7 +425,7 @@ body{
   padding: 50px 0;
   width: 100%;
   height: 40vh;
-  background: url(../img/hard-copy.png) no-repeat top right;
+  background: url(/img/hard-copy.png) no-repeat top right;
   -webkit-background-size: contain;
   -moz-background-size: contain;
   background-size: contain;
@@ -452,7 +453,7 @@ body{
 }
 
 .downloads .downloads-block .downloads-img{
-	background: url("/img/newspaper.png") bottom right no-repeat;
+	background: url("../img/newspaper.png") bottom right no-repeat;
   background-size: contain;
   height: 75vh;
 }
