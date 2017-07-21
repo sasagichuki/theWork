@@ -559,9 +559,8 @@ footer a {
   color: #00b44e;
 }
 
-.myContent img{
+.my-content img{
   width: 100%;
-  height: 70vh;
   object-fit: cover;
 }
 
