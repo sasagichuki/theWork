@@ -2,104 +2,99 @@
 body{
 	/* background: #000; */
 	font-family: ;
-	margin-top: 4.5%;
+	margin-top: 3%;
 }
-.site_wrapper{
-	padding: 0;
+.site-wrapper{
+	padding: 15px;
 }
 .navbar-fixed-top{
 	background: rgba(255, 255, 255, 1.0);
 	padding: 10px 0;
 }
-/* HUMBURGER MENU */
 
-/* /HUMBURGER MENU END */
-/* #heading h1{
-	font-family: ;
-	text-align: center;
-	color: #000;
-	font-weight: 800;
-	font-size: 4em;
-} */
+ .slide-caption {
+ 	position: absolute;
+ 	z-index: 4;
+ 	bottom: 50%;
+ 	left: ;
+ 	top: ;
+ 	
+ }
+ .slide-caption h1{
+ 	color: #FFF;
+ 	text-transform: uppercase;
+ 	font-weight: 800;
+ 	font-size: 9rem;
+ 	font-family: 'Montserrat', Open Sans;
+ 	line-height: 78px;
+ 	/* padding-left: 11%; */
+ 	padding-right: 0;
+ }
+ .slide-caption p{
+ 	color: #FFF;
+ 	font-weight: 100;
+ 	font-size: 18px;
+ 	font-family: 'Montserrat', Open Sans;
+/*  	line-height: 22px;
+ 	padding-left: 11%; */
+ 	padding-right: 0;
+ }
 
-
-
-/* meeeeeeeeeeeeeeee */
-
-
-/* carousel-inner */
-/* slideshow-fade */
-
-
-
-.carousel-caption{
-	margin-bottom: 12em;
+.links-bob{
+	padding: 20px 0;
+	padding-left: 11%;
+ 	padding-right: 0;
 }
-.carousel-caption h1{
-	font-family: 'Montserrat', Open Sans;
-	font-size: 10rem;
-	font-weight: 800;
-	line-height: 85px;
-}
-.carousel-caption p{
-	font-family: 'Montserrat', Open Sans;
-	font-weight:  100;
-	text-align: left;
-	font-size: 18px;
-	line-height: 22px;
-	/* font-family: century gothic; */
-}
-
-/* BANNER INDICATORS */
-.bannerInd li{
-			display: inline-block;
-			width: 15px;
-			height: 15px;
-			margin: 10px;
-			text-indent: 0;
-			background: transparent;
-			border: solid 2px green;
-
-}
-.carousel-indicators li{
-	display: inline-block;
-    width: 15px;
-    height: 15px;
-    margin: 10px;
-    text-indent: 0;
-    cursor: pointer;
-    border: solid 2px green;
-    /* border-radius: 50%;  */
-    background: green;
-    /* box-shadow: inset 1px 5px 2px 0px transparent; */
-}
-.carousel-indicators .active {
-    width: 15px;
-    height: 15px;
-    margin: 10px;
-    background: #FFF;
-}
-
-.control{
+.links-bob a{
+	text-decoration: none;
 	color: #FFF;
-	height: 55px;
-	top: 60%;
+	padding: 10px 10px;
+	font-family: 'Montserrat', Open Sans;
+}
+.read-link{
 	background: green;
-	/* margin-left: 5%; */
 }
-.leftArrow,
-.rightArrow{
-	/* display: none; */
+.video-link{
+	background: transparent;
+	border: solid 1px #FFF;
 }
+
+
+/* the chairman */
+.slide-captionOne h1{
+ 	color: #FFF;
+ 	text-transform: uppercase;
+ 	font-weight: 800;
+ 	font-size: 9rem;
+ 	font-family: 'Montserrat', Open Sans;
+ 	line-height: 78px;
+}
+.slide-captionOne p{
+ 	color: #FFF;
+ 	font-weight: 100;
+ 	font-size: 18px;
+ 	font-family: 'Montserrat', Open Sans;
+ 	line-height: 22px;
+ }
+
+.links{
+	padding: 20px 0;
+	margin-left: 30px;
+}
+.links a{
+	text-decoration: none;
+	color: #FFF;
+	padding: 10px 10px;
+	font-family: 'Montserrat', Open Sans;
+}
+
 
 /* HIGHLIGHTS TEXT SLIDE */
 #img{
 	height: 0;
 	width: 100%;
 }
-#mySlide_Text{
-	/*top: 10em;*/
-}
+
 #glance h1{
 	color: green;
 	font-family: 'Montserrat', Open Sans;
@@ -107,32 +102,31 @@ body{
 	/* text-transform: lowercase; */
 	font-weight: 700;
 	font-size: 5rem;
-	line-height: 68px;
+	line-height: 50px;
 	padding: 0 3em 0 2em;
 	margin-top: 2em;
 	min-width: 100%;
 }
-.infoGraphs{
-	padding-top: 2em;
-}
-.one,
-.two,
-.three p{
-	/* background: black; */
-	font-family: 'Nunito', sans-serif;
-	text-align: left;
-	padding: 3em 3em 4.5em 3em;
-	margin-right: 1.5em;
-	margin-left: 1.5em;
-	margin-top: 3em;
-	line-height: 22px;
-	letter-spacing: 1px;
-	word-spacing: 0;
-	font-weight: 100;
+#glance p{
+	margin-right: 3rem;
+	padding: 25px 4rem;
 	font-size: 18px;
-	/* max-width: 100%; */
+	font-weight: 200;
+	font-family: 'Montserrat', Open Sans;
+	line-height: 28px;
+	letter-spacing: 1px;
 }
-
+.glanceSlide{
+	padding-right: 3rem;
+}
+/* slick slide arrows */
+.slick-next,
+.slick-arrow{
+	height: 50px;
+	width: 50px;
+	margin-right: 20px;
+	color: green;
+}
 /* SMALL GIRL */
 .girl{
 	margin-bottom: 30em;
@@ -174,11 +168,6 @@ body{
 	text-decoration: none;
 	text-align: left;
 }
-.read{
-	background: green;
-	padding: 10px 2em;
-	margin-right: 2em;
-}
 
 #video-view h1{
 	font-size: 4em;
@@ -192,14 +181,9 @@ body{
 #video-view{
 	margin-top: 5em;
 }
-.video{
-	/*background: #000;*/
-	padding: 10px 2em;
-	border: solid 2px #FFF;
-}
 
 
-/* CHAIRMAN AND THE EXECUTIVE */
+/* CHAIRMAN AND THE EXECUTIVE BANNER CAPTIONS */
 .board{
 	margin-left: 5em;
 	position: absolute;
@@ -262,110 +246,45 @@ body{
 	position: relative;
 	top: 0;
 	right: ;
-	max-width: 100%;
 	}
+
+
 #letSaf{
 	position: absolute;
-	min-height: 93em;
-	top: 180rem;
+	min-height: 60rem;
+	top: 170rem;
 	left: 0;
 	bottom: 0;
 }
-
-/*.letHook{
-	position: absolute;
-	top: 0;
-}*/
-/* this is my side text 
-.slide-text h1{
-	color: #FFF;
-	font-size: 10em;
-	font-weight: bolder;
-	/*padding: 1% 2em;
-	position: absolute;
-	line-height: 0.8em;
-	text-align: center;
-	bottom: 3.8em;
-}
-
-.slide-text p{
-	color: #FFF;
-	font-family: century gothic;
-	font-size: 18px;
-	/*padding: 1% 22em;
-	position: absolute;
-	text-align: center;
-	line-height: 22px;
-	bottom: 25em;
-	max-width: 100%;
-	padding-left: 8em;
-	padding-right: 8em;
-
-}*/
-
-/*.slide-text h1{
-	color: #FFF;
-	font-size: 8em;
-	font-weight: bolder;
-	font-family: ;
-	padding-left: 5em;
-	padding-right: 5em;
-
-}*/
-/* section two */
-/* #performance {
-	margin-top: 5em;
-}
-
-#performance h1{
-	color:  green;
-	font-size: 5em;
-	font-weight: bold;
-	text-align: left;
-	padding: 2px;
-	margin-bottom: 1em;
-}
-
-#performance-paragraph p{
-	font-family: Open sans 'Comfortaa';
-	font-size: 17px;
-	text-align: left;
-	padding: 4px 6%;
-	}
-	#performance-paragraph{
-	background: green;
-	overflow-x: scroll;
-	height: 400px;
-	max-width: 800px;
-	} */
-
-
+/* @media screen and (min-width:400px) {  
+  #letSaf {
+    display: none;
+  }
+} */
 .strong-kids{
 	background-image: url('../img/move-forward.jpg');
 	background-repeat: no-repeat;
-	max-width: 100%;
+	/* max-width: 100%; */
 	/* height: auto; */
 }
 
 /* SUPAKIDS SECTION*/
 .supakids-text{
-	margin-top: 2em;
 	padding-left: 4em;
 	padding-right: 3em;
 	margin-bottom: 5%;
-	/* max-width: 100%; */
 }
 
 .supakids-text h1{
 	color: #FFF;
 	text-align: left;
+	text-transform: uppercase;
 	font-weight: 800;
 	font-family: 'Montserrat', Open Sans;
 	line-height: 0.8em;
 	font-size: 10rem;
-	/* margin: 2.5em 3em 1em 0; */
 	margin-top: 3em;
-	max-width: 70%;
+	
 }
 
 .smaLinks a{
@@ -373,7 +292,7 @@ body{
 	margin-right: 0;
 	padding: 1em;
 	float: left;
-	padding-bottom: 10em;
+
 }
 
 /* the BIG DEAL*/
@@ -466,154 +385,52 @@ body{
 	overflow: scroll;
 }
 
-
-/* FORGET ABOUT THIS OVERLAY */
-/* start of overlayPart -------*/
-.myImage-One{
-}
-
-#girl-boy{
-	/*padding: 2em 2em 2em 2em;*/
-}
-
-.textBox h2{
-	color: white;
-	font-size: 1.8em;
-	text-align: center;
-	font-weight: bold;
-	text-transform: uppercase;
-	position: absolute;
-	bottom: 10em;
-	left: 8em;
-	right: 8em;
-}
-
-.back2Menu a{
-	padding-left: 10em}
-/* side nav */
-.sideBar{
-	padding: 2% 5%;
-}
-/* side nav */
-
-.backgrounGray{
-	background: rgb(192, 189, 189);
-}
-
-#scroll{
-	margin-top: 45em;
-}
-.customers{
-	/*background: black;*/
-	/*float: left;*/
-	height: 70em;
-	overflow-x: hidden;
-	margin: 4px 0;
-}
-.customers h2{
-	color: green;
-	font-size: 3em;
-	font-weight: bold;
-	text-align: left;
-	padding: 2px 1em;
-}
-
-.customers p{
-	color: #000;
-	font-size: 18px;
-	text-align: left;
-	padding: 1em 4em;
-	max-width: 80%;
-}
-.customers{
-	height: 25em;
-}
-
-/* 
-
-
-#mySidebar{
-	width: 250px;
-	background: #111;
-}
-.sidebar a{
-	color: black;
-}
-.closeBtn{
-	font-weight: 800;
-	font-size: 3em;
-	color: #000;
-}
-.content h1{
-	font-weight: 800;
-	line-height: 22px;
-	font-family: verdana;
-}
-.content p{
-	font-weight: 400;
-	line-height: 22px;
-	font-family: century gothic;
-}
-
-.contentTwo h2{
-	font-weight: 800;
-	line-height: 22px;
-	font-family: century gothic;
-}
-.contentTwo p{
-	font-weight: 400;
-	line-height: 22px;
-	font-family: verdana;
-}
-.buttton{
-	color: black; 
-}
-
-
-*/
-
-.downloadSection{
-	background: transparent;
-	padding-top: 10em;
-}
-.copyDownload{
-
-}
 .copyDownload h2{
-	color: green;
-	text-align: left;
-	font-family: 'Montserrat', Open Sans;
 	font-weight: 800;
 	font-size: 6rem;
-	line-height: 45px;
-	padding: 0 15px 0 1.3em;
-	margin: 0 10px;
+	font-family: 'Montserrat', Open Sans;
+	line-height: 72px;
+	color: green;
 }
-.mbsOne,
-.mbTwo{
-	margin-top: 2em;
+.copyDownload{
+	padding-left: 8rem;
+	padding-top: 12rem;
 }
-
 .mbsOne,
 .mbsTwo p{
-	color: #000 !important;
-	line-height: 32px;
-	font-family: 'Montserrat', Open Sans;
-	font-weight: 600;
-	font-size: 1.8rem;
-	text-align: left;
 	text-transform: uppercase;
-	padding-left: 6em;
-	/* padding-top: 3em; */
-	margin-top: 2em;
-}
-#bytes{
-	text-transform: lowercase;
-	color: #000;
-	font-weight: 100;
+	font-weight: 400;
+	font-family: 'Montserrat', Open Sans;
+	padding: 15px 10px;
+	line-height: 22px;
+	font-size: 22px;
 }
 
+#bytes{
+	text-transform: lowercase;
+	font-weight: 100;
+	font-size: 18px;
+}
 /* landing pages */
+.remove{
+	float: left;
+	position: absolute;
+	top: 5%;
+	left: 85%;
+	border: solid 2px #000;
+	border-radius: 50%;
+}
+a.remove{
+	text-decoration: none;
+	color: black;
+	padding: 5px;
+	font-size: 3rem;
+	font-weight: 100;
+}
+a.remove:hover{
+	color: green;
+	border: solid 2px green;
+}
 .ceoText h2{
 	color: green !important;
 	font-family: 'Montserrat', Open Sans;
@@ -639,17 +456,89 @@ body{
 .ceoTalk p{
 	/* background: black; */
 	padding-left: 10rem;
-	padding-right: 18rem;
+	padding-right: 12rem;
 	padding-bottom: 7rem;
 	padding-top: 5rem;
 	margin-right: 8rem;
 	margin-left: 8rem;
-	line-height: 22px;
+	line-height: 30px;
 	font-size: 2rem;
 	font-weight: 200;
 	font-family: 'Nunito', sans-serif;
+	/* font-family: 'Nunito', sans-serif; */
 	/* max-width: 100%; */
 }
+
+.chairText h2{
+	color: green !important;
+	font-family: 'Montserrat', Open Sans;
+	font-size: 3rem;
+	font-style: italic;
+	font-weight: 100;
+	line-height: 36px;
+	text-transform: uppercase;
+}
+.chairText h1{
+	color: green !important;
+	font-family: 'Montserrat', Open Sans;
+	font-weight: 800;
+	line-height: 60px;
+	font-size: 7rem;
+	padding-left: 18rem;
+}
+.chairTalk p{
+	/* background: black; */
+	padding-left: 10rem;
+	padding-right: 12rem;
+	padding-bottom: 7rem;
+	padding-top: 5rem;
+	margin-right: 8rem;
+	margin-left: 8rem;
+	line-height: 30px;
+	font-size: 2rem;
+	font-weight: 200;
+	font-family: 'Nunito', sans-serif;
+	/* font-family: 'Nunito', sans-serif; */
+	/* max-width: 100%; */
+}
+
+
+.executiveText h2{
+	color: green !important;
+	font-family: 'Montserrat', Open Sans;
+	font-size: 3rem;
+	font-style: italic;
+	font-weight: 100;
+	line-height: 36px;
+	text-transform: uppercase;
+}
+.executiveText h1{
+	color: green !important;
+	font-family: 'Montserrat', Open Sans;
+	font-weight: 800;
+	line-height: 60px;
+	font-size: 7rem;
+	padding-left: 18rem;
+}
+.executiveTalk p{
+	/* background: black; */
+	padding-left: 10rem;
+	padding-right: 12rem;
+	padding-bottom: 7rem;
+	padding-top: 5rem;
+	margin-right: 8rem;
+	margin-left: 8rem;
+	line-height: 30px;
+	font-size: 2rem;
+	font-weight: 200;
+	font-family: 'Nunito', sans-serif;
+	/* font-family: 'Nunito', sans-serif; */
+	/* max-width: 100%; */
+}
+
+
+
+
 .arrow,
 .arrow2{
 	color: green;
@@ -662,16 +551,44 @@ body{
 	background: transparent;
 	/* display: none; */
 }
+
+
 hr{
 	background: green !important;
 	width: 15%;
 	height: 2px;
-	top: 8%;
-	left: 24%;
+	top: 6%;
+	left: 28%;
 	position: absolute;
 }
 .story{
 	margin-right: 15rem;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
