@@ -101,7 +101,7 @@ body{
 }
 .intro-slider-text.gallery-text p {
 	font-family: 'Gotham Book', sans-serif;
-	font-size: 1.05em;
+	font-size: 1.01em;
 	width: 90%;
   margin-top: 2em;
 }
@@ -238,16 +238,19 @@ body{
 /* BANNER INDICATORS */
 .bannerInd {
 	top: 10%;
-	left: 8%;
+  left: 8%;
+  bottom: 0;
+  margin-bottom: 0;
+  height: 1.1em;
 }
 .bannerInd li{
-			display: inline-block;
-			width: 15px;
-			margin: 0 !important;
-			height: 15px;
-			text-indent: 0;
-			background: transparent;
-			border: solid 2px #00b44e;
+		display: inline-block;
+		width: 15px;
+		margin: 0 !important;
+		height: 15px;
+		text-indent: 0;
+		background: transparent;
+		border: solid 2px #00b44e;
 
 }
 .bannerInd .active {
@@ -256,16 +259,17 @@ body{
 		margin: 0 !important;
     background: #FFF;
 }
+
 .carousel-indicators li{
 	display: inline-block;
-    width: 15px;
-    height: 15px;
-    margin: 10px;
-    text-indent: 0;
-    cursor: pointer;
-    border: solid 2px #ffffff;
-    border-radius: 0 !important;
-    background: transparent;
+  width: 15px;
+  height: 15px;
+  margin: 10px;
+  text-indent: 0;
+  cursor: pointer;
+  border: solid 2px #ffffff;
+  border-radius: 0 !important;
+  background: transparent;
     /* box-shadow: inset 1px 5px 2px 0px transparent; */
 }
 .carousel-indicators .active {
@@ -607,6 +611,55 @@ hr{
 .customers{
 	height: 25em;
 }
+
+/* Executive Overlays */
+.executive-modal .modal-body{
+  padding: 0;
+}
+
+.executive-modal  .close {
+  right: 0;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  filter: alpha(opacity=20);
+  position: absolute;
+  top: 0;
+  z-index: 10;
+}
+
+.executive-modal .executive-image img{
+  height: 100vh;
+  object-fit: cover;
+}
+
+.executive-modal .top-section{
+  background: url('/img/where-will-we-go-next.png') no-repeat top left;
+  background-size: contain;
+  height: 3em;
+  margin-top: 1em;
+}
+
+.executive-modal .content{
+  padding: 1em;
+}
+
+.executive-modal .tag-line h1{
+  font-family: 'Montserrat Black', sans-serif;
+  font-size: 3.5em;
+  color: #00b44e;
+  margin: 1em 0;
+}
+
+.executive-modal .statement{
+  max-height: 50vh;
+  overflow-y: scroll;
+  font-family: 'Montserrat Regular', sans-serif;
+  color: #2b2b2b;
+}
+/* End Executive Overlays */
 
 /*
 

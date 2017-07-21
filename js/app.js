@@ -14,7 +14,6 @@ $(document).ready(function() {
 
   $('.full-screen-modal').click(function(e){
     e.preventDefault();
-    debugger
     $("#slider").carousel("pause");
     $(this.dataset.target).modal();
   });
