@@ -1,7 +1,6 @@
 
 $(document).ready(function() {
 
-
 	// Video PopUp
 	// This is my PopUp video
 	$(".popup").click(function () {

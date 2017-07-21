@@ -1,8 +1,25 @@
 
 @import url("./universals.css");
 @import url("./custom-carousel.css");
+@import url("./wall.css");
 
 /* MONTSERRAT FONTS*/
+
+@font-face {
+  font-family: Montserrat ExtraLight;
+  src: url("../fonts/Montserrat-ExtraLight.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Montserrat Light;
+  src: url("../fonts/Montserrat-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Montserrat Medium;
+  src: url("../fonts/Montserrat-Medium.otf") format("opentype");
+}
+
 @font-face {
   font-family: Montserrat Regular;
   src: url("../fonts/Montserrat-Regular.otf");
@@ -11,6 +28,12 @@
   font-family: Montserrat Black;
   src: url("../fonts/Montserrat-Black.otf");
 }
+
+@font-face {
+  font-family: Montserrat SemiBold;
+  src: url("../fonts/Montserrat-SemiBold.otf") format("opentype");
+}
+
 @font-face {
   font-family: Montserrat Bold;
   src: url("../fonts/Montserrat-Bold.otf");
@@ -18,6 +41,11 @@
 @font-face {
   font-family: Montserrat Medium;
   src: url("../fonts/Montserrat-Medium.otf");
+}
+
+@font-face {
+  font-family: Montserrat ExtraBold;
+  src: url("../fonts/Montserrat-ExtraBold.otf") format("opentype");
 }
 
 /* GOTHAM FONTS*/
