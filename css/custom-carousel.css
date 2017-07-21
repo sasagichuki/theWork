@@ -7,21 +7,23 @@
 }
 
 .slick-slider {
-		position: relative;
-		display: table !important;
-		table-layout: fixed !important;
-		width: 100% !important;
-		box-sizing: border-box;
-		-moz-box-sizing: border-box;
-		-webkit-touch-callout: none;
-		-webkit-user-select: none;
-		-khtml-user-select: none;
-		-moz-user-select: none;
-		-ms-user-select: none;
-		user-select: none;
-		-ms-touch-action: none;
-		touch-action: none;
-		-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	position: relative;
+	display: table !important;
+	table-layout: fixed !important;
+	width: 100% !important;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-ms-touch-action: none;
+	touch-action: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  z-index: 2;
+  background-color: white;
 }
 
 .slick-list {
@@ -117,7 +119,7 @@
 }
 
 
-/*---------------Slider Dots---------*/ 
+/*---------------Slider Dots---------*/
 .slick-slider {
 		margin-bottom: 30px;
 }
@@ -143,7 +145,7 @@
 }
 
 .slick-dots .slick-active button {
-  display: block !important; 
+  display: block !important;
   width: 15px !important;
   margin: 0 !important;
   height: 15px !important;
@@ -159,7 +161,7 @@
 }
 
 .slick-dots li button {
-  display: block !important; 
+  display: block !important;
   width: 15px !important;
   margin: 0 !important;
   height: 15px !important;

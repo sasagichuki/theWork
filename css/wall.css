@@ -585,7 +585,7 @@ footer a {
 .tab-content h2{
   font-family: 'Montserrat ExtraBold', sans-serif;
   color: #00b44e;
-  margin: 1.25em 0;
+  margin: 1em 0;
 }
 
 .tab-content{
@@ -595,7 +595,15 @@ footer a {
   padding: 0px 12px;
   width: 100%;
   border-left: none;
-  height: 75vh;
+  max-height: 65vh;
   overflow-y: scroll;
 }
 
+.wall-back-btn{
+  margin-right: 2em;
+  margin-bottom: 3em;
+}
+
+.wall-back-btn img{
+  height: 1em;
+}
