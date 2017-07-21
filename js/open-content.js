@@ -1,5 +1,4 @@
 function openContent(evt, contentName) {
-  debugger
   // Get all elements with class="tabcontent" and hide them
   $(".tab-content").css('display','none')
 

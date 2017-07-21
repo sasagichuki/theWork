@@ -43,7 +43,7 @@ a {
   position: relative;
 }
 
-.row {
+.wall-wrapper .row {
   /*width: 80%;*/
   margin: 0 -30px;
   *zoom: 1;
