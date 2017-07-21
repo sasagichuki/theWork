@@ -316,6 +316,13 @@ body{
 .safaricom-hook {
 	z-index: 1;
 	position: absolute;
+	min-height: 100%;
+	max-height: 115%;
+	margin-top: -5%;
+	margin-bottom: -10%;
+	min-width: 125%;
+	left: -15.7%;
+	right: -10%;
 }
 .safaricom-hook img {
 }
