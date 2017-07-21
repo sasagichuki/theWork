@@ -5,11 +5,19 @@
 /* MONTSERRAT FONTS*/
 @font-face {
   font-family: Montserrat Regular;
-  src: url("../fonts/Montserrat-Regular.ttf");
+  src: url("../fonts/Montserrat-Regular.otf");
+}
+@font-face {
+  font-family: Montserrat Black;
+  src: url("../fonts/Montserrat-Black.otf");
 }
 @font-face {
   font-family: Montserrat Bold;
-  src: url("../fonts/Montserrat-Bold.ttf");
+  src: url("../fonts/Montserrat-Bold.otf");
+}
+@font-face {
+  font-family: Montserrat Medium;
+  src: url("../fonts/Montserrat-Medium.otf");
 }
 
 /* GOTHAM FONTS*/
@@ -148,6 +156,7 @@ body{
 }
 
 .gallery .gallery-btn a.btn{
+  font-family: 'Montserrat Regular', sans-serif;
   color: #FFF;
   font-size: 0.9em;
   text-decoration: none;
@@ -304,12 +313,11 @@ body{
 	height: 42em;
 	max-height: 42em;
 }
-#letSaf{
+.safaricom-hook {
+	z-index: 1;
 	position: absolute;
-	height: 93em;
-	top: 50em;
-	left: 0;
-	bottom: 0;
+}
+.safaricom-hook img {
 }
 #img{
 	height: 0;
