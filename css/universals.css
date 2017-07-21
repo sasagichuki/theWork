@@ -42,12 +42,19 @@
 .montserrat-book {
 	font-family: "Montserrat Book", sans-serif;
 }
-.montserrat-regular {
-	font-family: "Montserrat Regular", sans-serif;
+.montserrat-extra-bold{
+	font-family: "Montserrat ExtraBold", sans-serif;
 }
 .montserrat-medium {
 	font-family: "Montserrat Medium", sans-serif;
 }
+.montserrat-regular {
+	font-family: "Montserrat Regular", sans-serif;
+}
+.montserrat-semi-bold{
+	font-family: "Montserrat SemiBold", sans-serif;
+}
+
 .gotham-black {
 	font-family: "Gotham Black", sans-serif;
 }
@@ -65,7 +72,7 @@
     MEDIA QUERY
 -----------------------------------------*/
 
-@media screen and (max-width: 1124px) { 
+@media screen and (max-width: 1124px) {
 	#perform {
 		height: 28em !important;
 		max-height: 28em !important;
@@ -90,7 +97,7 @@
 	}
 }
 
-@media screen and (max-width: 870px) { 
+@media screen and (max-width: 870px) {
 	.highLights {
 		height: 35em !important;
     max-height: 35em !important;
@@ -122,7 +129,7 @@
 	}
 }
 
-@media screen and (max-width: 770px) { 
+@media screen and (max-width: 770px) {
 
 	.infoGraphs{
 		width: 100% !important;
@@ -153,7 +160,7 @@
 	}
 }
 
-@media screen and (max-width: 624px) { 
+@media screen and (max-width: 624px) {
 	.highLights {
 		height: 33em !important;
     max-height: 33em !important;
@@ -177,10 +184,10 @@
 	.gallery-text-right {
 		left: 45% !important;
 	}
-   
+
 }
 
-@media screen and (max-width: 400px) { 
+@media screen and (max-width: 400px) {
 
 	.bannerInd {
     left: 15% !important;
