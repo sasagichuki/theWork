@@ -53,8 +53,8 @@ body{
 /* STAGE ONE CAROUSEL */
 .intro-slider-text {
   text-align: left;
-  left: 10% !important;
-  width: 40%;
+  left: 5.5% !important;
+  /*width: 40%;*/
 }
 
 /* STAGE TWO CAROUSEL */
@@ -78,10 +78,13 @@ body{
   width: 100%;
   object-fit: cover;
 }
-.gallery-text{
+
+
+/* Slider Specific Text */
+.intro-slider-text.gallery-text{
 	color: #ffffff;
   position: absolute;
-  top: 15%; right: 0;
+  top: 20%; right: 0;
   bottom: 0; left: 0;
   opacity: 1;
   -webkit-transition: opacity 0.6s;
@@ -89,41 +92,77 @@ body{
   transition: opacity 0.6s;
   vertical-align:middle;
 }
-.gallery-text h1{
+.intro-slider-text.gallery-text h1{
 	font-family: 'Montserrat Black', sans-serif;
-	font-size: 5em;
+	font-size: 7.5em;
 	font-weight: 900;
-	line-height: 1em;
+	line-height: 0.85em;
 	width: 100%;
-}	
-.gallery-text p {
+}
+.intro-slider-text.gallery-text p {
 	font-family: 'Gotham Book', sans-serif;
-	font-size: 0.9em;
+	font-size: 1.05em;
 	width: 90%;
+  margin-top: 2em;
 }
-.gallery-text-right {
-	left: 50%;
+/* End Slider Specific Text */
+
+/* Gallery Specific Text */
+.gallery .gallery-text{
+  color: #ffffff;
+  position: absolute;
+  top: 20%; right: 0;
+  bottom: 0; left: 0;
+  opacity: 1;
+  -webkit-transition: opacity 0.6s;
+  -moz-transition: opacity 0.6s;
+  transition: opacity 0.6s;
+  vertical-align:middle;
 }
-.gallery-text-left {
-	left: 5%;
+.gallery .gallery-text h1{
+  font-family: 'Montserrat Black', sans-serif;
+  font-size: 5.5em;
+  font-weight: 900;
+  line-height: 1em;
+  width: 100%;
 }
-.gallery-btn a.read{
-	background: #00b44e;
+.gallery .gallery-text p {
+  font-family: 'Gotham Book', sans-serif;
+  font-size: 1.05em;
+  width: 90%;
+  margin-top: 2em;
+}
+
+.gallery .gallery-text-right {
+  top: 24%;
+  left: 57.75%;
+}
+.gallery .gallery-text-left {
+  left: 5%;
+}
+
+.gallery .gallery-btn a.read{
+  background: #00b44e;
   padding: 0.5em 1em;
   border: solid #00b44e thin;
 }
-.gallery-btn a.btn{
-	color: #FFF;
-	font-size: 0.9em;
-	text-decoration: none;
-	text-align: center;
-	border-radius: 0;
-	margin: 10px;
+
+.gallery .gallery-btn a.btn{
+  color: #FFF;
+  font-size: 0.9em;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 0;
+  margin: 10px;
 }
-.gallery-btn a.popup{
-	border: solid #FFF thin;
+
+.gallery .gallery-btn a.popup{
+  border: solid #FFF thin;
   padding: 0.5em 1em;
 }
+
+/* End Gallery Specific Text */
+
 #video-view h1{
 	font-size: 4em;
 	font-weight: 300;
@@ -348,7 +387,7 @@ body{
 	}
 
 
-.strong-kids{    
+.strong-kids{
 	background-image: url(../img/move-forward.jpg);
   background-size: cover;
   background-repeat: no-repeat;
