@@ -12,9 +12,11 @@ $(document).ready(function() {
 	    $iframe.wrap("<div class='class-video'>");
 	});
 
-  $('.full-screen-modal').click(function(){
+  $('.full-screen-modal').click(function(e){
+    e.preventDefault();
+    debugger
     $("#slider").carousel("pause");
-    $("#bobModal").modal();
+    $(this.dataset.target).modal();
   });
 
 	//Instantiate/Activate carousel
