@@ -197,8 +197,99 @@ html, body, .site_wrapper {
   border: solid #FFF thin;
   padding: 0.5em 1em;
 }
-
 /* End Gallery Specific Text */
+
+/*Video Icon*/
+.video-icon {
+  width: 50%;
+  padding-top: 2%;
+}
+.video-icon a {
+  width: 30%;
+  height: 30%;
+}
+.video-icon a img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.video-icon h6 {
+  padding: 8% 2% 0 5%;
+  font-family: "Montserrat Medium", sans-serif;
+  font-size: 1em;
+  width: 30%;
+  line-height: 1.5em;
+  margin: 0 !important;
+}
+/*End Video Icon*/
+
+
+/*Mouse Over*/
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+.mouse {
+  position: absolute;
+  left: 50%;
+  bottom: 15%;
+  width: 2em;
+  height: 4em; 
+}
+.carousel .mouse {
+	bottom: 7% !important;
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+/*End of Mouse*/
+
+
 
 #video-view h1{
 	font-size: 4em;
