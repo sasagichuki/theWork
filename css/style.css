@@ -436,12 +436,12 @@ html, body, .site_wrapper {
   z-index: 1;
   position: absolute;
   min-height: 100%;
-  max-height: 120%;
-  margin-top: 2%;
+  max-height: 138%;
+  margin-top: -5%;
   margin-bottom: -15%;
   min-width: 117.7%;
   left: -17.7%;
-  right: -10%
+  right: -10%;
 }
 #img{
 	height: 0;
