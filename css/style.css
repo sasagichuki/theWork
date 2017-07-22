@@ -437,11 +437,11 @@ html, body, .site_wrapper {
   position: absolute;
   min-height: 100%;
   max-height: 120%;
-  margin-top: -2%;
+  margin-top: 2%;
   margin-bottom: -15%;
-  min-width: 115.70%;
-  left: -15.7%;
-  right: -10%;
+  min-width: 117.7%;
+  left: -17.7%;
+  right: -10%
 }
 #img{
 	height: 0;
