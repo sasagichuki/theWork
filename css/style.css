@@ -86,7 +86,7 @@ html, body, .site_wrapper {
 
 /* STAGE ONE CAROUSEL */
 #intro{
-  margin-top: 50px;
+  margin-top: 40px;
 }
 .intro-slider-text {
   text-align: left;
@@ -139,7 +139,7 @@ html, body, .site_wrapper {
 }
 .intro-slider-text.gallery-text p {
 	font-family: 'Gotham Book', sans-serif;
-	font-size: 1.01em;
+	font-size: 1.09em;
 	width: 90%;
   margin-top: 2em;
 }
@@ -277,7 +277,7 @@ html, body, .site_wrapper {
 .mouse {
   position: absolute;
   left: 50%;
-  bottom: 15%;
+  bottom: 25%;
   width: 2em;
   height: 4em;
 }
