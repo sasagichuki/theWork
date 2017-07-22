@@ -73,10 +73,6 @@ html, body, .site_wrapper {
 .site_wrapper{
 	padding: 0;
 }
-.navbar-fixed-top{
-	background: rgba(255, 255, 255, 1.0);
-	padding: 10px 0;
-}
 
 .logo {
 	height: 2em !important;
@@ -85,6 +81,9 @@ html, body, .site_wrapper {
 
 
 /* STAGE ONE CAROUSEL */
+#intro{
+  margin-top: 50px;
+}
 .intro-slider-text {
   text-align: left;
   left: 5.5% !important;
