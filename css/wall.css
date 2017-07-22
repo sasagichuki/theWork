@@ -595,7 +595,7 @@ footer a {
   padding: 0px 12px;
   width: 100%;
   border-left: none;
-  max-height: 65vh;
+  height: 65vh;
   overflow-y: scroll;
 }
 
