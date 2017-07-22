@@ -277,7 +277,7 @@ html, body, .site_wrapper {
   left: 50%;
   bottom: 15%;
   width: 2em;
-  height: 4em; 
+  height: 4em;
 }
 .carousel .mouse {
 	bottom: 7% !important;
@@ -419,7 +419,7 @@ html, body, .site_wrapper {
 
 
 /* HIGHLIGHTS TEXT SLIDE */
-.highLights {
+.highlights {
 	height: 45em;
 	max-height: 45em;
 	display: flex;
@@ -433,15 +433,15 @@ html, body, .site_wrapper {
 	max-height: 45em;
 }
 .safaricom-hook {
-	z-index: 1;
-	position: absolute;
-	min-height: 100%;
-	max-height: 120%;
-	margin-top: -5%;
-	margin-bottom: -15%;
-	min-width: 125%;
-	left: -15.7%;
-	right: -10%;
+  z-index: 1;
+  position: absolute;
+  min-height: 100%;
+  max-height: 120%;
+  margin-top: -2%;
+  margin-bottom: -15%;
+  min-width: 115.70%;
+  left: -15.7%;
+  right: -10%;
 }
 #img{
 	height: 0;
@@ -465,12 +465,13 @@ html, body, .site_wrapper {
 	padding-top: 2em;
 }
 
-#perform {
+.perform {
 	height: 25em;
 	max-height: 25em;
 	overflow-y: scroll;
 }
-#perform p{
+
+.perform p{
     font-family: 'Nunito', sans-serif;
     text-align: justify;
     padding: 1em 3em 3em 3.5em;

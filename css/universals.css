@@ -73,7 +73,7 @@
 -----------------------------------------*/
 
 @media screen and (max-width: 1124px) {
-	#perform {
+	.perform {
 		height: 28em !important;
 		max-height: 28em !important;
 	}
@@ -99,7 +99,7 @@
 
 @media screen and (max-width: 1024px) {
 
-	.highLights {
+	.highlights {
 		height: 38em !important;
     max-height: 38em !important;
 	}
@@ -110,7 +110,7 @@
 		height: 38em !important;
 		max-height: 38em !important;
 	}
-	#perform {
+	.perform {
 		height: 23em !important;
 		max-height: 23em !important;
 	}
@@ -130,7 +130,7 @@
 }
 
 @media screen and (max-width: 870px) {
-	.highLights {
+	.highlights {
 		height: 35em !important;
     max-height: 35em !important;
 	}
@@ -138,7 +138,7 @@
 		height: 35em !important;
 		max-height: 35em !important;
 	}
-	#perform {
+	.perform {
 		height: 23em !important;
 		max-height: 23em !important;
 	}
@@ -199,7 +199,7 @@
 }
 
 @media screen and (max-width: 624px) {
-	.highLights {
+	.highlights {
 		height: 33em !important;
     max-height: 33em !important;
 	}
