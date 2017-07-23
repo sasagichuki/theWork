@@ -285,13 +285,14 @@
     left: 15% !important;
 	}
 	.gallery-text h1, .supakids-text h1 {
-		font-size: 1.7em !important;
+		font-size: 1.5em !important;
 	}
 	.intro-slider-text.gallery-text h1{
-		font-size: 2em !important;
+		font-size: 1.5em !important;
 	}
 	.gallery-text p, .gallery-btn a.btn, .video-icon h6 {
-		font-size: 0.6em !important;
+		font-size: 0.5em !important;
+		margin-top: 0 !important;
 	}
 	.cfo .gallery-text h1{
 		font-size: 1.2em !important;
