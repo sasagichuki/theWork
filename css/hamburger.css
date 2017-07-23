@@ -1,0 +1,88 @@
+.menu, .menu-bg, .menu-burger {
+  position: fixed;
+  font-size: 30px;
+  text-align: center;
+  right: 32px;
+  top: 3px;
+  z-index: 4000;
+  border-radius: 4px;
+}
+
+.menu-bg {
+  background: #00b44e;
+  right: 0px;
+  top: 0px;
+}
+.menu-bg.fs {
+  width: 100vw;
+  height: 100vh;
+  background: white;
+}
+
+.menu-burger {
+  color: white;
+  padding-top: 0;
+  -webkit-user-select: none;
+  cursor: pointer;
+  transition: 0.1s;
+  transform-origin: center;
+  right: 12px;
+  width: 36px;
+  height: auto;
+}
+.menu-burger.fs {
+  transition: 0.1s;
+  transform: rotate(-90deg);
+  background: white;
+  color: black;
+}
+
+.menu-items {
+  position: fixed;
+  font-weight: bold;
+  color: black;
+  font-size: 40px;
+  letter-spacing: 10px;
+  color: black;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  z-index: 4000;
+  margin-top: 2em;
+  overflow-y: scroll;
+}
+.menu-items div {
+  /*transition: 1s;*/
+  opacity: 0;
+  margin-top: 0px;
+}
+.menu-items.fs {
+  pointer-events: auto;
+  opacity: 1;
+}
+.menu-items.fs div {
+  opacity: 1;
+}
+
+.menu-items .row-1{
+  height: 70vh;
+}
+
+.content {
+  padding: 100px 50px;
+  line-height: 1.62em;
+  color: #444;
+}
+.content h1 {
+  font-weight: bold;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.hidden{
+  display: none;
+}
+
+.green-background{
+  background-color: #00b44e;
+}

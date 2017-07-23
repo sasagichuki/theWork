@@ -2,6 +2,7 @@
 @import url("./universals.css");
 @import url("./custom-carousel.css");
 @import url("./wall.css");
+@import url("./hamburger.css");
 
 /* MONTSERRAT FONTS*/
 
@@ -70,6 +71,11 @@ html, body, .site_wrapper {
   max-width: 100%;
   /*overflow-x: hidden;*/
 }
+
+body.noscroll{
+  overflow: hidden;
+}
+
 .site_wrapper{
 	padding: 0;
 }
@@ -444,6 +450,7 @@ html, body, .site_wrapper {
   min-width: 117.7%;
   left: -17.7%;
   right: -10%;
+  pointer-events: none;
 }
 #img{
 	height: 0;
@@ -760,6 +767,10 @@ hr{
   position: absolute;
   top: 0;
   z-index: 10;
+}
+
+.executive-modal{
+  z-index: 5000;
 }
 
 .executive-modal .executive-image img{

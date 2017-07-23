@@ -45,8 +45,15 @@ $(document).ready(function() {
       nextArrow: '<i class="fa fa-angle-right fa-3x slick-control next" aria-hidden="true"></i>'
   });
 
-
 });
+
+// Scroll to called div
+function scrollPage(nextDiv){
+  $('html,body').animate({
+    scrollTop: $(nextDiv).offset().top},
+    1000
+  );
+}
 
 //Fix navbar ontop when necessary
 function fixTop () {
