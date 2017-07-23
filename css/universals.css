@@ -182,7 +182,7 @@
     left: 10% !important;
 	}
 	.gallery-text {
-		top: 9% !important;
+		top: 10% !important;
 	}
 	.gallery-text h1, .supakids-text h1 {
 		font-size: 3em !important;
@@ -211,10 +211,10 @@
     left: 11% !important;
 	}
 	.gallery-text {
-		top: 6% !important;
+		top: 10% !important;
 	}
 	.gallery-text h1, .supakids-text h1 {
-		font-size: 2em !important;
+		font-size: 1.3em !important;
 	}
 	.gallery-text p, .gallery-btn a.btn, .video-icon h6 {
 		font-size: 0.7em !important;
