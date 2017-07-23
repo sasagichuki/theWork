@@ -210,6 +210,9 @@
 	.gallery-text h1, .supakids-text h1 {
 		font-size: 3em !important;
 	}
+	.intro-slider-text.gallery-text h1{
+		font-size: 3.5em !important;
+	}
 	.gallery-text p, .gallery-btn a.btn, .video-icon h6 {
 		font-size: 0.9em !important;
 	}
