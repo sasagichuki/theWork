@@ -45,6 +45,10 @@ $(document).ready(function() {
       nextArrow: '<i class="fa fa-angle-right fa-3x slick-control next" aria-hidden="true"></i>'
   });
 
+  $('#videoModal').on('hidden.bs.modal', function () {
+    $('#videoModal iframe').attr('src', videoSRC);
+  })
+
 });
 
 // Scroll to called div
@@ -54,6 +58,18 @@ function scrollPage(nextDiv){
     1000
   );
 }
+
+function videoPlay(src) {
+  $("#slider").carousel("pause");
+  var theModal = '#videoModal';
+  videoSRC = src;
+  videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
+  $(theModal + ' iframe').attr('src', videoSRCauto);
+  $(theModal + ' button.close').click(function () {
+    $(theModal + ' iframe').attr('src', videoSRC);
+  });
+  $('#videoModal').modal();
+};
 
 //Fix navbar ontop when necessary
 function fixTop () {

@@ -97,7 +97,7 @@ footer a {
 }
 .btn:hover {
   color: black;
-  background: white;
+  /*background: white;*/
   border: 1px solid black;
 }
 
