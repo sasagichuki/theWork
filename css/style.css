@@ -15,6 +15,35 @@ body{
 	width: 100%;
 }
 
+.opacityBg{
+	background: rgba(0, 0, 0, 1.0)
+}
+
+.slide-caption{
+	position: absolute;
+ 	z-index: 4;
+ 	bottom: 30%;
+ 	padding-left: 1%;
+}
+.slide-captionGirl h1{
+ 	color: #FFF;
+ 	text-transform: uppercase;
+ 	font-weight: 800;
+ 	font-size: 9rem;
+ 	font-family: 'Montserrat', Open Sans;
+ 	line-height: 78px;
+ 	padding-left: 3%;
+}
+.slide-captionGirl p{
+ 	color: #FFF;
+ 	font-weight: 100;
+ 	font-size: 18px;
+ 	font-family: 'Montserrat', Open Sans;
+ 	line-height: 22px;
+ 	padding-left: 3%;
+ }
+
+
 .slick-dots {
   top: 100px;
   text-align: left;
@@ -209,6 +238,11 @@ body{
 				display: none;
 			}
 }
+@media only screen and (max-width: 767px){
+			#glance h1 p{
+				text-align: center;
+			}
+}
 .strong-kids{
 	background-image: url('../img/move-forward.jpg');
 	background-repeat: no-repeat;
@@ -240,6 +274,9 @@ body{
     float: left;
 }
 
+.downloadSec{
+	padding-top: 3%;
+}
 .copyDownload h2{
 	font-weight: 800;
 	font-size: 6rem;
