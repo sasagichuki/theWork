@@ -35,13 +35,19 @@
 	<section class="row">
 		<div class="col-md-12">
 <!-- banner -->
-			<div class="slide opacityBg">
+			<div class="slide">
 				<div><img src="img/girl.jpg" alt="bamner-image" class="img-responsive" id="img">
 						<div class="row container-fluid">
 									<div class="col-md-12 slide-caption slide-captionGirl">
 											<h1>Chairman's<br> Statement</h1>
 
 											<p>It is a long established fact that a reader will be <br>distracted by the readable content of a page when looking<br> at its layout. The point of using Lorem Ipsum is that it English.</p>
+
+											<div>
+												<a href="#" alt="Twaweza video">
+													<span class="glyphicon glyphicon-play"></span>
+												</a>
+											</div>
 									</div>
 								</div>
 				</div>
@@ -112,7 +118,7 @@
 
 		<img src="img/letSaf.png" alt="safaricom hook" id="letSaf" class="img-responsive">
 			<div class="col-md-6">
-				<img src="img/flying-boys.png" alt="Kids swimming" id="img" class="img-responsive">
+				<img src="img/flying-boys.png" alt="Kids swimming" id="letSwim img" class="img-responsive">
 			</div>
 			
 			<div class="col-md-6" id="glance">
@@ -193,6 +199,7 @@
 	<script type="text/javascript">
 		$(document).ready(function(){
   	$('.slide').slick({
+    			dots: true,
     			arrows: false,
     			autoplay: true,
     			fade: true,
@@ -212,9 +219,8 @@
 
 		$(document).ready(function(){
   	$('.glanceSlide').slick({
+    			dots: false,
     			arrows: true,
-    			// prevArrow: '<button type="button" class="btn-arrow">Next</button>',
-    			// nextArrow:'<button type="button" class="btn-arrow">Previous</button>',
     			autoplay: true,
     			fade: false,
     			autoplaySpeed: 6000

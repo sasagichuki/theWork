@@ -15,10 +15,6 @@ body{
 	width: 100%;
 }
 
-.opacityBg{
-	background: rgba(0, 0, 0, 1.0)
-}
-
 .slide-caption{
 	position: absolute;
  	z-index: 4;
