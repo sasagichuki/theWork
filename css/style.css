@@ -11,48 +11,90 @@ body{
 	background: rgba(255, 255, 255, 1.0);
 	padding: 10px 0;
 }
+#img{
+	width: 100%;
+}
 
- .slide-caption {
+.slick-dots {
+  top: 100px;
+  text-align: left;
+  padding-left: 4%;
+  position: absolute;
+  width: 50%;
+  height: 25%;
+  display: none;
+  z-index: auto;
+}
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: none;
+    text-align: center;
+    color: black;
+}
+
+.slick-dots li .slick-active button:before{
+	background: transparent;
+}
+.slick-dotted.slick-slider{
+	margin-bottom: 0;
+}
+.slick-dots li button {
+    font-size: 8px;
+    line-height: 0;
+    display: block;
+    width: 17px;
+    height: 17px;
+    padding: 5px;
+    cursor: pointer;
+    border: solid #FFF 1px;
+    outline: none;
+    background: #FFF;
+}
+
+.slide-caption0 {
  	position: absolute;
  	z-index: 4;
- 	bottom: 50%;
- 	left: ;
- 	top: ;
- 	
+ 	bottom: 45%;
  }
- .slide-caption h1{
+ .slide-caption0 h1{
  	color: #FFF;
  	text-transform: uppercase;
  	font-weight: 800;
  	font-size: 9rem;
  	font-family: 'Montserrat', Open Sans;
  	line-height: 78px;
- 	/* padding-left: 11%; */
- 	padding-right: 0;
+ 	margin-left: 11.5%;
  }
- .slide-caption p{
+ .slide-caption0 p{
  	color: #FFF;
  	font-weight: 100;
  	font-size: 18px;
  	font-family: 'Montserrat', Open Sans;
-/*  	line-height: 22px;
- 	padding-left: 11%; */
- 	padding-right: 0;
+ 	margin-left: 11.5%;
+
  }
 
 .links-bob{
 	padding: 20px 0;
-	padding-left: 11%;
+	padding-left: 11.5%;
  	padding-right: 0;
 }
 .links-bob a{
 	text-decoration: none;
 	color: #FFF;
-	padding: 10px 10px;
+	padding: 10px 2em;
 	font-family: 'Montserrat', Open Sans;
 }
 .read-link{
 	background: green;
+	margin-right: 10px;
 }
 .video-link{
 	background: transparent;
@@ -60,7 +102,13 @@ body{
 }
 
 
-/* the chairman */
+/* the chairman and the executive */
+.slide-caption{
+	position: absolute;
+ 	z-index: 4;
+ 	bottom: 30%;
+ 	padding-left: 1%;
+}
 .slide-captionOne h1{
  	color: #FFF;
  	text-transform: uppercase;
@@ -79,22 +127,21 @@ body{
 
 .links{
 	padding: 20px 0;
-	margin-left: 30px;
+	text-transform: uppercase;
 }
 .links a{
 	text-decoration: none;
 	color: #FFF;
-	padding: 10px 10px;
+	padding: 10px 2em;
 	font-family: 'Montserrat', Open Sans;
 }
 
+/* slick slide dots */
 
-/* HIGHLIGHTS TEXT SLIDE */
-#img{
-	height: 0;
-	width: 100%;
+.slide{
+	background-position: center center;
 }
-
+/* HIGHLIGHTS TEXT SLIDE */
 #glance h1{
 	color: green;
 	font-family: 'Montserrat', Open Sans;
@@ -118,136 +165,23 @@ body{
 }
 .glanceSlide{
 	padding-right: 3rem;
+	margin-right: 4%;
 }
 /* slick slide arrows */
-.slick-next,
+.slick-next{
+	/* padding-left: 3%; */
+	margin-right: 5%;
+}
 .slick-arrow{
-	height: 50px;
-	width: 50px;
-	margin-right: 20px;
-	color: green;
-}
-/* SMALL GIRL */
-.girl{
-	margin-bottom: 30em;
-	margin-left: 5em;
-	position: absolute;
-	z-index: 1;
-	left: 0;
-	bottom: 0;
-}
-.girl h1{
-	text-align: left;
-	font-size: 11rem;
-	line-height: 0.8em;
-	max-width: 100%;
-	font-weight: 800;
-}
-/* BOB */
-.bobCollymore{
-	margin-left: 10em;
-	position: absolute;
-	z-index: 1;
-	right: 0;
-	bottom: 0;
-}
-.bob{
-	margin-left: 22.2em;
-	/*padding: 2em;*/
-}
-.bobHead{
-	margin-left: 2em;
-	/*padding: 2em;*/
-}
-.ceoLinks{
-	padding: 3em 3em 3em 0;
-}
-.ceoLinks a{
-	color: #FFF;
-	font-size: 18px;
-	text-decoration: none;
-	text-align: left;
+	color: red;
 }
 
-#video-view h1{
-	font-size: 4em;
-	font-weight: 300;
-	font-family: 'Nunito', sans-serif;
-}
-.popup{
-	border: solid #FFF 2px;
-	padding: 10px 2em;
-}
-#video-view{
-	margin-top: 5em;
-}
-
-
-/* CHAIRMAN AND THE EXECUTIVE BANNER CAPTIONS */
-.board{
-	margin-left: 5em;
-	position: absolute;
-	z-index: 1;
-	left: 0;
-	bottom: 0;
-}
-.chairman{
-	/* margin-right: 17em; */
-	text-align: left;
-	/*padding: 2em;*/
-}
-.chairHead{
-	margin-left: 0;
-	text-align: justify;
-	/*padding: 2em;*/
-}
-.chairmanLinks{
-	padding: 3em 3em 3em 0;
-	float: left;
-}
-.chairmanLinks a{
-	color: #FFF;
-	font-size: 18px;
-	text-decoration: none;
-	text-align: left;
-}
-
-.sateesh{
-	margin-left: 0;
-	/*padding: 2em;*/
-	text-align: left: ;
-}
-.exeHead{
-	margin-left: 0;
-	text-align: left;
-	/*padding: 2em;*/
-}
-.exeLinks{
-	padding: 3em 3em 3em 0;
-	float: left;
-}
-.exeLinks a{
-	color: #FFF;
-	font-size: 18px;
-	text-decoration: none;
-	text-align: left;
-}
-/* carousel slider */
-/* this is my glyphicon
------------------------------------
-#play-btn{
-	font-size: 3em;
-	text-align: center;
-}
-
-*/
 /* Little kids swimming image positioning */
 #letSwim{
 	position: relative;
 	top: 0;
 	right: ;
 	}
-
 
 #letSaf{
 	position: absolute;
@@ -256,16 +190,28 @@ body{
 	left: 0;
 	bottom: 0;
 }
-/* @media screen and (min-width:400px) {  
-  #letSaf {
-    display: none;
-  }
-} */
+@media only screen and (max-width: 767px) {
+
+	#letSaf{
+	display: none;
+	}
+	#letSwim{
+		display: none;
+	}
+
+}
+
+@media only screen and (max-width: 767px) {
+			.slide-caption{
+				display: none;
+			}
+			.slide-caption0{
+				display: none;
+			}
+}
 .strong-kids{
 	background-image: url('../img/move-forward.jpg');
 	background-repeat: no-repeat;
-	/* max-width: 100%; */
-	/* height: auto; */
 }
 
 /* SUPAKIDS SECTION*/
@@ -287,102 +233,11 @@ body{
 	
 }
 
-.smaLinks a{
-	margin-left: 10px;
-	margin-right: 0;
-	padding: 1em;
-	float: left;
-
-}
-
-/* the BIG DEAL*/
-
-.ceo h2{
-	color: green;
-	font-size: 3em;
-	font-family: arial;
-	font-style: italic;
-	line-height: 40px;
-	max-width: 36%;
-	padding: 5px 3px 4px 15px;
-}
-
-.ceo h1{
-	color: green;
-	font-size: 5em;
-	font-family: arial;
-	line-height: 65px;
-	font-weight: bolder;
-	text-align: left;
-	padding: 1.5em 3em 4px 2.3em;
-}
-
-.ceo p{
-	color: #000;
-	font-size: 18px;
-	padding: 5px 0.5em 4px 9em;
-	max-width: 78%;
-	height: 23em;
-	overflow: scroll;
-}
-
-
-
-.chairman h2{
-	color: green;
-	font-size: 3em;
-	font-family: arial;
-	font-style: italic;
-	line-height: 40px;
-	max-width: 37%;
-}
-
-.chairman h1{
-	color: green;
-	font-size: 5em;
-	font-family: arial;
-	line-height: 65px;
-	font-weight: bolder;
-	text-align: left;
-	padding: 1.5em 3em 4px 2.3em;
-}
-
-.chairman p{
-	color: #000;
-	font-size: 18px;
-	padding: 5px 0.5em 4px 9em;
-	max-width: 78%;
-	height: 23em;
-	overflow: scroll;
-}
-
-
-.executive h2{
-	color: green;
-	font-size: 3em;
-	font-family: arial;
-	font-style: italic;
-	line-height: 40px;
-	max-width: 36%;
-}
-
-.executive h1{
-	color: green;
-	font-size: 5em;
-	font-family: arial;
-	line-height: 65px;
-	font-weight: bolder;
-	text-align: left;
-	padding: 1.5em 3em 4px 2.3em;
-}
-
-.executive p{
-	color: #000;
-	font-size: 18px;
-	padding: 5px 0.5em 4px 9em;
-	max-width: 78%;
-	height: 23em;
-	overflow: scroll;
+.smaLinks a {
+    /* margin-left: 10px; */
+    margin-right: 0;
+    padding: 2em 2em 1em 0;
+    float: left;
 }
 
 .copyDownload h2{
@@ -497,9 +352,7 @@ a.remove:hover{
 	line-height: 30px;
 	font-size: 2rem;
 	font-weight: 200;
-	font-family: 'Nunito', sans-serif;
-	/* font-family: 'Nunito', sans-serif; */
-	/* max-width: 100%; */
+	font-family: 'Montserrat', Open Sans;
 }
 
 
@@ -531,9 +384,7 @@ a.remove:hover{
 	line-height: 30px;
 	font-size: 2rem;
 	font-weight: 200;
-	font-family: 'Nunito', sans-serif;
-	/* font-family: 'Nunito', sans-serif; */
-	/* max-width: 100%; */
+	font-family: 'Montserrat', Open Sans;
 }
 
 
@@ -549,7 +400,6 @@ a.remove:hover{
 	top: 40%;
 	font-weight: 100;
 	background: transparent;
-	/* display: none; */
 }
 
 
@@ -564,9 +414,6 @@ hr{
 .story{
 	margin-right: 15rem;
 }
-
-
-
 
 
 
