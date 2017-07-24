@@ -41,15 +41,16 @@
   position: fixed;
   font-weight: bold;
   color: black;
-  font-size: 40px;
-  letter-spacing: 10px;
-  color: black;
   width: 100%;
-  text-align: center;
   opacity: 0;
   z-index: 4000;
-  margin-top: 2em;
+  margin-top: 3em;
   overflow-y: scroll;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 .menu-items div {
   /*transition: 1s;*/
@@ -64,8 +65,28 @@
   opacity: 1;
 }
 
-.menu-items .row-1{
-  height: 70vh;
+.menu-items .row-1 .tile{
+  padding: 2px;
+}
+
+.menu-items .row-1 .tile img{
+  width: 100%;
+}
+
+.menu-items .row-1 .hamburger-image img{
+  object-fit: cover;
+    height: 108.5vh;
+}
+.menu-items .downloads h1{
+  font-size: 1em;
+}
+
+.menu-items .downloads a{
+  /*font-size: 0.8em;*/
+}
+
+.menu-items .downloads .row{
+  margin: 2em 0;
 }
 
 .content {
