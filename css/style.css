@@ -534,7 +534,7 @@ hr{
 .placeHolder{
 	position: absolute;
 	bottom: 50%;
-	left: 5%;
+	left: 0;
 	right: 0;
 }
 .placeHolder h4{
@@ -543,17 +543,51 @@ hr{
 	text-align: center;
 	font-family: 'Montserrat',Open Sans !important;
 	font-weight: 400;
+	padding: 0 2%;
+}
+
+#plus{
+	position: absolute;
+	bottom: 5%;
+	right: 8%;
+}
+#plus a{
+	text-decoration: none;
+	color: #FFF;
+	font-size: 24px;
+	font-weight: 100;
+}
+.back{
+	text-align: right;
+	padding-right: 10%;
 }
 .color{
 	filter: brightness(60%);
+}
+.mainContext h1{
+	color: #00B44E !important;
+	font-family: 'Montserrat', Open Sans;
+	font-weight: 500;
+	font-size: 5rem;
 }
 .mainContext p{
 	color: #FFF !important;
 	font-family: 'Montserrat', Open sans !important;
 	font-weight: 200;
 	font-size: 17px;
+	line-height: 26px;
+	letter-spacing: 1px;
+	word-spacing: 2px;
 }
-.mainContext h1{
+
+
+.theTeam p{
+	color: #FFF !important;
+	font-family: 'Montserrat', Open sans !important;
+	font-weight: 200;
+	font-size: 17px;
+}
+.theTeam h1{
 	color: #00B44E !important;
 	text-transform: uppercase;
 	font-family: 'Montserrat', Open Sans;
@@ -567,7 +601,17 @@ hr{
 .bigDeal{
 	padding-top: 5%;
 }
-
+.theNames h5{
+	font-size: 2rem;
+	font-family: 'Montserrat', Open sans;
+	color: #FFF !important;
+	text-align: center;
+}
+.theNames p{
+	font-size: 16px;
+	font-family: 'Montserrat', Open Sas;
+	text-align: center;
+}
 
 
 
