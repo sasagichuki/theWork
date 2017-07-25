@@ -547,7 +547,26 @@ hr{
 .color{
 	filter: brightness(60%);
 }
-
+.mainContext p{
+	color: #FFF !important;
+	font-family: 'Montserrat', Open sans !important;
+	font-weight: 200;
+	font-size: 17px;
+}
+.mainContext h1{
+	color: #00B44E !important;
+	text-transform: uppercase;
+	font-family: 'Montserrat', Open Sans;
+	font-weight: 100;
+	font-size: 5rem;
+	font-style: italic;
+}
+#lead{
+	font-weight: 800;
+}
+.bigDeal{
+	padding-top: 5%;
+}
 
 
 
