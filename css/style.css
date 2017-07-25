@@ -2,10 +2,10 @@
 body{
 	/* background: #000; */
 	font-family: ;
-	margin-top: 3%;
+	margin-top: 2%;
 }
 .site-wrapper{
-	padding: 15px;
+	padding: 0 15px;
 }
 .navbar-fixed-top{
 	background: rgba(255, 255, 255, 1.0);
@@ -493,6 +493,26 @@ hr{
 
 
 /* Biz-Review */
+.mg-space-init{
+	padding: 0 5%;
+}
+
+.mg-close {
+    display: none;
+    color: #FFF !important;
+    /* background: url(data:image/gif;base64,R0lGODlhFAAUAJEAAE1NTf///////wAAACH5BAEHAAIALAAAAAAUA…IzBISpK+YMm5Enpodw1HlCfnkKOIqU1VXk55goVb2hi7Y0q95lfG70uurNaqLgTviyyUoFADs=) no-repeat center center; */
+    cursor: pointer;
+    height: 30px;
+    padding: 7px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 30px;
+    z-index: 2;
+  }
+
+
+
 #mySidenav li a{
 	/* clear: both; */
 	text-decoration: none;
@@ -559,7 +579,14 @@ hr{
 }
 .back{
 	text-align: right;
-	padding-right: 10%;
+}
+.back a{
+	color: #00B44E !important;
+	font-size: 22px;
+	font-weight: 500;
+	text-decoration: none;
+	padding-right: 5%;
+	/* font-family: 'Montserrat', Open sans; */
 }
 .color{
 	filter: brightness(60%);
