@@ -493,6 +493,9 @@ hr{
 
 
 /* Biz-Review */
+.image{
+	padding: 0 8px;
+}
 .mg-space-init{
 	padding: 0 5%;
 }
@@ -500,7 +503,6 @@ hr{
 .mg-close {
     display: none;
     color: #FFF !important;
-    /* background: url(data:image/gif;base64,R0lGODlhFAAUAJEAAE1NTf///////wAAACH5BAEHAAIALAAAAAAUA…IzBISpK+YMm5Enpodw1HlCfnkKOIqU1VXk55goVb2hi7Y0q95lfG70uurNaqLgTviyyUoFADs=) no-repeat center center; */
     cursor: pointer;
     height: 30px;
     padding: 7px;
@@ -562,7 +564,7 @@ hr{
 	font-size: 36px;
 	text-align: center;
 	font-family: 'Montserrat',Open Sans !important;
-	font-weight: 400;
+	font-weight: 300;
 	padding: 0 2%;
 }
 
@@ -582,11 +584,13 @@ hr{
 }
 .back a{
 	color: #00B44E !important;
-	font-size: 22px;
-	font-weight: 500;
+	font-size: 28px;
+	font-weight: 400;
 	text-decoration: none;
 	padding-right: 5%;
-	/* font-family: 'Montserrat', Open sans; */
+}
+#left-arrow{
+	padding-right: 1%;
 }
 .color{
 	filter: brightness(60%);
