@@ -492,7 +492,7 @@ hr{
 }
 
 
-/* Biz-Review */
+/* BUSINESS REVIEW PAGE */
 .image{
 	padding: 0 8px;
 }
@@ -515,21 +515,10 @@ hr{
   }
 
 
-.sidenav a{
-	padding: 5;
-	background: red;
-}
-#mySidenav li a{
-	text-decoration: none;
-	padding: 15px 15px;
-	font-size: 20px;
 
-}
-#mySidenav ul li a{
-	color: #FFF;
-	padding-top: 5px;
-}
-@media (min-width: 768px) {
+
+
+/* @media (min-width: 768px) {
   .sidebar-nav .navbar .navbar-collapse {
     padding: 0;
     max-height: none;
@@ -547,11 +536,31 @@ hr{
     padding-bottom: 12px;
   }
 }
-
-
+ */
 
 .side-nav{
 	padding-top: 2%;
+}
+
+#mySidenav{
+	padding-right: 20%;
+}
+#mySidenav ul li:active{
+	color: #00B44E !important;
+}
+#mySidenav ul li{
+padding: 5px 0;
+}
+#mySidenav ul li a{
+	background: #FFF;
+	padding: 18px 0 18px 10%;
+	color: #808080;
+	font-weight: 500;
+	font-size: 20px;
+	text-align: left;
+}
+#mySidenav ul li a:active{
+	color: #00B44E;
 }
 .mainContext{
 	padding-top: 4%;
