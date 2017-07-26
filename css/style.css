@@ -500,6 +500,7 @@ hr{
 	padding: 0 5%;
 }
 
+
 .mg-close {
     display: none;
     color: #FFF !important;
@@ -514,16 +515,19 @@ hr{
   }
 
 
-
+.sidenav a{
+	padding: 5;
+	background: red;
+}
 #mySidenav li a{
-	/* clear: both; */
 	text-decoration: none;
 	padding: 15px 15px;
 	font-size: 20px;
+
 }
-.sidenav,
-.nav ul li a{
+#mySidenav ul li a{
 	color: #FFF;
+	padding-top: 5px;
 }
 @media (min-width: 768px) {
   .sidebar-nav .navbar .navbar-collapse {
