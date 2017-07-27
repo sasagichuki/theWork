@@ -337,7 +337,7 @@ body.noscroll{
 	max-height: 1199px;
 	width: 100%;
 	float: left;
-	top: -18%;
+	top: 0;
 	position: absolute;
 	left: -70%;
 	right: 0;
@@ -633,18 +633,6 @@ body.noscroll{
 	left: -7%;
 	transform: skewX(-7deg);
 }
-
-/*  .safaricom-hook {
-  position: absolute;
-  min-height: 100%;
-  max-height: 130%;
-  margin-top: -5.7%;
-  margin-bottom: -15%;
-  min-width: 117.7%;
-  left: -17.7%;
-  right: -10%;
-  pointer-events: none;
-} */
 #img{
 	height: 0;
 	width: 100%;
@@ -653,10 +641,7 @@ body.noscroll{
 	top: 10em;
 } */
 .slick-slide{
-	/* float: left; */
-   height: auto;
-   /* padding-right: 1%; */
-    /* min-height: 1px; */
+	height: auto;
 }
 .slick-dots {
     position: absolute;
@@ -681,15 +666,6 @@ body.noscroll{
 #graph{
 	padding-left: 8%;
 }
-/* .infoGraphs{
-	padding-bottom: 2em;
-} */
-
-/* .perform {
-	height: 60em;
-	max-height: 70em;
-	overflow-y: scroll;
-} */
 
 /* SUPAKIDS SECTION*/
 .strong-kids{
