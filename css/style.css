@@ -88,6 +88,185 @@ body.noscroll{
 	height: 2em !important;
   margin: 1em 0 0 1em;
 }
+.bobVideo{
+	position: absolute;
+	bottom: -140%;
+	left: 50%;
+	z-index: 2;
+}
+
+#imgMenu{
+	background-size: cover;
+}
+.menu-container{
+	/* background: #000; */
+	padding: 1% 0% 0 0%;
+	margin-left: 10%;
+}
+.menu-download h1{
+  color: #00B44E;
+  font-weight: 800;
+  font-family: 'Montserrat black', Open Sans;
+  font-size: 3em;
+  text-transform: uppercase; 
+}
+.menu-download h4{
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 1.3em;
+	font-family: 'Montserrat black', Open Sans;
+}
+.menu-download p{
+	font-size: 1.2em;
+	font-weight: 100;
+}
+
+/* HAMBURGER MENU IMAGE GRID WITH HOVER EFFECT */
+
+.grid {
+	position: relative;
+	clear: both;
+	margin: 0 auto;
+	padding: 1em 0 4em;
+	max-width: 1000px;
+	list-style: none;
+	text-align: center;
+}
+.grid .effect {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	margin: 10px 1%;
+	min-width: 380px;
+	max-width: 480px;
+	max-height: 360px;
+	width: 48%;
+	height: auto;
+	background: #000;
+	text-align: center;
+	cursor: pointer;
+}
+.grid .effect a > img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	max-width: 100%;
+	opacity: 0.8;
+}
+.grid .effect .caption {
+	padding: 2em;
+	color: #FFF !important;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.grid .effect .caption::before,
+.grid .effect .caption::after {
+	pointer-events: none;
+}
+.grid .effect .caption,
+.grid .effect .caption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.grid .effect .caption > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+.grid .effect h2 {
+	/* word-spacing: -0.15em; */
+	word-spacing: 2px;
+	font-weight: 300;
+	font-family: 'Montserrat', Open sans;
+}
+.grid .effect h2 span {
+	font-weight: 800;
+	font-family: 'Montserrat black', Open Sans;
+}
+.grid .effect h2,
+.grid .effect h3 {
+	margin: 0;
+}
+.grid .effect h3 {
+	letter-spacing: 1px;
+	/* font-size: 68.5%; */
+	font-size: 1.5rem;
+	text-align: center;
+	left: 15%;
+	color: #FFF !important;
+	font-family: 'Montserrat', Open Sans;
+	text-transform: uppercase;
+}
+
+
+.effect {
+	background: #00B44E;
+}
+.effect img,
+.effect h2 {
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+.effect img {
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.effect h2,
+.effect h3 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 30px;
+}
+.effect h3 {
+	text-transform: none;
+	font-size: 90%;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(0,50px,0);
+	transform: translate3d(0,50px,0);
+}
+.effect:hover img {
+	-webkit-transform: translate3d(0,-80px,0);
+	transform: translate3d(0,-80px,0);
+}
+.effect:hover h2 {
+	-webkit-transform: translate3d(0,-100px,0);
+	transform: translate3d(0,100px,0);
+}
+.effect:hover h3 {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+@media (max-width: 756px) {
+	.content {
+		padding: 0 10px;
+		text-align: center;
+	}
+	.grid .effect {
+		display: inline-block;
+		float: none;
+		margin: 10px auto;
+		/* width: 100%; */
+	}
+	.grid{
+		padding: 0 8% 0 0;
+		margin: 0 auto;
+	}
+}
+
+
+
+
 
 
 /* STAGE ONE CAROUSEL */
@@ -97,10 +276,12 @@ body.noscroll{
 .intro-slider-text {
   text-align: left;
   left: 5.5% !important;
-  /*width: 40%;*/
 }
 
 /* STAGE TWO CAROUSEL */
+.btn{
+	background: transparent;
+}
 .slide-box {
   color: white;
   padding: 0 1em 1em 1em;
@@ -138,7 +319,7 @@ body.noscroll{
 }
 .intro-slider-text.gallery-text h1{
 	font-family: 'Montserrat Black', sans-serif;
-	font-size: 7.5em;
+	font-size: 8.5em;
 	font-weight: 900;
 	line-height: 0.85em;
 	width: 100%;
@@ -148,6 +329,21 @@ body.noscroll{
 	font-size: 1.09em;
 	width: 90%;
   margin-top: 2em;
+}
+
+.green{
+	background: #00B44E !important;
+	background-size: cover;
+	max-height: 1199px;
+	width: 100%;
+	float: left;
+	top: -18%;
+	position: absolute;
+	left: -70%;
+	right: 0;
+	bottom: 0;
+	z-index: 2;
+	transform: skewX(30deg);
 }
 /* End Slider Specific Text */
 
@@ -282,13 +478,16 @@ body.noscroll{
 }
 .mouse {
   position: absolute;
-  left: 50%;
-  bottom: 25%;
+  left: 48%;
+  bottom: 5%;
   width: 2em;
   height: 4em;
 }
+#carouselOne{
+	filter: brightness(80%);
+}
 .carousel .mouse {
-	bottom: 22% !important;
+	bottom: 5% !important;
 }
 .bounce {
   -moz-animation: bounce 2s infinite;
@@ -305,7 +504,7 @@ body.noscroll{
 	font-family: 'Nunito', sans-serif;
 }
 .video{
-	/*background: #000;*/
+	/* background: #000; */
 	padding: 10px 2em;
 	border: solid 2px #FFF;
 }
@@ -326,13 +525,11 @@ body.noscroll{
 
 .sateesh{
 	margin-left: 0;
-	/*padding: 2em;*/
-	text-align: left: ;
+	text-align: left;
 }
 .exeHead{
 	margin-left: 0;
 	text-align: left;
-	/*padding: 2em;*/
 }
 .exeLinks{
 	padding: 3em 3em 3em 0;
@@ -406,7 +603,6 @@ body.noscroll{
   border: solid 2px #ffffff;
   border-radius: 0 !important;
   background: transparent;
-    /* box-shadow: inset 1px 5px 2px 0px transparent; */
 }
 .carousel-indicators .active {
     width: 15px;
@@ -418,7 +614,6 @@ body.noscroll{
 	color: #FFF;
 	height: 55px;
 	top: 50%;
-	/* margin-left: 5%; */
 }
 .leftArrow,
 .rightArrow{
@@ -428,20 +623,18 @@ body.noscroll{
 
 /* HIGHLIGHTS TEXT SLIDE */
 .highlights {
-	height: 45em;
-	max-height: 45em;
-	display: flex;
+  display: flex; 
 }
 #letSwim{
 	position: relative;
 	top: 0;
 	right: ;
 	width: 100%;
-	height: 45em;
-	max-height: 45em;
+	left: -7%;
+	transform: skewX(-7deg);
 }
-.safaricom-hook {
-  z-index: 1;
+
+/*  .safaricom-hook {
   position: absolute;
   min-height: 100%;
   max-height: 130%;
@@ -451,97 +644,48 @@ body.noscroll{
   left: -17.7%;
   right: -10%;
   pointer-events: none;
-}
+} */
 #img{
 	height: 0;
 	width: 100%;
 }
-#mySlide_Text{
-	/*top: 10em;*/
+/* #mySlide_Text{
+	top: 10em;
+} */
+.slick-slide{
+	/* float: left; */
+    height: auto;
+    /* min-height: 1px; */
 }
 #glance h1{
 	color: #00b44e;
 	font-family: 'Gotham Black', sans-serif;
 	text-align: left;
-	text-transform: lowercase;
+	text-transform: uppercase;
 	font-weight: 800;
-	font-size: 4em;
-	padding: 2em 0.5em 0 1em;
+	font-size: 3.6em;
+	padding: 1em 0.5em 0 1em;
 	margin-top: 0;
 	text-align: center;
 }
-.infoGraphs{
+/* .infoGraphs{
 	padding-top: 2em;
 }
-
-.perform {
-	height: 25em;
-	max-height: 25em;
+ */
+/* .perform {
+	height: 60em;
+	max-height: 70em;
 	overflow-y: scroll;
-}
+} */
 
-.perform p{
-  font-family: 'Nunito', sans-serif;
-  text-align: justify;
-  padding: 1em 3em 3em 3.5em;
-  line-height: 22px;
-  letter-spacing: 1px;
-  word-spacing: 0;
-  font-weight: 100;
-  font-size: 15px;
-  overflow: hidden;
-}
-
-
-
-
-/* carousel slider */
-/* this is my glyphicon
------------------------------------
-#play-btn{
-	font-size: 3em;
-	text-align: center;
-}
-
-*/
-
-/* section two */
-#performance {
-	margin-top: 5em;
-}
-
-#performance h1{
-	color:  #00b44e;
-	font-size: 5em;
-	font-weight: bold;
-	text-align: left;
-	padding: 2px;
-	margin-bottom: 1em;
-}
-
-#performance-paragraph p{
-	font-family: Open sans 'Comfortaa';
-	font-size: 17px;
-	text-align: left;
-	padding: 4px 6%;
-	}
-	#performance-paragraph{
-	/*background: #00b44e;*/
-	overflow-x: scroll;
-	height: 400px;
-	/*max-width: 800px;*/
-	}
-
-
+/* SUPAKIDS SECTION*/
 .strong-kids{
-	background-image: url(../img/move-forward.jpg);
+	background-image: url('../img/move-forward.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   min-width: 100%;
   height: auto;
 }
-
-/* SUPAKIDS SECTION*/
 .supakids-text{
 	margin-top: 2em;
   margin: 12% 0 10% 12%;
@@ -553,7 +697,7 @@ body.noscroll{
 	text-align: left;
 	font-weight: 800;
 	font-family: 'Montserrat Black', Open Sans;
-	font-size: 5em;
+	font-size: 10rem;
   margin: 0.5em 0;
 }
 
@@ -563,7 +707,7 @@ body.noscroll{
 
 /* DOWNLOAD A COPY SECTION */
 .downloads{
-  padding: 50px 0;
+  /* padding: 50px 0; */
   width: 100%;
   height: 40vh;
   color: #999;
@@ -578,20 +722,27 @@ body.noscroll{
 }
 
 .downloads a{
-  color: black;
+  color: #000;
   font-family: 'Montserrat Black', arial;
   text-transform: uppercase;
-  font-size: 1.1em;
+  font-size: 1.3em;
+  text-decoration: none;
+  font-weight: 400; 
 }
-
+.downloads-text{
+	padding-top: 7%;
+}
 .downloads .downloads-block{
-  margin-top: 4em;
+  /* margin-top: 0; */
+  padding-top: 6em;
+  background: transparent;
 }
 
 .downloads .downloads-block .downloads-img{
-	background: url("../img/newspaper.png") bottom right no-repeat;
+	background: url("../img/magazine.png") bottom right no-repeat;
   background-size: contain;
-  height: 75vh;
+  height: 65vh;
+  /* width: 100%; */
 }
 
 
@@ -686,17 +837,12 @@ body.noscroll{
 }
 
 hr{
-	background: #00b44e;
+	background: transparent;
 	width: 100%;
 	height: 2px;
+
 }
 /* start of overlayPart -------*/
-.myImage-One{
-}
-
-#girl-boy{
-	/*padding: 2em 2em 2em 2em;*/
-}
 
 .textBox h2{
 	color: white;
