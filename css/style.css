@@ -120,6 +120,13 @@ body.noscroll{
 	font-size: 1.2em;
 	font-weight: 100;
 }
+.btn {
+    color: white;
+    font-size: 1em;
+    padding: 1em;
+    border: none;
+    cursor: pointer;
+}
 
 /* HAMBURGER MENU IMAGE GRID WITH HOVER EFFECT */
 
@@ -333,7 +340,7 @@ body.noscroll{
 
 .green{
 	background: #00B44E !important;
-	background-size: cover;
+	background-size: contain;
 	max-height: 1199px;
 	width: 100%;
 	float: left;
@@ -652,19 +659,28 @@ body.noscroll{
     padding: 0px;
     width: 100%;
 }
+.slick-dots{
+	padding-top: 2%;
+	bottom: -25px;
+	text-align: center;
+	display: block;
+	position: absolute;
+}
 #glance h1{
 	color: #00b44e;
-	font-family: 'Gotham Black', sans-serif;
+	font-family: 'Montserrat Black', Open sans;
 	text-align: left;
 	text-transform: uppercase;
 	font-weight: 800;
-	font-size: 3.6em;
+	font-size: 3.3em;
 	padding: 1em 0.5em 0 1em;
 	margin-top: 0;
 	text-align: center;
 }
 #graph{
-	padding-left: 8%;
+	padding-left: 10%;
+	margin-left: 2%;
+	/* text-align: center; */
 }
 
 /* SUPAKIDS SECTION*/
