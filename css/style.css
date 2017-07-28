@@ -732,9 +732,28 @@ body.noscroll{
 }
 
 .smaLinks {
-	width: 50%
+	/* margin-left: 1%; */
+	width: 100%;
+	padding-right: 10%;
+}
+.smaLinks a img{
+	border: solid 2px transparent;
+	text-align: center;
+	margin-left: 1%;
+	padding: 5px 15px; 
+}
+.smaLinks a img:hover{
+	border: solid 2px #FFF;
+	transition: 3s ease-in;
 }
 
+.strategy,
+.business,
+.finance{
+	/* border: solid 2px transparent; */
+	padding: 5px;
+	margin-left: 1%;
+}
 /* DOWNLOAD A COPY SECTION */
 .downloads{
   /* padding: 50px 0; */
