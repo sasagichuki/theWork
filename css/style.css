@@ -702,6 +702,9 @@ body.noscroll{
 	padding-right: 15%;
 }
  */
+ .rowOne{
+ 	padding-top: 1%;
+ }
 .padding-left-0{
 		padding-right: 0 !important;
 }
@@ -713,10 +716,11 @@ body.noscroll{
 	font-size: 3.3em;
 	margin-top: 0;
 	text-align: center;
-	padding-top: 3%;
+	padding-top: 5%;
+	margin-top: 4%;
 }
 #glance img{
-	background-size: containe;
+	background-size: cover;
 }
 /* #graph{
 	} */
