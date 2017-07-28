@@ -704,10 +704,12 @@ body.noscroll{
 }
 #graph{
 	padding-left: 10%;
-	margin-left: 2%;
-	/* text-align: center; */
-}
+	/* margin: 0; */
+	}
+.title{
+	font-family: 'Montserrat', OPen sans;
 
+}
 /* SUPAKIDS SECTION*/
 .strong-kids{
 	background-image: url('../img/move-forward.jpg');
@@ -744,13 +746,12 @@ body.noscroll{
 }
 .smaLinks a img:hover{
 	border: solid 2px #FFF;
-	transition: 3s ease-in;
+	transition: 1s ease-in;
 }
 
 .strategy,
 .business,
 .finance{
-	/* border: solid 2px transparent; */
 	padding: 5px;
 	margin-left: 1%;
 }
@@ -997,6 +998,49 @@ hr{
   font-family: 'Montserrat Regular', sans-serif;
   color: #2b2b2b;
 }
+
+.GITheWall ul {
+    list-style: none;
+    padding: 20px 0;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+.GI_TW_expander .GI_TW_close {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 15px;
+    right: 18%;
+    cursor: pointer;
+    color: #FFF !important;
+    font-weight: 100;
+}
+#container{
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 0;
+    margin-left: 12.5%;
+}
+.wall-wrapper{
+	padding-left: 15%;
+	padding-right: 15%;
+	width: 100%;
+
+}
+.wall-back-btn{
+	padding-right: 3em;
+	margin-bottom: 0;
+	padding-bottom: 3em;
+}
+.title{
+	color: #FFF !important;
+	font-family: 'Montserrat', Open Sans;
+	font-size: 3em;
+	font-weight: 600;
+}
+
+
 /* End Executive Overlays */
 
 /*
