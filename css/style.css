@@ -90,8 +90,13 @@ body.noscroll{
 }
 .bobVideo{
 	position: absolute;
+<<<<<<< HEAD
 	bottom: 0;
 	left: 50%;
+=======
+    bottom: 45%;
+  left: 45%;
+>>>>>>> 48b5f90eee77716df32833c4bb575c1cca01581f
 	z-index: 2;
 }
 
@@ -143,12 +148,12 @@ body.noscroll{
 	position: relative;
 	float: left;
 	overflow: hidden;
-	margin: 10px 1%;
-	min-width: 380px;
+	/*margin: 10px 1%;*/
+	/*min-width: 380px;
 	max-width: 480px;
 	max-height: 360px;
-	width: 48%;
-	height: auto;
+	width: 48%;*/
+	/*height: auto;*/
 	background: #000;
 	text-align: center;
 	cursor: pointer;
@@ -156,8 +161,6 @@ body.noscroll{
 .grid .effect a > img {
 	position: relative;
 	display: block;
-	min-height: 100%;
-	max-width: 100%;
 	opacity: 0.8;
 }
 .grid .effect .caption {
@@ -753,7 +756,7 @@ body.noscroll{
 	border: solid 2px transparent;
 	text-align: center;
 	margin-left: 1%;
-	padding: 5px 15px; 
+	padding: 5px 15px;
 }
 .smaLinks a img:hover{
 	border: solid 2px #FFF;

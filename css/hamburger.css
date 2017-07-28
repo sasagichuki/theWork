@@ -37,6 +37,10 @@
   color: black;
 }
 
+.menu-items .col-md-4 {
+  padding: 0px 5px;
+}
+
 .menu-items {
   position: fixed;
   font-weight: bold;
