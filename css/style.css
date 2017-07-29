@@ -90,13 +90,11 @@ body.noscroll{
 }
 .bobVideo{
 	position: absolute;
-<<<<<<< HEAD
-	bottom: 0;
+
+	/* bottom: 0; */
 	left: 50%;
-=======
-    bottom: 45%;
+   bottom: 10%;
   left: 45%;
->>>>>>> 48b5f90eee77716df32833c4bb575c1cca01581f
 	z-index: 2;
 }
 
@@ -203,6 +201,7 @@ body.noscroll{
 .grid .effect h2,
 .grid .effect h3 {
 	margin: 0;
+	text-align: center;
 }
 .grid .effect h3 {
 	letter-spacing: 1px;
@@ -347,10 +346,8 @@ body.noscroll{
 .green{
 	background: #00B44E !important;
 	background-size: contain;
-	/* max-height: 1199px; */
 	height: 100%;
 	width: 100%;
-	/* float: left; */
 	top: 0;
 	position: absolute;
 	left: -65%;
@@ -723,10 +720,10 @@ body.noscroll{
 	background-size: cover;
 }
 /* #graph{
-	} */
+	}
+*/
 .title{
 	font-family: 'Montserrat', OPen sans;
-
 }
 /* SUPAKIDS SECTION*/
 .strong-kids{
