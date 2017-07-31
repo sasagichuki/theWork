@@ -693,12 +693,7 @@ body.noscroll{
 .next-story .row{
   margin: 1em 0;
 }
-/* .infoGraphs{
-	margin: 5px 0% 5px 0;
-}
-.slick-slider{
-	padding-right: 15%;
-}
+
  */
  .rowOne{
  	padding-top: 1%;
@@ -706,19 +701,26 @@ body.noscroll{
 .padding-left-0{
 		padding-right: 0 !important;
 }
+#glance{
+	padding-right: 0 !important;
+}
  #glance h1{
 	color: #00b44e;
 	font-family: 'Montserrat Black', Open sans;
 	text-align: left;
 	font-weight: 800;
 	font-size: 3.3em;
-	margin-top: 0;
 	text-align: center;
-	padding-top: 5%;
-	margin-top: 4%;
 }
 #glance img{
-	background-size: cover;
+	background-size: contain;
+}
+.perform img{
+	display: block;
+	margin: 0 auto;
+}
+.ingoGraphs{
+	padding-right: 10px;
 }
 /* #graph{
 	}
