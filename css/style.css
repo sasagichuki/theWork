@@ -91,11 +91,11 @@ body.noscroll{
 .playBtn{
 	position: absolute;
 	z-index: 3;
-	top: 40%;
+	top: 50%;
 	left: 42.5%;
 }
 .playBtn a:hover{
-	background: red;
+	color: #F2F2F2;
 }
 
 #imgMenu{
@@ -415,7 +415,7 @@ body.noscroll{
 }
 /* End Gallery Specific Text */
 
-/*Video Icon*/
+/* Video Icon */
 .video-icon {
   width: 50%;
   padding-top: 2%;
@@ -436,10 +436,10 @@ body.noscroll{
   line-height: 1.5em;
   margin: 0 !important;
 }
-/*End Video Icon*/
+/* End Video Icon */
 
 
-/*Mouse Over*/
+/* Mouse Over */
 @-moz-keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
     -moz-transform: translateY(0);
@@ -770,6 +770,16 @@ body.noscroll{
 .finance{
 	padding: 5px;
 	margin-left: 1%;
+}
+#who-leads-us{
+	  font-family: 'Gotham Book', sans-serif;
+    color: #2b2b2b;
+    float: left;
+    padding: 0px 12px;
+    width: 100%;
+    border-left: none;
+    height: 50vh;
+    overflow-y: visible;
 }
 /* DOWNLOAD A COPY SECTION */
 .downloads{
