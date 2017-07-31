@@ -88,14 +88,14 @@ body.noscroll{
 	height: 2em !important;
   margin: 1em 0 0 1em;
 }
-.bobVideo{
+.playBtn{
 	position: absolute;
-
-	/* bottom: 0; */
-	left: 50%;
-   bottom: 10%;
-  left: 45%;
-	z-index: 2;
+	z-index: 3;
+	top: 40%;
+	left: 42.5%;
+}
+.playBtn a:hover{
+	background: red;
 }
 
 #imgMenu{
@@ -195,8 +195,8 @@ body.noscroll{
 	font-family: 'Montserrat', Open sans;
 }
 .grid .effect h2 span {
-	font-weight: 800;
-	font-family: 'Montserrat black', Open Sans;
+	font-weight: 300;
+	font-family: 'Montserrat', Open Sans;
 }
 .grid .effect h2,
 .grid .effect h3 {
@@ -256,6 +256,7 @@ body.noscroll{
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
+
 @media (max-width: 756px) {
 	.content {
 		padding: 0 10px;
