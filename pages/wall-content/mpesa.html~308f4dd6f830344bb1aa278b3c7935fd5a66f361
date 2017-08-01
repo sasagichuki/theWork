@@ -2,58 +2,58 @@
   <div class="container">
     <div class="row full-screen">
       <div class="col-md-12 my-content">
-        <img src="../img/wall/pages/our-people.png" class="img-responsive" />
+        <img src="../img/wall/pages/mpesa.png" class="img-responsive" />
       </div>
     </div>
   <!-- the content-->
     <div class="row full-screen">
       <div class="col-md-3 sideNav">
         <ul class="sidebar-nav">
-          <li class="tab-link active" onclick="openContent(event, 'story')">THE STORY</li>
-          <li class="tab-link" onclick="openContent(event, 'onetap')">1TAP</li>
-          <li class="tab-link" onclick="openContent(event, 'future')">CURVING A FUTURE</li>
-          <!-- <li class="tab-link" onclick="openContent(event, 'revenue')">REVENUE</li>
-          <li class="tab-link" onclick="openContent(event, 'cash-generation')">CASH GENERATION</li>
- -->    
+          <li class="tab-link active" onclick="openContent(event, 'voice')">VOICE</li>
+          <li class="tab-link" onclick="openContent(event, 'data')">DATA</li>
+          <li class="tab-link" onclick="openContent(event, 'devices')">DEVICES</li>
+          <li class="tab-link" onclick="openContent(event, 'messaging')">MESSAGING</li>
+          <li class="tab-link" onclick="openContent(event, 'mpesa')">M-PESA</li>
         </ul>
       </div>
 
       <div class="col-md-7">
-        <div id="story" class="tab-content">
-          <h2>The Story</h2>
+        <div id="voice" class="tab-content">
+          <h2>voice</h2>
+
+          <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
+          <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
+          <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
+        </div>
+
+        <div id="data" class="tab-content" style="display: none;">
+          <h2>Data</h2>
 
           <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
           <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
         </div>
 
-        <div id="onetap" class="tab-content" style="display: none;">
-          <h2>1Tap</h2>
+        <div id="devices" class="tab-content" style="display: none;">
+          <h2>Devices</h2>
 
           <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
           <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
         </div>
 
-        <div id="future" class="tab-content" style="display: none;">
-          <h2>Curving a future</h2>
+        <div id="messaging" class="tab-content" style="display: none;">
+          <h2>Messaging</h2>
 
           <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
           <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
         </div>
 
-        <!-- <div id="revenue" class="tab-content" style="display: none;">
-          <h2>Revenue</h2>
+        <div id="mpesa" class="tab-content" style="display: none;">
+          <h2>M-Pesa</h2>
 
           <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
           <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
         </div>
-
-        <div id="cash-generation" class="tab-content" style="display: none;">
-          <h2>Cash Generation</h2>
-
-          <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
-          <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
-        </div>
- -->      </div>
+      </div>
     </div>
   </div>
 </section>
