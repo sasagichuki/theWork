@@ -146,14 +146,15 @@ footer a {
   line-height: 3em;
   float: none;
   display: inline-block;
-  width: 20em;
+  width: 25em;
   position: relative;
 }
 
 .wall-wrapper ul li img {
-  width: 20em;
-  height: 20em;
+  width: 25em;
+  height: 25em;
   object-fit: cover;
+  filter: brightness(60%);
 }
 
 .wall-wrapper ul li .title{
