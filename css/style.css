@@ -164,7 +164,6 @@ body.noscroll{
 .grid .effect .caption {
 	padding: 2em;
 	color: #FFF !important;
-	text-transform: uppercase;
 	font-size: 1.25em;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
@@ -191,11 +190,9 @@ body.noscroll{
 .grid .effect h2 {
 	/* word-spacing: -0.15em; */
 	word-spacing: 2px;
-	font-weight: 300;
 	font-family: 'Montserrat', Open sans;
 }
 .grid .effect h2 span {
-	font-weight: 300;
 	font-family: 'Montserrat', Open Sans;
 }
 .grid .effect h2,
@@ -206,12 +203,11 @@ body.noscroll{
 .grid .effect h3 {
 	letter-spacing: 1px;
 	/* font-size: 68.5%; */
-	font-size: 1.5rem;
+	font-size: 1.7rem;
 	text-align: center;
 	left: 15%;
 	color: #FFF !important;
 	font-family: 'Montserrat', Open Sans;
-	text-transform: uppercase;
 }
 
 
@@ -724,7 +720,7 @@ body.noscroll{
 	font-family: 'Montserrat', OPen sans;
 }
 .text h1{
-	
+
 }
 /* SUPAKIDS SECTION*/
 .strong-kids{
