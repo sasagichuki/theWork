@@ -141,6 +141,7 @@ body.noscroll{
 	max-width: 1000px;
 	list-style: none;
 	text-align: center;
+	padding-top: 2%;
 }
 .grid .effect {
 	position: relative;
@@ -719,9 +720,7 @@ body.noscroll{
 .title{
 	font-family: 'Montserrat', OPen sans;
 }
-.text h1{
 
-}
 /* SUPAKIDS SECTION*/
 .strong-kids{
 	background-image: url('../img/move-forward.jpg');
