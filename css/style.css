@@ -720,14 +720,11 @@ body.noscroll{
 	display: block;
 	margin: 0 auto;
 }
-.ingoGraphs{
-	padding-right: 10px;
-}
-/* #graph{
-	}
-*/
 .title{
 	font-family: 'Montserrat', OPen sans;
+}
+.text h1{
+	
 }
 /* SUPAKIDS SECTION*/
 .strong-kids{
@@ -1041,7 +1038,7 @@ hr{
 
 .GITheWall ul {
     list-style: none;
-    padding: 50px 0 0 0;
+    padding: 8px 0 0 0;
     margin: 0 auto;
     text-align: center;
     width: 100%;
@@ -1066,7 +1063,7 @@ hr{
 	padding-left: 15%;
 	padding-right: 15%;
 	width: 100%;
-
+	margin: 0 auto;
 }
 .wall-back-btn{
 	padding-right: 3em;
