@@ -573,6 +573,17 @@ footer a {
   color: #8e8e8e;
   padding-left: 10%;
 }
+.wall-wrapper h3.tab-link{
+  background-color: rgb(245, 245, 245);
+  color: #8e8e8e;
+  font-family: 'Montserrat SemiBold', sans-serif;
+  padding: 1em 0.5em;
+  display: none;
+  margin: 2px 0;
+}
+.wall-wrapper h3.tab-link.active{
+  color: #00b44e;
+}
 .wall-wrapper ul li.tab-link.active {
   box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.21);
   color: #00b44e;
@@ -592,7 +603,6 @@ footer a {
 .tab-content{
   font-family: 'Gotham Book', sans-serif;
   color: #2b2b2b;
-  float: left;
   padding: 0px 12px;
   width: 100%;
   border-left: none;

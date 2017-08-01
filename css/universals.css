@@ -149,6 +149,18 @@
 	}
 }
 
+@media screen and (max-width: 990px) {
+	.wall-wrapper h3.tab-link{
+		display: block !important;
+	}
+	.wall-wrapper .sideNav{
+		display: none !important;
+	}
+	.tab-content {
+    height: 25vh !important;
+  }
+}
+
 @media screen and (max-width: 870px) {
 	.highlights {
 		height: 35em !important;
