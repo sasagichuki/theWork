@@ -159,6 +159,9 @@
 	.tab-content {
     height: 25vh !important;
   }
+  .tab-content h2{
+  	display: none !important;
+  }
 }
 
 @media screen and (max-width: 870px) {
