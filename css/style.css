@@ -644,6 +644,7 @@ body.noscroll{
 	width: 100%;
 	left: -7%;
 	transform: skewX(-7deg);
+  height: 100%;
 }
 #img{
 	height: 0;
@@ -1040,7 +1041,7 @@ hr{
 
 .GITheWall ul {
     list-style: none;
-    padding: 20px 0;
+    padding: 50px 0 0 0;
     margin: 0 auto;
     text-align: center;
     width: 100%;
@@ -1088,4 +1089,8 @@ hr{
   padding: 1em;
 }
 
+.infoGraphs .perform img{
+  height: 100%;
+  object-fit: contain;
+}
 
