@@ -17,7 +17,7 @@
   width: 100vw;
   height: 100vh;
   /* background: gray; */
-  background-image: url('../img/redox.png');
+  background-image: url('../img/shattered.png');
 }
 
 .menu-burger {
@@ -37,6 +37,7 @@
   /* background: white; */
   background: transparent;
   color: black;
+  font-size: 2em;
 }
 
 .menu-items .col-md-4 {
@@ -115,4 +116,9 @@
 
 .green-background{
   background-color: #00b44e;
+}
+
+.close i{
+  color: #000 !important;
+  font-size: 2em;
 }
