@@ -239,6 +239,10 @@
 	.cfo .gallery-text h1{
 		font-size: 3em !important;
 	}
+
+	#intro .gallery-image img, #slider .gallery-image img{
+	  height: 100vh;
+	}
 }
 
 @media screen and (max-width: 650px) {
