@@ -88,15 +88,47 @@ body.noscroll{
 	height: 2em !important;
   margin: 1em 0 0 1em;
 }
+
+.glyph a{
+	text-decoration: none;
+	color: #FFF;
+	font-size: 4em;
+	font-weight: 100 !important;
+	line-height: 22px;
+}
+/* .glyph a:hover{
+	color: #00B44E;
+	transition: 2s ease-in;
+} */
 .playBtn{
 	position: absolute;
 	z-index: 3;
 	top: 50%;
-	left: 42.5%;
+	bottom: 0;
+	left: 40%;
 }
-.playBtn a:hover{
-	color: #F2F2F2;
+
+/* .playBtn a img:hover{
+	background: rgba(0,180,78, 0.5) !important;
+	transition: 2s ease-in;
+	border-radius: 50% !important;
 }
+ */
+.linkBtn{
+	left: 33%;
+}
+.linkBtn a{
+	background: rgba(0, 0, 0, .4);
+	text-decoration: none;
+	color: #FFF !important;
+	border: none !important;
+	font-family: 'Montserrat', Open Sans;
+	font-weight: 100;
+	line-height: 22px;
+	font-size: 18px;
+	padding: 10px 30px;
+}
+
 
 #imgMenu{
 	background-size: cover;
@@ -426,10 +458,10 @@ body.noscroll{
   max-height: 100%;
 }
 .video-icon h6 {
-  padding: 8% 2% 0 5%;
+  padding: 12% 2% 0 2%;
   font-family: "Montserrat Medium", sans-serif;
   font-size: 1em;
-  width: 30%;
+  width: 40%;
   line-height: 1.5em;
   margin: 0 !important;
 }
