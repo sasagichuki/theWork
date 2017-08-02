@@ -96,10 +96,10 @@ body.noscroll{
 	font-weight: 100 !important;
 	line-height: 22px;
 }
-.glyph a:hover{
+/* .glyph a:hover{
 	color: #00B44E;
 	transition: 2s ease-in;
-}
+} */
 .playBtn{
 	position: absolute;
 	z-index: 3;
@@ -113,25 +113,20 @@ body.noscroll{
 	transition: 2s ease-in;
 	border-radius: 50% !important;
 }
- */.linkBtn{
-	left: 30% !important;
+ */
+.linkBtn{
+	left: 33%;
 }
 .linkBtn a{
-	background: rgba(255, 255, 255, .3);
+	background: rgba(0, 0, 0, .4);
 	text-decoration: none;
 	color: #FFF !important;
 	border: none !important;
 	font-family: 'Montserrat', Open Sans;
-	font-weight: 200;
-	line-height: 20px;
-	font-size: 16px;
-	padding: 1em 2em;
-}
-.linkBtn a:hover{
-	color: #FFF !important;
-	background: #00B44E;
-	transition: 1.5s ease-in;
-	border: none !important;
+	font-weight: 100;
+	line-height: 22px;
+	font-size: 18px;
+	padding: 10px 30px;
 }
 
 

@@ -42,7 +42,9 @@
 }
 
 .menu-items {
-  background: rgba(0, 0, 0, 0.5);
+  background-image: url('../img/shattered.png');
+  /* opacity: 1; */
+  /* background: rgba(0, 0, 0, 0.5); */
   position: fixed;
   font-weight: bold;
   color: black;
