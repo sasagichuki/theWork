@@ -88,18 +88,32 @@ body.noscroll{
 	height: 2em !important;
   margin: 1em 0 0 1em;
 }
+
+.glyph a{
+	text-decoration: none;
+	color: #FFF;
+	font-size: 4em;
+	font-weight: 100 !important;
+	line-height: 22px;
+}
+.glyph a:hover{
+	color: #00B44E;
+	transition: 2s ease-in;
+}
 .playBtn{
 	position: absolute;
 	z-index: 3;
 	top: 50%;
+	bottom: 0;
 	left: 40%;
 }
-.playBtn a img:hover{
+
+/* .playBtn a img:hover{
 	background: rgba(0,180,78, 0.5) !important;
 	transition: 2s ease-in;
 	border-radius: 50% !important;
 }
-.linkBtn{
+ */.linkBtn{
 	left: 30% !important;
 }
 .linkBtn a{
