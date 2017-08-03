@@ -218,7 +218,64 @@ footer a {
   color: white;
 }
 
-/**
+
+
+/* #who-governs-us,
+.who-governs-us-img{
+  background: url(../img/who-leads-us.png) bottom left;
+  background-repeat: no-repeat;
+  background: contain;
+  height: 5em;
+  margin: 3em 0;
+}
+ */
+ /* .wall-wrapper,
+ #who-governs-us,
+ .govern-image{
+  background: url(/img/who-leads-us.png) bottom left no-repeat;
+  height: 3em;
+  margin: 4em 0;
+  margin-left: 1em;
+ }
+ */
+.govern-image img{
+  width: 60%;
+  margin: 4em 0 1em 1em;
+
+}
+ .context-image{
+  width: 10em;
+  height: 15em;
+  background: contain;
+}
+ .govern{
+  padding-top: 5%;
+} 
+.context h3{
+  color: #000 !important;
+  font-size: 26px;
+  font-weight: 600;
+  font-family: 'Montserrat', Open sans;
+  line-height: 32px;
+}
+.context h4{
+  color: #000 !important;
+  text-align: left;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+  font-family: 'Montserrat', Open Sans;
+  text-align: left;
+}
+.context p{
+  color: #000;
+  text-align: left;
+  font-family: 'Montserrat', Open Sans;
+  line-height: 22px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+ /**
  *
  * The wall could be used to show an image gallery or any other content in a "google images" user interaction way
  * Here there is all the html needed
@@ -259,7 +316,7 @@ footer a {
   -webkit-transition: margin-bottom 0.3s ease-in;
   -moz-transition: margin-bottom 0.3s ease-in;
   -o-transition: margin-bottom 0.3s ease-in;
-  transition: margin-bottom 0.3s ease-in;
+  transitxion: margin-bottom 0.3s ease-in;
 }
 
 .GI_TW_expander {
@@ -607,7 +664,7 @@ footer a {
   width: 100%;
   border-left: none;
   height: 50vh;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
 }
 
 .wall-back-btn{
