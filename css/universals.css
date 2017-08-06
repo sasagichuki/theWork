@@ -74,7 +74,7 @@
 
 @media screen and (max-width: 1280px) {
 	.intro-slider-text.gallery-text h1{
-		font-size: 6.5em !important;
+		font-size: 7em !important;
 	}
 	.cfo .gallery-text h1{
 		font-size: 5em !important;
@@ -101,13 +101,19 @@
 		font-size: 5em !important;
 	}
 	.intro-slider-text.gallery-text h1{
-		font-size: 6em !important;
+		font-size: 7em !important;
 	}
 	.video-icon h6 {
-		padding: 6% 2% 0 5% !important;
+		/*padding: 2em 0 !important;*/
 	}
 	.cfo .gallery-text h1{
 		font-size: 4em !important;
+	}
+}
+
+@media screen and (max-width: 1085px) {
+	.intro-slider-text.gallery-text h1 {
+		font-size: 6.5em !important;
 	}
 }
 
@@ -138,10 +144,10 @@
 		font-size: 4em !important;
 	}
 	.intro-slider-text.gallery-text h1{
-		font-size: 5em !important;
+		font-size: 6em !important;
 	}
 	.gallery-text {
-		top: 12% !important;
+		/*top: 25% !important;*/
 	}
 
 	.cfo .gallery-text h1{
@@ -164,6 +170,12 @@
   }
 }
 
+@media screen and (max-width: 930px) {
+	.intro-slider-text.gallery-text h1 {
+    font-size: 5.5em !important;
+	}
+}
+
 @media screen and (max-width: 870px) {
 	.highlights {
 		height: 35em !important;
@@ -184,20 +196,20 @@
     left: 9% !important;
 	}
 	.gallery-text {
-		top: 10% !important;
+		/*top: 20% !important;*/
 	}
 	.gallery-text h1, .supakids-text h1 {
 		font-size: 3.5em !important;
 		line-height: 1em !important;
 	}
 	.intro-slider-text.gallery-text h1{
-		font-size: 4em !important;
+		font-size: 5em !important;
 	}
 	.gallery-text p, .gallery-btn a.btn, .video-icon h6 {
 		font-size: 1em !important;
 	}
 	.video-icon h6 {
-		padding: 3% 2% 0 5% !important;
+		padding: 2em 0 !important;
 	}
 }
 
@@ -219,13 +231,13 @@
     left: 10% !important;
 	}
 	.gallery-text {
-		top: 10% !important;
+		/*top: 10% !important;*/
 	}
 	.gallery-text h1, .supakids-text h1 {
 		font-size: 3em !important;
 	}
 	.intro-slider-text.gallery-text h1{
-		font-size: 3.5em !important;
+		font-size: 4.5em !important;
 	}
 	.gallery-text p, .gallery-btn a.btn, .video-icon h6 {
 		font-size: 0.9em !important;
@@ -234,14 +246,10 @@
 		left: 50% !important;
 	}
 	.video-icon h6 {
-		padding: 5% 2% 0 5% !important;
+		padding: 2em 0 !important;
 	}
 	.cfo .gallery-text h1{
 		font-size: 3em !important;
-	}
-
-	#intro .gallery-image img, #slider .gallery-image img{
-	  height: 100vh;
 	}
 }
 
@@ -273,7 +281,7 @@
 		left: 45% !important;
 	}
 	.video-icon h6 {
-		padding: 5% 2% 0 5% !important;
+		padding: 2em 0 !important;
 	}
 	.cfo .gallery-text h1{
 		font-size: 2.6em !important;
