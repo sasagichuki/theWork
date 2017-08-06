@@ -76,8 +76,8 @@
 	.intro-slider-text.gallery-text h1{
 		font-size: 7em !important;
 	}
-	.cfo .gallery-text h1{
-		font-size: 5em !important;
+	.cfo-slide .gallery-text h1{
+		font-size: 4.5em !important;
 	}
 }
 
@@ -106,8 +106,8 @@
 	.video-icon h6 {
 		/*padding: 2em 0 !important;*/
 	}
-	.cfo .gallery-text h1{
-		font-size: 4em !important;
+	.cfo-slide .gallery-text h1{
+		font-size: 3.5em !important;
 	}
 }
 
@@ -150,7 +150,7 @@
 		/*top: 25% !important;*/
 	}
 
-	.cfo .gallery-text h1{
+	.cfo-slide .gallery-text h1{
 		font-size: 3.2em !important;
 	}
 }
@@ -213,7 +213,7 @@
 	}
 }
 
-@media screen and (max-width: 798px) {
+@media screen and (max-width: 780px) {
 
 	.infoGraphs{
 		width: 100% !important;
@@ -230,14 +230,14 @@
 	.bannerInd {
     left: 10% !important;
 	}
-	.gallery-text {
-		/*top: 10% !important;*/
+	#intro .gallery-text {
+		top: 40% !important;
 	}
 	.gallery-text h1, .supakids-text h1 {
 		font-size: 3em !important;
 	}
 	.intro-slider-text.gallery-text h1{
-		font-size: 4.5em !important;
+		font-size: 4em !important;
 	}
 	.gallery-text p, .gallery-btn a.btn, .video-icon h6 {
 		font-size: 0.9em !important;
@@ -248,11 +248,11 @@
 	.video-icon h6 {
 		padding: 2em 0 !important;
 	}
-	.cfo .gallery-text h1{
+	.cfo-slide .gallery-text h1{
 		font-size: 3em !important;
 	}
 }
-
+/*
 @media screen and (max-width: 650px) {
 	.highlights {
 		height: 33em !important;
@@ -283,7 +283,7 @@
 	.video-icon h6 {
 		padding: 2em 0 !important;
 	}
-	.cfo .gallery-text h1{
+	.cfo-slide .gallery-text h1{
 		font-size: 2.6em !important;
 	}
 }
@@ -292,7 +292,7 @@
 	.intro-slider-text.gallery-text h1{
 		font-size: 2.75em !important;
 	}
-	.cfo .gallery-text h1{
+	.cfo-slide .gallery-text h1{
 		font-size: 2.3em !important;
 	}
 }
@@ -301,10 +301,10 @@
 	.intro-slider-text.gallery-text h1{
 		font-size: 2.25em !important;
 	}
-	.cfo .gallery-text h1{
+	.cfo-slide .gallery-text h1{
 		font-size: 1.7em !important;
 	}
-}
+}*/
 
 @media screen and (max-width: 433px) {
 	.bannerInd {
@@ -320,7 +320,7 @@
 		font-size: 0.5em !important;
 		margin-top: 0 !important;
 	}
-	.cfo .gallery-text h1{
+	.cfo-slide .gallery-text h1{
 		font-size: 1.2em !important;
 	}
 }

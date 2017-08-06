@@ -54,7 +54,7 @@ $(document).ready(function() {
 // Scroll to called div
 function scrollPage(nextDiv){
   $('html,body').animate({
-    scrollTop: $(nextDiv).offset().top},
+    scrollTop: $(nextDiv).offset().top - 50},
     1000
   );
 }

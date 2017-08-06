@@ -340,8 +340,18 @@ body.noscroll{
   background-size: cover !important;
 }
 
+.executive-gallery-image{
+  cursor:pointer;
+  position: relative;
+  display: block;
+  padding: 0 !important;
+  height: 95vh !important;
+  background-size: cover !important;
+}
+
 .gallery-image.overlay-1{
   background: url('../img/overlay-1.png') center center;
+  background-size: contain;
 }
 
 .gallery-image.overlay-2{
@@ -355,7 +365,21 @@ body.noscroll{
 }
 
 .gallery-image.overlay-4{
-  background: url('../img/overlay-4.png') center center;
+  background: url('../img/overlay-4.png') top right;
+  background-size: contain;
+}
+
+.executive-gallery-image.ceo-slide{
+  background: url('../img/ceo.jpg') top center;
+}
+
+.executive-gallery-image.chairman-slide{
+  background: url('../img/chairman.jpg') top center;
+  background-size: contain;
+}
+
+.executive-gallery-image.cfo-slide{
+  background: url('../img/cfo.jpg') top center;
   background-size: contain;
 }
 
@@ -423,9 +447,14 @@ body.noscroll{
   line-height: 1em;
   width: 100%;
 }
+
+.cfo-slide .gallery-text h1{
+  font-size: 4.5em;
+}
+
 .gallery .gallery-text p {
   font-family: 'Montserrat', Open Sans;
-  font-size: 1.07em;
+  font-size: 1em;
   width: 90%;
   margin-top: 2em;
 }
@@ -628,7 +657,7 @@ body.noscroll{
 
 /* BANNER INDICATORS */
 .bannerInd {
-	top: 10%;
+	top: 8%;
   left: 8%;
   bottom: 0;
   margin-bottom: 0;
