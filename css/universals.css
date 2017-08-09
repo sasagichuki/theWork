@@ -329,7 +329,7 @@
 	}
 }
 
-/
+
 @media screen and (max-width: 560px) {
 	.intro-slider-text.gallery-text h1{
 		font-size: 2.75em !important;
@@ -346,7 +346,7 @@
 	.cfo-slide .gallery-text h1{
 		font-size: 1.7em !important;
 	}
-}*/
+}
 
 /*@media screen and (max-width: 433px) {
 	.bannerInd {
