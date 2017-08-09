@@ -343,10 +343,51 @@ body{
 	position: relative;
 	display: block;
 	padding: 0 !important;
+  height: 95vh !important;
+  background-size: cover !important;
 }
-.gallery-image img {
-  width: 100%;
-  object-fit: cover;
+
+.executive-gallery-image{
+  cursor:pointer;
+  position: relative;
+  display: block;
+  padding: 0 !important;
+  height: 95vh !important;
+  background-size: cover !important;
+}
+
+.gallery-image.overlay-1{
+  background: url('../img/overlay-1.png') center center;
+  background-size: contain;
+}
+
+.gallery-image.overlay-2{
+  background: url('../img/overlay-2.png') center center;
+  background-size: contain;
+}
+
+.gallery-image.overlay-3{
+  background: url('../img/overlay-3.png') center center;
+  background-size: contain;
+}
+
+.gallery-image.overlay-4{
+  background: url('../img/overlay-4.png') top right;
+  background-size: contain;
+}
+
+.executive-gallery-image.ceo-slide{
+  background: url('../img/ceo.jpg') top center;
+}
+
+.executive-gallery-image.chairman-slide{
+  background: url('../img/chairman.jpg') top center;
+  background-size: contain;
+}
+
+.executive-gallery-image.cfo-slide{
+  background: url('../img/cfo.jpg') top center;
+  background-size: contain;
 }
 
 .text-slider{
@@ -367,7 +408,7 @@ body{
 }
 .intro-slider-text.gallery-text h1{
 	font-family: 'Montserrat Black', sans-serif;
-	font-size: 8.5em;
+	font-size: 7.5em;
 	font-weight: 900;
 	line-height: 0.85em;
 	width: 100%;
@@ -381,16 +422,16 @@ body{
 
 .green{
 	background: #00B44E !important;
-	background-size: contain;
-	height: 100%;
-	width: 100%;
-	top: 0;
-	position: absolute;
-	left: -65%;
-	right: 0;
-	bottom: 0;
-	z-index: 2;
-	transform: skewX(30deg);
+  background-size: contain;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  position: absolute;
+  left: -73%;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  transform: skewX(45deg);
 }
 /* End Slider Specific Text */
 
@@ -413,9 +454,14 @@ body{
   line-height: 1em;
   width: 100%;
 }
+
+.cfo-slide .gallery-text h1{
+  font-size: 4.5em;
+}
+
 .gallery .gallery-text p {
   font-family: 'Montserrat', Open Sans;
-  font-size: 1.07em;
+  font-size: 1em;
   width: 90%;
   margin-top: 2em;
 }
@@ -458,15 +504,14 @@ body{
   padding-top: 2%;
 }
 .video-icon a {
-  width: 30%;
-  height: 30%;
+  width: 6em;
 }
 .video-icon a img {
   max-width: 100%;
   max-height: 100%;
 }
 .video-icon h6 {
-  padding: 12% 2% 0 2%;
+  padding: 1.5em 0 0 0;
   font-family: "Montserrat Medium", sans-serif;
   font-size: 1em;
   width: 40%;
@@ -824,7 +869,7 @@ body{
 
 /* BANNER INDICATORS */
 .bannerInd {
-	top: 10%;
+	top: 8%;
   left: 8%;
   bottom: 0;
   margin-bottom: 0;
