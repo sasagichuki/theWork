@@ -243,15 +243,13 @@
 		top: 0;
     width: 95%;
 	}
+
 	.gallery-text h1, .supakids-text h1 {
 		font-size: 3em !important;
 	}
 
 	.gallery-btn a.btn{
 		font-size: 0.9em !important;
-	}
-	.gallery-text-right {
-		left: 50% !important;
 	}
 
 	.cfo-slide .gallery-text h1{
@@ -319,14 +317,15 @@
 	.gallery-btn a.btn {
 		font-size: 0.7em !important;
 	}
-	.gallery-text-right{
+
+	.gallery-text-left,.gallery-text-right{
 		left: 0% !important;
     padding: 1em;
     top: 35% !important;
 	}
 
-	.gallery-text-right h1{
-		font-size: 4.25em !important
+	.gallery-text-left h1, .gallery-text-right h1{
+		font-size: 4em !important
 	}
 
 	.gallery-text-right p{
