@@ -263,9 +263,50 @@
 	.cfo-slide .gallery-text h1{
 		font-size: 3em !important;
 	}
-}
-/*
-@media screen and (max-width: 650px) {
+
+	.green{
+		transform: skewX(40deg) !important;
+		left: -97% !important;
+	}
+	.gallery-image{
+		/*background-size: cover !important;*/
+	}
+
+	.gallery-image.overlay-1{
+	  background: url('../img/overlay-1-small.png') center center no-repeat !important;
+	  background-size: cover !important;
+	}
+
+	.gallery-image.overlay-2{
+	  background: url('../img/overlay-2-small.png') center center no-repeat !important;
+	  background-size: cover !important;
+	}
+
+	.gallery-image.overlay-3{
+	  background: url('../img/overlay-3-small.png') center center no-repeat !important;
+	  background-size: cover !important;
+	}
+
+	.gallery-image.overlay-4{
+	  background: url('../img/overlay-4-small.png') center center no-repeat !important;
+	  background-size: cover !important;
+	}
+
+	.executive-gallery-image.ceo-slide{
+	  background: url('../img/ceo.jpg') top center;
+	}
+
+	.executive-gallery-image.chairman-slide{
+	  background: url('../img/chairman.jpg') top center;
+	  background-size: contain;
+	}
+
+	.executive-gallery-image.cfo-slide{
+	  background: url('../img/cfo.jpg') top center;
+	  background-size: contain;
+	}
+
+
 	.highlights {
 		height: 33em !important;
     max-height: 33em !important;
@@ -300,6 +341,7 @@
 	}
 }
 
+
 @media screen and (max-width: 560px) {
 	.intro-slider-text.gallery-text h1{
 		font-size: 2.75em !important;
@@ -316,14 +358,17 @@
 	.cfo-slide .gallery-text h1{
 		font-size: 1.7em !important;
 	}
-}*/
+}
+
 
 @media screen and (max-width: 433px) {
 
 	/*Mobile Start here*/
 
 	#nav-bar{background: purple;}
-
+}
+/*@media screen and (max-width: 433px) {
+>>>>>>> 47aa2a37608e3d042ca50b0114a2ea44d184c22b
 	.bannerInd {
     left: 15% !important;
 	}
@@ -340,5 +385,5 @@
 	.cfo-slide .gallery-text h1{
 		font-size: 1.2em !important;
 	}
-}
+}*/
 

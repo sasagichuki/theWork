@@ -260,30 +260,29 @@
 
   <script>
     var wall = $('.GITheWall').GITheWall({
-
-        closeButtonClass: 'fa fa-times'
+      closeButtonClass: 'fa fa-times'
     });
 
 
     var images = new Array()
-      function preload() {
-        for (i = 0; i < preload.arguments.length; i++) {
-          images[i] = new Image()
-          images[i].src = preload.arguments[i]
-        }
+    function preload() {
+      for (i = 0; i < preload.arguments.length; i++) {
+        images[i] = new Image()
+        images[i].src = preload.arguments[i]
       }
-      preload(
-        "/img/wall/pages/customer-first.png",
-        "/img/wall/pages/relevant-products.png",
-        "/img/wall/pages/operational-excellence.png",
-        "/img/wall/pages/brand-assets.png",
-        "/img/wall/pages/our-people.png",
-        "/img/wall/pages/our-social-impact.png",
-        "/img/wall/pages/sustainability.png",
-        "/img/wall/pages/true-value.jpg",
-        "/img/wall/pages/technology.png",
-        "/img/wall/pages/our-social-impact.png"
-      );
+    }
+    preload(
+      "/img/wall/pages/customer-first.png",
+      "/img/wall/pages/relevant-products.png",
+      "/img/wall/pages/operational-excellence.png",
+      "/img/wall/pages/brand-assets.png",
+      "/img/wall/pages/our-people.png",
+      "/img/wall/pages/our-social-impact.png",
+      "/img/wall/pages/sustainability.png",
+      "/img/wall/pages/true-value.jpg",
+      "/img/wall/pages/technology.png",
+      "/img/wall/pages/our-social-impact.png"
+    );
   </script>
 </body>
 </html>
