@@ -251,9 +251,7 @@
 	.cfo-slide .gallery-text h1{
 		font-size: 3em !important;
 	}
-}
 
-@media screen and (max-width: 650px) {
 	.green{
 		transform: skewX(40deg) !important;
 		left: -97% !important;
