@@ -241,6 +241,7 @@
 	}
 	#intro .gallery-text {
 		top: 0;
+    width: 95%;
 	}
 	.gallery-text h1, .supakids-text h1 {
 		font-size: 3em !important;
@@ -313,13 +314,23 @@
 		font-size: 1.7em !important;
 	}
 	.intro-slider-text.gallery-text h1{
-		font-size: 6em !important;
+		font-size: 5em !important;
 	}
 	.gallery-btn a.btn {
 		font-size: 0.7em !important;
 	}
-	.gallery-text-right {
-		left: 45% !important;
+	.gallery-text-right{
+		left: 0% !important;
+    padding: 1em;
+    top: 35% !important;
+	}
+
+	.gallery-text-right h1{
+		font-size: 4.25em !important
+	}
+
+	.gallery-text-right p{
+		width: 100%
 	}
 
 	.cfo-slide .gallery-text h1{

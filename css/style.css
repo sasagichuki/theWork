@@ -496,12 +496,12 @@ body{
 
 /* Video Icon */
 .video-icon {
-  width: 50%;
+  width: 15%;
   padding-top: 2%;
   position: absolute;
   z-index: 3;
   bottom: 3em;
-  left: 3em;
+  left: 5%;
 }
 .video-icon a {
   width: 6em;
