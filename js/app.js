@@ -19,16 +19,16 @@ $(document).ready(function() {
 
 	//Instantiate/Activate carousel
   $('.intro-slider').slick({
-      dots: false,
-      fade: true,
-      infinite: true,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      autoplay: true,
-      arrows: false,
-      autoplaySpeed: 9000,
-      centerMode: false,
-      centerPadding: '60px'
+    dots: false,
+    fade: true,
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    arrows: false,
+    autoplaySpeed: 9000,
+    centerMode: false,
+    centerPadding: '60px'
   });
 
   $('.text-slider').slick({
