@@ -71,8 +71,16 @@
 /*---------------------------------------
     MEDIA QUERY
 -----------------------------------------*/
+@media screen and (min-width: 1366px) {
+	#nav-bar {background: yellow;}
+}
+
 
 @media screen and (max-width: 1280px) {
+
+	/*ipad landscape and screen*/
+
+	#nav-bar {background: red;}
 	.intro-slider-text.gallery-text h1{
 		font-size: 7em !important;
 	}
@@ -102,9 +110,6 @@
 	}
 	.intro-slider-text.gallery-text h1{
 		font-size: 7em !important;
-	}
-	.video-icon h6 {
-		/*padding: 2em 0 !important;*/
 	}
 	.cfo-slide .gallery-text h1{
 		font-size: 3.5em !important;
@@ -203,17 +208,21 @@
 		line-height: 1em !important;
 	}
 	.intro-slider-text.gallery-text h1{
-		font-size: 5em !important;
+		font-size: 4.5em !important;
 	}
 	.gallery-text p, .gallery-btn a.btn, .video-icon h6 {
 		font-size: 1em !important;
 	}
-	.video-icon h6 {
-		padding: 2em 0 !important;
-	}
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 767px) {
+	/*iPad Potrait*/
+
+	#nav-bar{background: blue;}
+
+	.large-screen-btn{
+		display: none;
+	}
 
 	.infoGraphs{
 		width: 100% !important;
@@ -231,23 +240,19 @@
     left: 10% !important;
 	}
 	#intro .gallery-text {
-		top: 40% !important;
+		top: 0;
 	}
 	.gallery-text h1, .supakids-text h1 {
 		font-size: 3em !important;
 	}
-	.intro-slider-text.gallery-text h1{
-		font-size: 4em !important;
-	}
-	.gallery-text p, .gallery-btn a.btn, .video-icon h6 {
+
+	.gallery-btn a.btn{
 		font-size: 0.9em !important;
 	}
 	.gallery-text-right {
 		left: 50% !important;
 	}
-	.video-icon h6 {
-		padding: 2em 0 !important;
-	}
+
 	.cfo-slide .gallery-text h1{
 		font-size: 3em !important;
 	}
@@ -293,8 +298,6 @@
 	  background: url('../img/cfo.jpg') top center;
 	  background-size: contain;
 	}
-
-
 	.highlights {
 		height: 33em !important;
     max-height: 33em !important;
@@ -306,64 +309,30 @@
 	.bannerInd {
     left: 11% !important;
 	}
-	.gallery-text {
-		top: 10% !important;
-	}
 	.gallery-text h1, .supakids-text h1 {
 		font-size: 1.7em !important;
 	}
 	.intro-slider-text.gallery-text h1{
-		font-size: 3em !important;
+		font-size: 6em !important;
 	}
-	.gallery-text p, .gallery-btn a.btn, .video-icon h6 {
+	.gallery-btn a.btn {
 		font-size: 0.7em !important;
 	}
 	.gallery-text-right {
 		left: 45% !important;
 	}
-	.video-icon h6 {
-		padding: 2em 0 !important;
-	}
+
 	.cfo-slide .gallery-text h1{
 		font-size: 2.6em !important;
 	}
 }
 
+@media screen and (max-width: 520px) {
+	/*Mobile Start here*/
+	#nav-bar{background: purple;}
 
-@media screen and (max-width: 560px) {
 	.intro-slider-text.gallery-text h1{
-		font-size: 2.75em !important;
-	}
-	.cfo-slide .gallery-text h1{
-		font-size: 2.3em !important;
+		font-size: 5.5em !important;
 	}
 }
-
-@media screen and (max-width: 524px) {
-	.intro-slider-text.gallery-text h1{
-		font-size: 2.25em !important;
-	}
-	.cfo-slide .gallery-text h1{
-		font-size: 1.7em !important;
-	}
-}
-
-/*@media screen and (max-width: 433px) {
-	.bannerInd {
-    left: 15% !important;
-	}
-	.gallery-text h1, .supakids-text h1 {
-		font-size: 1.5em !important;
-	}
-	.intro-slider-text.gallery-text h1{
-		font-size: 1.5em !important;
-	}
-	.gallery-text p, .gallery-btn a.btn, .video-icon h6 {
-		font-size: 0.5em !important;
-		margin-top: 0 !important;
-	}
-	.cfo-slide .gallery-text h1{
-		font-size: 1.2em !important;
-	}
-}*/
 
