@@ -1594,12 +1594,7 @@ padding: 5px 0;
     margin-right: 0;
     margin-left: 12.5%;
 }
-.wall-wrapper{
-	padding-left: 15%;
-	padding-right: 15%;
-	width: 100%;
-	margin: 0 auto;
-}
+
 .wall-back-btn{
 	padding-right: 3em;
 	margin-bottom: 0;
@@ -1611,7 +1606,6 @@ padding: 5px 0;
 	font-size: 3em;
 	font-weight: 600;
 }
-
 
 /* End Executive Overlays */
 #plus{
