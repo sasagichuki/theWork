@@ -72,15 +72,15 @@
     MEDIA QUERY
 -----------------------------------------*/
 @media screen and (min-width: 1366px) {
-	#nav-bar {background: yellow;}
+	/*#nav-bar {background: yellow;}*/
+	
 }
 
 
 @media screen and (max-width: 1280px) {
 
 	/*ipad landscape and screen*/
-
-	#nav-bar {background: red;}
+	/*#nav-bar {background: red;}*/
 	.intro-slider-text.gallery-text h1{
 		font-size: 7em !important;
 	}
@@ -217,8 +217,7 @@
 
 @media screen and (max-width: 767px) {
 	/*iPad Potrait*/
-
-	#nav-bar{background: blue;}
+	/*#nav-bar{background: blue;}*/
 
 	.large-screen-btn{
 		display: none;
@@ -333,7 +332,7 @@
 
 @media screen and (max-width: 520px) {
 	/*Mobile Start here*/
-	#nav-bar{background: purple;}
+	/*#nav-bar{background: purple;}*/
 
 	.intro-slider-text.gallery-text h1{
 		font-size: 5em !important;
