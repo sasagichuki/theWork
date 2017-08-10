@@ -343,7 +343,7 @@ body{
 	position: relative;
 	display: block;
 	padding: 0 !important;
-  height: 95vh !important;
+  height: 96vh !important;
   background-size: cover !important;
 }
 
@@ -945,20 +945,11 @@ body{
     position: absolute;
     top: 30%;
     list-style: none;
-    display: block;
+    display: none !important;
     text-align: center;
     padding: 0px;
     width: 100%;
 }
-
-
-/*  .slick-dots{
-	padding-top: 2%;
-	bottom: -25px;
-	text-align: center;
-	display: block;
-	position: absolute;
-} */
 
 #story{
   font-family: 'Montserrat', Open Sans;
