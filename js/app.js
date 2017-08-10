@@ -3,13 +3,15 @@ $(document).ready(function() {
 
 	// Video PopUp
 	// This is my PopUp video
-	$(".popup").click(function () {
-	    var $this = $(this);
-	    var $iframe = $("<iframe>").attr("src", $this.data("link")).css({"width": 1280, "height": 800});
-	    var $title = $("<h1>").text($this.data("title"));
-	    $("#video-view").html($title).append($iframe);
-	    $iframe.wrap("<div class='class-video'>");
-	});
+  // duplicated
+	// $(".popup").click(function () {
+  //    $('.modal').modal('hide');
+	//     var $this = $(this);
+	//     var $iframe = $("<iframe>").attr("src", $this.data("link")).css({"width": 1280, "height": 800});
+	//     var $title = $("<h1>").text($this.data("title"));
+	//     $("#video-view").html($title).append($iframe);
+	//     $iframe.wrap("<div class='class-video'>");
+	// });
 
   $('.full-screen-modal').click(function(e){
     e.preventDefault();
@@ -61,10 +63,11 @@ function scrollPage(nextDiv){
 
 function videoPlay(src) {
   $("#slider").carousel("pause");
+  $('.modal').modal('hide');
   var theModal = '#videoModal';
   videoSRC = src;
   videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
-  $(theModal + ' iframe').attr('src', videoSRCauto);
+  $(theModal + ' iframe').attr('src', videoSRCauto).css({"width": '87vw', "height": '80vh'});
   $(theModal + ' button.close').click(function () {
     $(theModal + ' iframe').attr('src', videoSRC);
   });

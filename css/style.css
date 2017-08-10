@@ -470,12 +470,6 @@ body{
   left: 5%;
 }
 
-.gallery .gallery-btn a.read{
-  background: #00b44e;
-  padding: 0.5em 1em;
-  border: solid #00b44e thin;
-}
-
 .gallery .gallery-btn a.btn{
   font-family: 'Montserrat Regular', sans-serif;
   color: #FFF;
@@ -487,7 +481,7 @@ body{
   line-height: 22px;
 }
 
-.gallery .gallery-btn a.popup{
+.gallery .gallery-btn a.popup, .gallery .gallery-btn a.read{
   border: solid #FFF thin;
   padding: 0.5em 1em;
 }
@@ -1697,3 +1691,6 @@ padding: 5px 0;
   margin: 0 auto;
 }
 
+.modal-dialog {
+  width: 90vw;
+}
