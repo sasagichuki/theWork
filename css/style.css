@@ -490,7 +490,6 @@ body{
 
 /* Video Icon */
 .video-icon {
-  width: 15%;
   padding-top: 2%;
   position: absolute;
   z-index: 3;
