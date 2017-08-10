@@ -232,9 +232,6 @@
 	}
 	.downloads-text {
 		left: 4% !important;
-		width: 40 !important;
-	} .downloads-img {
-		width: 60% !important;
 	}
 	.bannerInd {
     left: 10% !important;
@@ -259,9 +256,6 @@
 	.green{
 		transform: skewX(40deg) !important;
 		left: -97% !important;
-	}
-	.gallery-image{
-		/*background-size: cover !important;*/
 	}
 
 	.gallery-image.overlay-1{

@@ -344,16 +344,7 @@ body{
 	display: block;
 	padding: 0 !important;
   height: 95vh !important;
-  background-size: cover;
-}
-
-.executive-gallery-image{
-  cursor:pointer;
-  position: relative;
-  display: block;
-  padding: 0 !important;
-  height: 95vh !important;
-  background-size: cover;
+  background-size: cover !important;
 }
 
 .gallery-image.overlay-1{
@@ -370,6 +361,15 @@ body{
 
 .gallery-image.overlay-4{
   background: url('../img/overlay-4.png') top right no-repeat;
+}
+
+.executive-gallery-image{
+  cursor:pointer;
+  position: relative;
+  display: block;
+  padding: 0 !important;
+  height: 95vh !important;
+  background-size: cover;
 }
 
 .executive-gallery-image.ceo-slide{
