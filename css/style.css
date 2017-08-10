@@ -1681,8 +1681,12 @@ padding: 5px 0;
   margin: 0 auto;
 }
 
+.modal {
+  z-index: 6000;
+}
+
 .modal-dialog {
-  width: 90vw;
+  width: 95vw;
 }
 
 .modal-content {
